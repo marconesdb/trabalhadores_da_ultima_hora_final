@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Coluna 1: Institucional */}
         <div>
-          <h3 className="text-xl font-bold mb-4 text-secondary">Instituição de Caridade Trabalhadores da Última Hora</h3>
+          <h3 className="text-xl font-bold mb-4 text-secondary">Trabalhadores da Última Hora</h3>
           <p className="text-primary-100 text-sm leading-relaxed mb-4">
             "Fora da caridade não há salvação." <br/>
             Levando amor, alimento e esperança através do grupo Trabalhadores da Última Hora.

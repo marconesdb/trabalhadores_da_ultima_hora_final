@@ -1,7 +1,9 @@
 import { Copy } from 'lucide-react';
+import QrCode from "../assets/img/QrCode.png";
+
 
 const Donation = () => {
-  const pixKey = "00.000.000/0001-00"; // Exemplo
+  const pixKey = "53.140.991/0001-74"; // Exemplo
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(pixKey);
@@ -14,7 +16,7 @@ const Donation = () => {
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-4xl font-bold mb-4 text-primary-900">Faça sua Doação</h1>
           <p className="text-slate-600 max-w-2xl mx-auto">
-            Sua contribuição ajuda a manter nossas atividades de assistência social, manutenção do prédio e compra de alimentos.
+            Sua contribuição ajuda a manter nossas atividades de assistência social, manutenção do do carro de apoio e compra de alimentos.
           </p>
         </div>
 
@@ -39,7 +41,7 @@ const Donation = () => {
             <div className="flex justify-center">
               {/* Placeholder QR Code */}
               <div className="w-48 h-48 bg-slate-200 flex items-center justify-center rounded-lg">
-                <span className="text-slate-400 text-sm">QR Code da Instituição</span>
+               <img src={QrCode} alt="QR Code da Instituição" className="text-slate-400 text-sm" />
               </div>
             </div>
           </div>
