@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
-import Logo from "../assets/img/Logomarca.png"; // caminho da sua imagem 
+import { Menu, X, Globe } from 'lucide-react'; // importando o ícone Globe
+import Logo from "../assets/img/Logomarca.png"; 
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [language, setLanguage] = useState("pt");
 
   const navItems = [
     { name: 'Início', path: '/' },
@@ -14,6 +16,12 @@ const Header = () => {
     { name: 'Galeria', path: '/galeria' },
     { name: 'Contato', path: '/contato' },
   ];
+
+  const handleLanguageChange = (e: { target: { value: any; }; }) => {
+    const selectedLang = e.target.value;
+    setLanguage(selectedLang);
+    console.log("Idioma selecionado:", selectedLang);
+  };
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
@@ -29,7 +37,7 @@ const Header = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <nav className="hidden md:flex space-x-6">
+          <nav className="hidden md:flex items-center space-x-6">
             {navItems.map((item) => (
               <Link
                 key={item.name}
@@ -42,6 +50,22 @@ const Header = () => {
             <Link to="/doacoes" className="bg-secondary hover:bg-yellow-500 text-white px-4 py-2 rounded-full font-bold transition shadow-sm">
               Doar Agora
             </Link>
+
+            {/* Seletor de Idioma com Ícone */}
+            <div className="flex items-center ml-4 border border-slate-300 rounded-md px-2 py-1">
+              <Globe className="h-4 w-4 text-slate-600 mr-2" />
+              <select
+                value={language}
+                onChange={handleLanguageChange}
+                className="bg-transparent text-sm text-slate-600 focus:outline-none"
+              >
+                <option value="en">English</option>
+                <option value="pt">Português</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="it">Italiano</option>
+              </select>
+            </div>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -74,6 +98,22 @@ const Header = () => {
             >
               Quero Doar
             </Link>
+
+            {/* Seletor de Idioma no Mobile com Ícone */}
+            <div className="flex items-center mt-4 border border-slate-300 rounded-md px-2 py-2">
+              <Globe className="h-4 w-4 text-slate-600 mr-2" />
+              <select
+                value={language}
+                onChange={handleLanguageChange}
+                className="bg-transparent w-full text-sm text-slate-600 focus:outline-none"
+              >
+                <option value="en">English</option>
+                <option value="pt">Português</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="it">Italiano</option>
+              </select>
+            </div>
           </div>
         </div>
       )}
