@@ -10,9 +10,9 @@ const Header = () => {
   const navItems = [
     { name: 'Início', path: '/' },
     { name: 'Quem Somos', path: '/quem-somos' },
-    { name: 'Projetos', path: '/projetos' },
+    // { name: 'Projetos', path: '/projetos' },
     { name: 'Campanhas', path: '/campanhas' },
-    { name: 'Transparência', path: '/transparencia' },
+    // { name: 'Transparência', path: '/transparencia' },
     { name: 'Galeria', path: '/galeria' },
     { name: 'Contato', path: '/contato' },
   ];
