@@ -79,8 +79,7 @@ const Home = () => {
               <X size={40} />
             </button>
             <div className="bg-black rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '16/9' }}>
-              
-
+           {/*Vídeo */}
             <video className="w-full h-full" controls preload="metadata">
               <source src="/assets/video/Trabalhadores.mp4" type="video/mp4" />
             </video>
