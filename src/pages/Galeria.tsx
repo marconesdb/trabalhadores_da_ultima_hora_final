@@ -7,6 +7,14 @@ import img04 from '../assets/img/img-04.png';
 import img05 from '../assets/img/img-05.png';
 import img06 from '../assets/img/img-06.png';
 import img07 from '../assets/img/img-07.png';
+import img08 from '../assets/img/img-08.png';
+import img09 from '../assets/img/img-09.png';
+import img010 from '../assets/img/img-010.png';
+import img011 from '../assets/img/img-011.png';
+import img012 from '../assets/img/img-012.png';
+import img013 from '../assets/img/img-013.png';
+import img014 from '../assets/img/img-014.png';
+
 
 const Galeria = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,25 +27,14 @@ const Galeria = () => {
     { url: img04, title: 'Distribuição de Alimentos', description: 'Distribuição de alimentos para pessoas em situação de vulnerabilidade social.' },
     { url: img05, title: 'Cuidado com os animais', description: 'Os Trabalhadores da Última Hora também alimenta os animais nas ruas.' },
     { url: img06, title: 'Distribuição de Alimentos', description: 'Distribuição de alimentos para pessoas em situação de vulnerabilidade social.' },
-    { url: img07,  title: 'Carro de Apoio', description: 'Kombi dos Trabalhadores da Última Hora.'}
-    
-
-    /*
-    {
-    url: img08,
-    title: 'Cuidado com os animais',
-    description: 'Os Trabalhadores da Última Hora também alimenta os animais nas ruas.'
-    }
-    */
-
-    /*
-    {
-    url: img09,
-    title: 'Cuidado com os animais',
-    description: 'Os Trabalhadores da Última Hora também alimenta os animais nas ruas.'
-    }
-    */
-
+    { url: img07, title: 'Carro de Apoio', description: 'Kombi dos Trabalhadores da Última Hora.'},
+    { url: img08, title: 'Momento de Oração', description: 'Oração antes da distribuição de alimentos.'},
+    { url: img09, title: 'Distribuição de Alimentos', description: 'Preparando a Kombi para distribuição de alimentos.'},
+    { url: img010, title: 'Distribuição de Alimentos', description: 'Doação de cachorro-quente.'},
+    { url: img011, title: 'Distribuição de Alimentos', description: 'Cozinha que prepara os alimentos.'},
+    { url: img012, title: 'Assistido recebendo alimentos', description: 'No dia do Trabalhado.'},
+    { url: img013, title: 'Preparando os alimentos', description: 'No dia do Trabalhado.'},
+    { url: img014, title: 'Momentos Fraternos', description: 'No dia do Trabalhado.'}
     /*
     {
     url: img10,

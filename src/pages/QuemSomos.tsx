@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import imgFundadora from "../assets/img/img-ml.png";
 
 const QuemSomos: React.FC = () => {
-  const [imagemFundadora, setImagemFundadora] = useState<string>('');
+  const [imagemFundadora, setImagemFundadora] = useState<string>(imgFundadora);
 
   const handleImagemChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -19,7 +20,7 @@ const QuemSomos: React.FC = () => {
       {/* Header */}
       <div className="bg-blue-300 text-white py-16 px-4 ">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 ">Quem Somos</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Quem Somos</h1>
           <p className="text-xl italic">Trabalhadores da Última Hora</p>
         </div>
       </div>
@@ -67,28 +68,12 @@ const QuemSomos: React.FC = () => {
           
           <div className="flex flex-col md:flex-row gap-8 items-center mb-6">
             <div className="flex-shrink-0">
-              {imagemFundadora ? (
-                <img 
-                  src={imagemFundadora} 
-                  alt="Maria Luísa Lourenço" 
-                  className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-blue-200"
-                />
-              ) : (
-                <div className="w-48 h-48 rounded-full bg-blue-100 flex items-center justify-center shadow-lg border-4 border-blue-200">
-                  <span className="text-blue-400 text-center px-4">Adicionar foto da fundadora</span>
-                </div>
-              )}
-              <div className="mt-4 text-center">
-                <label className="cursor-pointer bg-blue-900 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition inline-block">
-                  Selecionar Imagem
-                  <input 
-                    type="file" 
-                    accept="image/*" 
-                    onChange={handleImagemChange}
-                    className="hidden"
-                  />
-                </label>
-              </div>
+              <img 
+                src={imagemFundadora} 
+                alt="Maria Luísa Lourenço" 
+                className="w-100 h-48  object-cover shadow-lg border-4 border-blue-200"
+              />
+              
             </div>
 
             <div className="flex-1">
@@ -133,8 +118,6 @@ const QuemSomos: React.FC = () => {
           </div>
         </div>
       </div>
-
-      
     </div>
   );
 };
