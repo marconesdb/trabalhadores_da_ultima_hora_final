@@ -1,20 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import imgFundadora from "../assets/img/img-ml.png";
 
 const QuemSomos: React.FC = () => {
-  const [imagemFundadora, setImagemFundadora] = useState<string>(imgFundadora);
-
-  const handleImagemChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        setImagemFundadora(reader.result as string);
-      };
-      reader.readAsDataURL(file);
-    }
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       {/* Header */}
@@ -69,11 +56,10 @@ const QuemSomos: React.FC = () => {
           <div className="flex flex-col md:flex-row gap-8 items-center mb-6">
             <div className="flex-shrink-0">
               <img 
-                src={imagemFundadora} 
+                src={imgFundadora}
                 alt="Maria Luísa Lourenço" 
-                className="w-100 h-48  object-cover shadow-lg border-4 border-blue-200"
+                className="w-100 h-48 object-cover shadow-lg border-4 border-blue-200"
               />
-              
             </div>
 
             <div className="flex-1">
