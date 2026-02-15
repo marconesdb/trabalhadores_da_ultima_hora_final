@@ -218,18 +218,18 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
       onClick={onClose}
     >
       <div
-        className="relative w-full h-full sm:h-auto max-w-2xl bg-white sm:rounded-3xl overflow-hidden shadow-2xl flex flex-col"
+        className="relative w-full max-w-[95vw] sm:max-w-2xl bg-white rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         <button
           onClick={onClose}
-          className="absolute top-2 left-2 sm:top-4 sm:left-4 z-50 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-slate-800 bg-opacity-80 hover:bg-opacity-100 flex items-center justify-center transition-all shadow-xl"
+          className="absolute top-3 right-3 z-50 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-slate-800 bg-opacity-90 hover:bg-opacity-100 flex items-center justify-center transition-all shadow-xl"
         >
           <X className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
         </button>
 
         {video.type === 'mp4' ? (
-          <div className="relative flex-1 sm:flex-none sm:aspect-square bg-black">
+          <div className="relative w-full aspect-square bg-black">
             <video
               ref={videoRef}
               className="w-full h-full object-contain"
@@ -304,7 +304,7 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
             )}
           </div>
         ) : (
-          <div className="flex-1 sm:flex-none sm:aspect-square bg-slate-100 flex items-center justify-center">
+          <div className="w-full aspect-square bg-slate-100 flex items-center justify-center">
             <iframe
               src={video.embedUrl}
               className="w-full h-full"
