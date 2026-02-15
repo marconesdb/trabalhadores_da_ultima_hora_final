@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import  { useState, useRef } from 'react';
 import { Play, X, Heart, MessageCircle, Share2, ExternalLink, Pause, Volume2, VolumeX } from 'lucide-react';
 
 interface Video {
