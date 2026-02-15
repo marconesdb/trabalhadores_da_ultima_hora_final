@@ -1,6 +1,7 @@
 import { ArrowRight, Heart, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import Trabalhadores from '/assets/video/Trabalhadores.mp4'
 
 const Home = () => {
   const [showVideo, setShowVideo] = useState(false);
@@ -81,7 +82,7 @@ const Home = () => {
             <div className="bg-black rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '16/9' }}>
            {/*Vídeo */}
             <video className="w-full h-full" controls preload="metadata">
-              <source src="/assets/video/Trabalhadores.mp4" type="video/mp4" />
+              <source src={Trabalhadores} type="video/mp4" />
             </video>
 
             </div>
