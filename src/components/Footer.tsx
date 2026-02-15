@@ -45,7 +45,7 @@ const Footer = () => {
           */}
         </div>
       </div>
-      <div className="border-t border-primary-800 mt-10 pt-6 text-center text-xs text-primary-200">
+      <div className="border-t border-primary-800 mt-10 pt-6 text-center text-xs text-primary-200 px-4 ">
         © {new Date().getFullYear()} Instituição de Caridade Trabalhadores da Última Hora. Todos os direitos reservados.
       </div>
     </footer>
