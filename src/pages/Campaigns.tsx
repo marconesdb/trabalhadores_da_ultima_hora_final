@@ -1,4 +1,4 @@
-import  { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { Play, X, Heart, MessageCircle, Share2, ExternalLink, Pause, Volume2, VolumeX } from 'lucide-react';
 
 interface Video {
@@ -29,7 +29,7 @@ const videos: Video[] = [
     thumbnail: "/assets/img/Morador.jpg",
     type: "mp4",
     videoUrl: "/assets/video/Upa_Chiquinho.mp4",
-    likes: "892",
+    likes: "92",
     comments: "54"
   },
   {
@@ -38,17 +38,16 @@ const videos: Video[] = [
     thumbnail: "/assets/img/BlackSolidaria.jpg",
     type: "mp4",
     videoUrl: "/assets/video/BlackSolidaria.mp4",
-    likes: "892",
+    likes: "1k",
     comments: "54"
   },
   {
     id: 4,
-    title: "Reforma da Casa",
-    thumbnail: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=800&fit=crop",
-    type: "instagram",
-    instagramUrl: "https://www.instagram.com/p/exemplo3/",
-    embedUrl: "https://www.instagram.com/p/exemplo3/embed",
-    likes: "2.1K",
+    title: "Fazendo o Cachorro-quente",
+    thumbnail: "/assets/img/Cozinha.jpg",
+    type: "mp4",
+    videoUrl: "/assets/video/Cozinha.mp4",
+    likes: "70",
     comments: "143"
   },
   {
@@ -87,18 +86,18 @@ const VideoGallery = () => {
   const [selectedVideo, setSelectedVideo] = useState<Video | null>(null);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 py-16 px-4">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 py-8 md:py-16 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
+        <div className="text-center mb-8 md:mb-12">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent px-4">
             Acompanhe nossas campanhas e ações sociais
           </h1>
-          <p className="text-slate-600 text-lg">
+          <p className="text-slate-600 text-base md:text-lg">
             Galeria de Vídeos
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {videos.map((video) => (
             <div
               key={video.id}
@@ -113,29 +112,29 @@ const VideoGallery = () => {
                 />
                 
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-center justify-center">
-                  <div className="w-20 h-20 rounded-full bg-white bg-opacity-90 group-hover:bg-opacity-100 flex items-center justify-center transform scale-0 group-hover:scale-100 transition-all duration-300 shadow-2xl">
-                    <Play className="w-10 h-10 text-pink-500 ml-1" fill="currentColor" />
+                  <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white bg-opacity-90 group-hover:bg-opacity-100 flex items-center justify-center transform scale-0 group-hover:scale-100 transition-all duration-300 shadow-2xl">
+                    <Play className="w-8 h-8 md:w-10 md:h-10 text-pink-500 ml-1" fill="currentColor" />
                   </div>
                 </div>
 
-                <div className={`absolute top-4 right-4 ${video.type === 'instagram' ? 'bg-gradient-to-r from-purple-500 to-pink-500' : 'bg-gradient-to-r from-blue-500 to-cyan-500'} text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg`}>
+                <div className={`absolute top-3 right-3 md:top-4 md:right-4 ${video.type === 'instagram' ? 'bg-gradient-to-r from-purple-500 to-pink-500' : 'bg-gradient-to-r from-blue-500 to-cyan-500'} text-white px-2.5 py-1 md:px-3 md:py-1 rounded-full text-xs font-bold shadow-lg`}>
                   {video.type === 'instagram' ? 'Instagram' : 'Vídeo'}
                 </div>
               </div>
 
-              <div className="p-5">
-                <h3 className="font-bold text-lg text-slate-800 mb-3 line-clamp-2">
+              <div className="p-4 md:p-5">
+                <h3 className="font-bold text-base md:text-lg text-slate-800 mb-2 md:mb-3 line-clamp-2">
                   {video.title}
                 </h3>
                 
-                <div className="flex items-center justify-between text-sm text-slate-500">
-                  <div className="flex items-center gap-4">
+                <div className="flex items-center justify-between text-xs md:text-sm text-slate-500">
+                  <div className="flex items-center gap-3 md:gap-4">
                     <span className="flex items-center gap-1">
-                      <Heart className="w-4 h-4" />
+                      <Heart className="w-3.5 h-3.5 md:w-4 md:h-4" />
                       {video.likes}
                     </span>
                     <span className="flex items-center gap-1">
-                      <MessageCircle className="w-4 h-4" />
+                      <MessageCircle className="w-3.5 h-3.5 md:w-4 md:h-4" />
                       {video.comments}
                     </span>
                   </div>
@@ -148,7 +147,7 @@ const VideoGallery = () => {
                       className="flex items-center gap-1 text-pink-500 hover:text-pink-600 font-semibold"
                     >
                       Ver no IG
-                      <ExternalLink className="w-4 h-4" />
+                      <ExternalLink className="w-3.5 h-3.5 md:w-4 md:h-4" />
                     </button>
                   )}
                 </div>
@@ -165,24 +164,25 @@ const VideoGallery = () => {
         )}
       </div>
 
-      <div className="max-w-4xl mx-auto mt-16 text-center bg-gradient-to-r from-purple-500 to-pink-500 rounded-3xl p-12 text-white shadow-2xl">
-        <h2 className="text-3xl font-bold mb-4">
+      <div className="max-w-4xl mx-auto mt-12 md:mt-16 text-center bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl md:rounded-3xl p-8 md:p-12 text-white shadow-2xl">
+        <h2 className="text-2xl md:text-3xl font-bold mb-3 md:mb-4">
           Siga-nos no Instagram
         </h2>
-        <p className="text-lg mb-6 text-white text-opacity-90">
+        <p className="text-base md:text-lg mb-5 md:mb-6 text-white text-opacity-90">
           Acompanhe todas as nossas campanhas e ações em tempo real
         </p>
         <a
           href="https://www.instagram.com/trabalhadores.daultimahora/"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg hover:shadow-xl transform hover:scale-105 transition-all cursor-pointer"
+          className="inline-flex items-center gap-2 md:gap-3 bg-white text-purple-600 px-6 py-3 md:px-8 md:py-4 rounded-full font-bold text-base md:text-lg hover:shadow-xl transform hover:scale-105 transition-all cursor-pointer"
         >
-          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <svg className="w-5 h-5 md:w-6 md:h-6" fill="currentColor" viewBox="0 0 24 24">
             <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
           </svg>
-          @trabalhadores.daultimahora
-          <ExternalLink className="w-5 h-5" />
+          <span className="hidden sm:inline">@trabalhadores.daultimahora</span>
+          <span className="sm:hidden">@trabalhadores...</span>
+          <ExternalLink className="w-4 h-4 md:w-5 md:h-5" />
         </a>
       </div>
     </div>
@@ -214,22 +214,22 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
 
   return (
     <div
-      className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4 backdrop-blur-sm"
+      className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-2 sm:p-4 backdrop-blur-sm"
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-2xl bg-white rounded-3xl overflow-hidden shadow-2xl"
+        className="relative w-full h-full sm:h-auto max-w-2xl bg-white sm:rounded-3xl overflow-hidden shadow-2xl flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
         <button
           onClick={onClose}
-          className="absolute top-4 left-4 z-50 w-12 h-12 rounded-full bg-slate-800 bg-opacity-80 hover:bg-opacity-100 flex items-center justify-center transition-all shadow-xl"
+          className="absolute top-2 left-2 sm:top-4 sm:left-4 z-50 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-slate-800 bg-opacity-80 hover:bg-opacity-100 flex items-center justify-center transition-all shadow-xl"
         >
-          <X className="w-7 h-7 text-white" />
+          <X className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
         </button>
 
         {video.type === 'mp4' ? (
-          <div className="relative aspect-square bg-black">
+          <div className="relative flex-1 sm:flex-none sm:aspect-square bg-black">
             <video
               ref={videoRef}
               className="w-full h-full object-contain"
@@ -242,20 +242,20 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
                 const parent = target.parentElement;
                 if (parent) {
                   parent.innerHTML = `
-                    <div class="flex flex-col items-center justify-center h-full p-8 text-center bg-slate-900">
-                      <div class="w-24 h-24 bg-red-500 rounded-full flex items-center justify-center mb-6">
-                        <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <div class="flex flex-col items-center justify-center h-full p-4 sm:p-8 text-center bg-slate-900">
+                      <div class="w-16 h-16 sm:w-24 sm:h-24 bg-red-500 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                        <svg class="w-8 h-8 sm:w-12 sm:h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
                         </svg>
                       </div>
-                      <h3 class="text-xl font-bold text-white mb-2">Erro ao carregar vídeo</h3>
-                      <p class="text-slate-300 mb-2">Caminho: ${video.videoUrl}</p>
-                      <p class="text-slate-400 text-sm mb-4">Verifique se o arquivo existe e está acessível</p>
-                      <div class="bg-slate-800 text-slate-300 px-4 py-3 rounded-lg text-sm text-left">
+                      <h3 class="text-lg sm:text-xl font-bold text-white mb-2">Erro ao carregar vídeo</h3>
+                      <p class="text-xs sm:text-sm text-slate-300 mb-2 break-all px-2">Caminho: ${video.videoUrl}</p>
+                      <p class="text-slate-400 text-xs sm:text-sm mb-4">Verifique se o arquivo existe e está acessível</p>
+                      <div class="bg-slate-800 text-slate-300 px-3 py-2 sm:px-4 sm:py-3 rounded-lg text-xs sm:text-sm text-left max-w-full">
                         <p class="font-bold mb-2">Soluções possíveis:</p>
-                        <ul class="list-disc list-inside space-y-1">
+                        <ul class="list-disc list-inside space-y-1 text-xs">
                           <li>Verifique se o arquivo está em: <strong>public/assets/video/</strong></li>
-                          <li>Teste acessar: <a href="${video.videoUrl}" target="_blank" class="text-blue-400 underline">${video.videoUrl}</a></li>
+                          <li class="break-all">Teste acessar: <a href="${video.videoUrl}" target="_blank" class="text-blue-400 underline">${video.videoUrl}</a></li>
                           <li>Verifique se o nome do arquivo está correto</li>
                         </ul>
                       </div>
@@ -268,26 +268,26 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
               Seu navegador não suporta vídeos.
             </video>
 
-            <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+            <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4 flex items-center justify-between gap-2">
               <button
                 onClick={togglePlay}
-                className="w-12 h-12 rounded-full bg-white bg-opacity-90 hover:bg-opacity-100 flex items-center justify-center shadow-lg transition-all"
+                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white bg-opacity-90 hover:bg-opacity-100 flex items-center justify-center shadow-lg transition-all"
               >
                 {isPlaying ? (
-                  <Pause className="w-6 h-6 text-slate-800" />
+                  <Pause className="w-5 h-5 sm:w-6 sm:h-6 text-slate-800" />
                 ) : (
-                  <Play className="w-6 h-6 text-slate-800 ml-1" />
+                  <Play className="w-5 h-5 sm:w-6 sm:h-6 text-slate-800 ml-1" />
                 )}
               </button>
 
               <button
                 onClick={toggleMute}
-                className="w-12 h-12 rounded-full bg-white bg-opacity-90 hover:bg-opacity-100 flex items-center justify-center shadow-lg transition-all"
+                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white bg-opacity-90 hover:bg-opacity-100 flex items-center justify-center shadow-lg transition-all"
               >
                 {isMuted ? (
-                  <VolumeX className="w-6 h-6 text-slate-800" />
+                  <VolumeX className="w-5 h-5 sm:w-6 sm:h-6 text-slate-800" />
                 ) : (
-                  <Volume2 className="w-6 h-6 text-slate-800" />
+                  <Volume2 className="w-5 h-5 sm:w-6 sm:h-6 text-slate-800" />
                 )}
               </button>
             </div>
@@ -297,14 +297,14 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
                 className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 cursor-pointer"
                 onClick={togglePlay}
               >
-                <div className="w-20 h-20 rounded-full bg-white bg-opacity-90 flex items-center justify-center shadow-2xl">
-                  <Play className="w-10 h-10 text-pink-500 ml-1" fill="currentColor" />
+                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white bg-opacity-90 flex items-center justify-center shadow-2xl">
+                  <Play className="w-8 h-8 sm:w-10 sm:h-10 text-pink-500 ml-1" fill="currentColor" />
                 </div>
               </div>
             )}
           </div>
         ) : (
-          <div className="aspect-square bg-slate-100 flex items-center justify-center">
+          <div className="flex-1 sm:flex-none sm:aspect-square bg-slate-100 flex items-center justify-center">
             <iframe
               src={video.embedUrl}
               className="w-full h-full"
@@ -316,19 +316,21 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
           </div>
         )}
 
-        <div className="p-6 bg-gradient-to-r from-purple-50 to-pink-50">
-          <h3 className="font-bold text-2xl text-slate-800 mb-3">
+        <div className="p-4 sm:p-6 bg-gradient-to-r from-purple-50 to-pink-50">
+          <h3 className="font-bold text-lg sm:text-2xl text-slate-800 mb-2 sm:mb-3">
             {video.title}
           </h3>
-          <div className="flex items-center justify-between flex-wrap gap-4">
-            <div className="flex items-center gap-6 text-slate-600">
-              <span className="flex items-center gap-2">
-                <Heart className="w-5 h-5 text-pink-500" />
-                {video.likes} curtidas
+          <div className="flex items-center justify-between flex-wrap gap-3 sm:gap-4">
+            <div className="flex items-center gap-4 sm:gap-6 text-slate-600 text-sm sm:text-base">
+              <span className="flex items-center gap-1.5 sm:gap-2">
+                <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-pink-500" />
+                <span className="hidden xs:inline">{video.likes} curtidas</span>
+                <span className="xs:hidden">{video.likes}</span>
               </span>
-              <span className="flex items-center gap-2">
-                <MessageCircle className="w-5 h-5 text-purple-500" />
-                {video.comments} comentários
+              <span className="flex items-center gap-1.5 sm:gap-2">
+                <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 text-purple-500" />
+                <span className="hidden xs:inline">{video.comments} comentários</span>
+                <span className="xs:hidden">{video.comments}</span>
               </span>
             </div>
             {video.type === 'instagram' && (
@@ -336,10 +338,11 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
                 href={video.instagramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all"
+                className="flex items-center gap-1.5 sm:gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 sm:px-6 sm:py-2 rounded-full text-sm sm:text-base font-semibold hover:shadow-lg transition-all whitespace-nowrap"
               >
-                Ver no Instagram
-                <Share2 className="w-4 h-4" />
+                <span className="hidden xs:inline">Ver no Instagram</span>
+                <span className="xs:hidden">Instagram</span>
+                <Share2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
               </a>
             )}
           </div>
