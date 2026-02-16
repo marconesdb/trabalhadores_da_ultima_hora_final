@@ -5,10 +5,11 @@ interface Video {
   id: number;
   title: string;
   thumbnail: string;
-  type: 'instagram' | 'mp4';
+  type: 'instagram' | 'mp4' | 'image';
   likes: string;
   comments: string;
   videoUrl?: string;
+  imageUrl?: string;
   instagramUrl?: string;
   embedUrl?: string;
 }
@@ -56,27 +57,45 @@ const videos: Video[] = [
     thumbnail: "/assets/img/Sopa.jpg",
     type: "mp4",
     videoUrl: "/assets/video/Sopa.mp4",
-    likes: "3.5K",
+    likes: "5",
     comments: "201"
   },
   {
     id: 6,
-    title: "Natal Solidário",
-    thumbnail: "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&h=800&fit=crop",
-    type: "instagram",
-    instagramUrl: "https://www.instagram.com/p/exemplo5/",
-    embedUrl: "https://www.instagram.com/p/exemplo5/embed",
-    likes: "4.8K",
+    title: "Distribuição de Suco",
+    thumbnail: "/assets/img/Suco.jpg",
+    type: "mp4",
+    videoUrl: "/assets/video/Suco.mp4",
+    likes: "8",
     comments: "312"
   },
   {
     id: 7,
-    title: "Eventos Comunitários",
-    thumbnail: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&h=800&fit=crop",
-    type: "instagram",
-    instagramUrl: "https://www.instagram.com/p/exemplo6/",
-    embedUrl: "https://www.instagram.com/p/exemplo6/embed",
-    likes: "1.8K",
+    title: "Momento de Oração",
+    thumbnail: "/assets/img/Oração.jpg",
+    type: "mp4",
+    videoUrl: "/assets/video/Oração.mp4",
+    likes: "18",
+    comments: "95"
+  },
+
+  {
+    id: 8,
+    title: "Terceiro Setor em Destaque",
+    thumbnail: "/assets/img/destaque.jpg",
+    type: "image",
+    videoUrl: "/assets/video/destaque.mp4",
+    likes: "18",
+    comments: "95"
+  },
+
+   {
+    id: 8,
+    title: "Trabalhadoras em Destaque",
+    thumbnail: "/assets/img/Trabalhadora.jpg",
+    type: "mp4",
+    videoUrl: "/assets/video/Trabalhadora.mp4",
+    likes: "18",
     comments: "95"
   }
 ];
@@ -92,7 +111,7 @@ const VideoGallery = () => {
             Acompanhe nossas campanhas e ações sociais
           </h1>
           <p className="text-slate-600 text-base md:text-lg">
-            Galeria de Vídeos
+            Galeria de Vídeos e Fotos
           </p>
         </div>
 
@@ -116,8 +135,14 @@ const VideoGallery = () => {
                   </div>
                 </div>
 
-                <div className={`absolute top-3 right-3 md:top-4 md:right-4 ${video.type === 'instagram' ? 'bg-gradient-to-r from-purple-500 to-pink-500' : 'bg-gradient-to-r from-blue-500 to-cyan-500'} text-white px-2.5 py-1 md:px-3 md:py-1 rounded-full text-xs font-bold shadow-lg`}>
-                  {video.type === 'instagram' ? 'Instagram' : 'Vídeo'}
+                <div className={`absolute top-3 right-3 md:top-4 md:right-4 ${
+                  video.type === 'instagram' 
+                    ? 'bg-gradient-to-r from-purple-500 to-pink-500' 
+                    : video.type === 'image' 
+                    ? 'bg-gradient-to-r from-emerald-500 to-teal-500' 
+                    : 'bg-gradient-to-r from-blue-500 to-cyan-500'
+                } text-white px-2.5 py-1 md:px-3 md:py-1 rounded-full text-xs font-bold shadow-lg`}>
+                  {video.type === 'instagram' ? 'Instagram' : video.type === 'image' ? 'Foto' : 'Vídeo'}
                 </div>
               </div>
 
@@ -227,7 +252,15 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
           <X className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
         </button>
 
-        {video.type === 'mp4' ? (
+        {video.type === 'image' ? (
+          <div className="relative w-full aspect-square bg-black">
+            <img
+              src={video.imageUrl || video.thumbnail}
+              alt={video.title}
+              className="w-full h-full object-contain"
+            />
+          </div>
+        ) : video.type === 'mp4' ? (
           <div className="relative w-full aspect-square bg-black">
             <video
               ref={videoRef}

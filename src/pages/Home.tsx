@@ -31,7 +31,7 @@ const Home = () => {
             <Link to="/doacoes" className="bg-secondary hover:bg-yellow-500 text-primary-900 px-8 py-3 rounded-full font-bold transition text-lg">
               {t('home.hero.btnAjudar')}
             </Link>
-            <Link to="/nossas-acoes" className="border-2 border-white hover:bg-white hover:text-primary-900 text-white px-8 py-3 rounded-full font-bold transition text-lg">
+            <Link to="/campanhas" className="border-2 border-white hover:bg-white hover:text-primary-900 text-white px-8 py-3 rounded-full font-bold transition text-lg">
               {t('home.hero.btnAcoes')}
             </Link>
           </div>
