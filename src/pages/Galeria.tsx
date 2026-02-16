@@ -135,7 +135,7 @@ const Galeria = () => {
   const visibleThumbnails = getVisibleThumbnails();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-900 py-20 px-4">
+    <div className="min-h-screen bg-gradient-to-r from-gray-300 to-blue-300 py-20 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Carrossel Principal */}
         <div className="relative mb-8">

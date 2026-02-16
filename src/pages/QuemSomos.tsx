@@ -8,7 +8,7 @@ const QuemSomos: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       {/* Header */}
-      <div className="bg-blue-300 text-white py-16 px-4">
+      <div className="bg-gradient-to-r from-gray-300 to-blue-300 text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             {t('quemSomos.titulo')}
@@ -98,7 +98,7 @@ const QuemSomos: React.FC = () => {
         </div>
 
         {/* Valores */}
-        <div className="bg-primary-900 text-white rounded-lg shadow-lg p-8 mt-8">
+        <div className="bg-gradient-to-r from-gray-300 to-blue-300 text-white rounded-lg shadow-lg p-8 mt-8">
           <h2 className="text-3xl font-bold mb-6 text-white text-center">
             {t('quemSomos.valores.titulo')}
           </h2>

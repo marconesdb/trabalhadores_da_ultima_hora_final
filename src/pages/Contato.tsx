@@ -149,8 +149,11 @@ const Contato = () => {
           <p className="text-lg mb-6 text-gray-500">
             Seja um voluntário ou faça uma doação. Sua ajuda transforma vidas!
           </p>
-          <button className="bg-white text-gray-700 px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors shadow-md">
-            Quero Ajudar!
+           <button 
+            onClick={() => window.open("https://wa.me/5538992072259?text=Olá!Quero%20ser%20voluntário.", "_blank")}
+            className="bg-white text-blue-600 px-8 py-3  font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg"
+          >
+            Quero Ajudar !
           </button>
         </div>
       </div>

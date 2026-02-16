@@ -71,7 +71,7 @@ const BazarBeneficiente = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-300">
       {/* Header */}
-      <header className="bg-gradient-to-r from-blue-600 to-blue-300 text-white py-12 shadow-lg">
+      <header className="bg-gradient-to-r from-gray-300 to-blue-300 to-blue-300 text-white py-12 shadow-lg">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
             <Heart className="fill-white" size={48} />
@@ -85,12 +85,12 @@ const BazarBeneficiente = () => {
       </header>
 
       {/* Banner de Chamada */}
-      <div className="bg-gradient-to-r from-blue-300 to-blue-500 text-white py-8">
+      <div className="bg-gradient-to-r from-gray-300 to-blue-300 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-3">Seja um Voluntário!</h2>
           <p className="text-xl mb-4">Doe seu tempo, multiplique amor e faça a diferença na comunidade</p>
           <button 
-            onClick={() => window.open("https://wa.me/5538992072259?text=Quero%20ser%20voluntário", "_blank")}
+            onClick={() => window.open("https://wa.me/5538992072259?text=Olá!Quero%20ser%20voluntário.", "_blank")}
             className="bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg"
           >
             Quero Ser Voluntário

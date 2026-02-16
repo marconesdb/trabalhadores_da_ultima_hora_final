@@ -6,7 +6,7 @@ const ApoioHospitalar = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className=" bg-gradient-to-br from-blue-50 to-blue-300 text-white py-12 px-4">
+      <header className=" bg-gradient-to-r from-gray-300 to-blue-300 text-white py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <Heart className="w-12 h-12 mx-auto mb-4" />
           <h1 className="text-4xl font-bold mb-2">Apoio Hospitalar</h1>
@@ -73,20 +73,20 @@ const ApoioHospitalar = () => {
 
         {/* Call to action */}
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-gradient-to-br from-blue-50 to-blue-300 text-gray-700 rounded-lg shadow-md p-8 text-center">
+          <div className="bg-gradient-to-r from-gray-300 to-blue-300 text-gray-700 rounded-lg shadow-md p-8 text-center">
            
             <p className="mb-4  ">Ajude-nos a servir quem precisa</p>
              <button 
-            onClick={() => window.open("https://wa.me/5538992072259?text=Quero%20ser%20voluntário", "_blank")}
+            onClick={() => window.open("https://wa.me/5538992072259?text=Olá!Quero%20ser%20voluntário.", "_blank")}
             className="bg-white text-blue-600 px-8 py-3  font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg"
           >
             Quero Ajudar !
           </button>
           </div>
 
-          <div className="bg-blue-600  rounded-lg shadow-md p-8 text-center">
-            <h3 className="text-2xl font-bold mb-3 text-white">Faça uma Doação</h3>
-            <p className="mb-4 text-white">Alimentos, mantimentos ou dinheiro</p>
+          <div className="bg-gradient-to-r from-gray-300 to-blue-300  rounded-lg shadow-md p-8 text-center">
+            <h3 className="text-2xl font-bold mb-3 text-gray-600">Faça uma Doação</h3>
+            <p className="mb-4 text-gray-600">Alimentos, mantimentos ou dinheiro</p>
           <Link to="/doacoes" className="bg-white text-yellow-400 font-bold py-2 px-6 rounded hover:bg-gray-100" > Doar Agora </Link>
           </div>
         </div>
