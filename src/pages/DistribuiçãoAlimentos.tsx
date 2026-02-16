@@ -95,7 +95,7 @@ const DistribuicaoDeAlimentos = () => {
         </section>
 
         {/* Impact Section */}
-        <section className="bg-blue-300 text-gray-500 rounded-lg p-12 text-center mb-16">
+        <section className="bg-gradient-to-r from-gray-300 to-blue-300  text-gray-500 rounded-lg p-12 text-center mb-16">
           <h2 className="text-3xl font-bold mb-6">Faça Parte Dessa Missão</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Sua doação ou voluntariado pode transformar vidas. Juntos, podemos fazer a diferença 
