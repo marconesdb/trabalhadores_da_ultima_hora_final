@@ -1,0 +1,12 @@
+{
+  "welcome": "Welcome",
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "button": {
+    "submit": "Submit",
+    "cancel": "Cancel"
+  }
+}

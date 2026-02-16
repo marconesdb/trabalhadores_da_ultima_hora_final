@@ -52,11 +52,10 @@ const videos: Video[] = [
   },
   {
     id: 5,
-    title: "Doação de Alimentos",
-    thumbnail: "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=800&h=800&fit=crop",
-    type: "instagram",
-    instagramUrl: "https://www.instagram.com/p/exemplo4/",
-    embedUrl: "https://www.instagram.com/p/exemplo4/embed",
+    title: "Distribuição de Sopa",
+    thumbnail: "/assets/img/Sopa.jpg",
+    type: "mp4",
+    videoUrl: "/assets/video/Sopa.mp4",
     likes: "3.5K",
     comments: "201"
   },

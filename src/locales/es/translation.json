@@ -1,0 +1,12 @@
+{
+  "welcome": "Bienvenido",
+  "menu": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "button": {
+    "submit": "Enviar",
+    "cancel": "Cancelar"
+  }
+}
