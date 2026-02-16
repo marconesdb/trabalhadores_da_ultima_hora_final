@@ -86,5 +86,16 @@
         "descricao": "Illuminate lives with hope"
       }
     }
+  },
+
+  "footer": {
+    "institutionalTitle": "Workers of the Last Hour",
+    "institutionalQuote": "Outside of charity there is no salvation.",
+    "institutionalDescription": "Bringing love, food and hope through the Workers of the Last Hour group.",
+    "contactTitle": "Contact Us",
+    "addressLabel": "Street: João Figueiredo, No. 318 - Neighborhood: Vila Exposição, ZIP: 39-400-286, City: Montes Claros - Minas Gerais",
+    "followTitle": "Follow Us",
+    "copyright": "Charity Institution Workers of the Last Hour. All rights reserved."
   }
 }
+

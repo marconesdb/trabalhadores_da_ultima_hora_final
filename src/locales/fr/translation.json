@@ -85,5 +85,18 @@
         "descricao": "Illuminer les vies avec espoir"
       }
     }
+  },
+
+
+
+  "footer": {
+    "institutionalTitle": "Travailleurs de la Dernière Heure",
+    "institutionalQuote": "Hors de la charité, il n'y a pas de salut.",
+    "institutionalDescription": "Apporter amour, nourriture et espoir à travers le groupe Travailleurs de la Dernière Heure.",
+    "contactTitle": "Contactez-nous",
+    "addressLabel": "Rue: João Figueiredo, No. 318 - Quartier: Vila Exposição, Code postal: 39-400-286, Ville: Montes Claros - Minas Gerais",
+    "followTitle": "Suivez-nous",
+    "copyright": "Institution de Charité Travailleurs de la Dernière Heure. Tous droits réservés."
   }
+
 }

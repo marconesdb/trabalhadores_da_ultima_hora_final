@@ -85,5 +85,16 @@
         "descricao": "Illuminare vite con speranza"
       }
     }
+  },
+
+  "footer": {
+    "institutionalTitle": "Lavoratori dell'Ultima Ora",
+    "institutionalQuote": "Fuori dalla carità non c'è salvezza.",
+    "institutionalDescription": "Portando amore, cibo e speranza attraverso il gruppo Lavoratori dell'Ultima Ora.",
+    "contactTitle": "Contattaci",
+    "addressLabel": "Via: João Figueiredo, N. 318 - Quartiere: Vila Exposição, CAP: 39-400-286, Città: Montes Claros - Minas Gerais",
+    "followTitle": "Seguici",
+    "copyright": "Istituzione di Carità Lavoratori dell'Ultima Ora. Tutti i diritti riservati."
   }
+
 }

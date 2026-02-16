@@ -85,5 +85,17 @@
         "descricao": "Iluminar vidas com esperança"
       }
     }
+  },
+
+  "footer": {
+    "institutionalTitle": "Trabalhadores da Última Hora",
+    "institutionalQuote": "Fora da caridade não há salvação.",
+    "institutionalDescription": "Levando amor, alimento e esperança através do grupo Trabalhadores da Última Hora.",
+    "contactTitle": "Fale Conosco",
+    "addressLabel": "Rua: João Figueiredo, Nº. 318 - Bairro: Vila Exposição, CEP: 39-400-286, Cidade: Montes Claros - Minas Gerais",
+    "followTitle": "Siga-nos",
+    "copyright": "Instituição de Caridade Trabalhadores da Última Hora. Todos os direitos reservados."
   }
 }
+
+
