@@ -200,7 +200,7 @@ const BazarBeneficiente = () => {
             <div className="flex flex-col items-center text-center">
               <Mail className="text-blue-600 mb-3" size={32} />
               <h3 className="font-bold text-gray-800 mb-2">E-mail</h3>
-              <p className="text-gray-600">@</p>      
+              <p className="text-gray-600">contato@trabalhadoresdaultimahora.com.br</p>      
             </div>
           </div>
         </div>
