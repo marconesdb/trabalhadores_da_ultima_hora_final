@@ -1,12 +1,89 @@
 {
-  "welcome": "Benvenuto",
-  "menu": {
-    "home": "Home",
-    "about": "Chi siamo",
-    "contact": "Contatto"
+  "header": {
+    "inicio": "Home",
+    "quemSomos": "Chi Siamo",
+    "campanhas": "Campagne",
+    "galeria": "Galleria",
+    "contato": "Contatto",
+    "doarAgora": "Dona Ora",
+    "queroDoar": "Voglio Donare",
+    "titulo": "Lavoratori dell'Ultima Ora",
+    "lema": "Dio, Cristo e Carità"
   },
-  "button": {
-    "submit": "Invia",
-    "cancel": "Annulla"
+
+  "home": {
+    "hero": {
+      "titulo": "Lavoratori dell'Ultima Ora",
+      "subtitulo": "Accogliendo cuori, distribuendo speranza e praticando la carità alla luce del Vangelo.",
+      "btnAjudar": "Voglio Aiutare",
+      "btnAcoes": "Scopri le Nostre Azioni"
+    },
+    "citacao": {
+      "texto": "(...) \"Figli miei, nella massima: Fuori dalla carità non c'è salvezza, sono racchiusi i destini degli uomini, sulla Terra e in cielo; sulla Terra, perché all'ombra di questo stendardo vivranno in pace; in cielo, perché coloro che l'avranno praticata troveranno grazia davanti al Signore. Questo motto è la fiaccola celeste, la colonna luminosa che guida l'uomo nel deserto della vita, conducendolo verso la Terra Promessa.\" (...)",
+      "fonte": "CAP 15, Punto 10 - Il Vangelo Secondo lo Spiritismo -",
+      "autor": "- Allan Kardec",
+      "assistaVideo": "Guarda il Video"
+    },
+    "atividades": {
+      "titulo": "I Nostri Fronti di Lavoro",
+      "subtitulo": "Operiamo su vari fronti per portare aiuto materiale e spirituale a chi ne ha più bisogno.",
+      "distribuicao": {
+        "titulo": "Distribuzione Alimentare",
+        "descricao": "Consegna di pasti, cesti alimentari di base e colazione per i senzatetto.",
+        "saibaMais": "Saperne di più"
+      },
+      "apoio": {
+        "titulo": "Supporto Ospedaliero",
+        "descricao": "Visite fraterne, donazione di kit igienici e corredini per neonati bisognosi.",
+        "saibaMais": "Saperne di più"
+      },
+      "bazar": {
+        "titulo": "Bazar Benefico",
+        "descricao": "Vendita di abbigliamento e utensili a prezzi accessibili per mantenere le opere dell'istituzione.",
+        "saibaMais": "Saperne di più"
+      }
+    }
+  },
+
+  "quemSomos": {
+    "titulo": "Chi Siamo",
+    "subtitulo": "Lavoratori dell'Ultima Ora",
+    "missao": {
+      "titulo": "La Nostra Missione",
+      "texto": "Nel Viaggio Finale, Lavoratori della Luce: Seminando Amore e Speranza, Seguendo i Passi di Gesù."
+    },
+    "historia": {
+      "titulo": "La Nostra Storia",
+      "paragrafo1": "A Montes Claros, MG, dove le luci della speranza brillavano in ogni angolo, un gruppo straordinario chiamato \"Lavoratori dell'Ultima Ora\" dedicava le sue ore alla nobile missione di servire amore e cibo ai più bisognosi.",
+      "paragrafo2": "Nelle fredde notti d'inverno o calde serate estive, decisero di portare conforto non solo agli stomaci vuoti, ma anche ai cuori afflitti. Equipaggiati con cesti pieni di spuntini nutritivi e pasti fatti in casa, i volontari partirono per le strade della città in un umile furgone.",
+      "paragrafo3": "Lungo il cammino, incontrarono senzatetto che, nonostante le avversità, mantenevano sorrisi di gratitudine. I Lavoratori dell'Ultima Ora offrirono loro cibo caldo, coperte e, soprattutto, una connessione umana che trascendeva le barriere dell'indifferenza.",
+      "paragrafo4": "Il gruppo estese la sua generosità agli ospedali, dove le persone attendevano ansiose le cure mediche. Nelle affollate sale d'attesa, i volontari distribuirono pasti confortanti, fornendo un sollievo momentaneo a coloro che affrontavano tempi difficili.",
+      "paragrafo5": "Tra i volontari, c'erano collaboratori con formazione professionale dalle aree più diverse, uniti da uno scopo comune: essere la luce nell'oscurità del bisogno. Le loro storie toccanti, preghiere e parole incoraggianti riscaldavano i cuori di coloro che aspettavano del cibo.",
+      "paragrafo6": "In queste notti memorabili, trovarono sempre donne e uomini soli e indifesi. Oltre a nutrirli, i Lavoratori dell'Ultima Ora offrirono loro compagnia e ascoltarono le loro storie. Lo scambio di esperienze portò conforto sia ai volontari che agli assistiti, dimostrando che l'atto di servire va oltre la semplice alimentazione.",
+      "paragrafo7": "Alla fine della notte, i Lavoratori dell'Ultima Ora non solo nutrirono corpi affamati, ma anche anime assetate di compassione. Il loro impegno era una testimonianza vivente che, anche nelle ultime ore del giorno, è possibile illuminare vite e diffondere speranza, uno spuntino d'amore servito con un tocco di umanità."
+    },
+    "fundadora": {
+      "titulo": "Fondatrice",
+      "nome": "Maria Luísa Lourenço",
+      "paragrafo1": "Maria Luísa Lourenço è una dedicata lavoratrice spiritista, che agisce come medium da molti anni. Il suo impegno con la medianità l'ha portata a creare l'ispirante progetto \"Lavoratori dell'Ultima Ora\".",
+      "paragrafo2": "Il suo obiettivo è servire Gesù accogliendo quei fratelli che si trovano in situazioni di estremo bisogno, come senzatetto, pazienti ospedalizzati e famiglie in condizioni precarie. Non limitandosi a offrire solo aiuto materiale, Maria Luísa fornisce chiarimenti e conforto morale, gettando una luce di speranza su coloro che si trovano vulnerabili e disperati.",
+      "paragrafo3": "Nell'ambito del Centro Spiritista Solar de Jesus, svolge un ruolo fondamentale nel supportare e coordinare vari compiti spirituali, come i passi magnetici, le conferenze e l'assistenza fraterna. Il suo impegno non si limita solo alla fornitura di risorse materiali, ma si estende alla cura spirituale ed emotiva, fornendo un approccio olistico e compassionevole.",
+      "paragrafo4": "Maria Luísa Lourenço si distingue come una vera guida spirituale, offrendo luce e conforto a coloro che ne hanno più bisogno, costruendo un'eredità di compassione e servizio alla comunità."
+    },
+    "valores": {
+      "titulo": "I Nostri Valori",
+      "amor": {
+        "titulo": "Amore",
+        "descricao": "Servire con amore incondizionato"
+      },
+      "compaixao": {
+        "titulo": "Compassione",
+        "descricao": "Accogliere senza giudizi"
+      },
+      "esperanca": {
+        "titulo": "Speranza",
+        "descricao": "Illuminare vite con speranza"
+      }
+    }
   }
 }

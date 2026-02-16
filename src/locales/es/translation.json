@@ -1,12 +1,89 @@
 {
-  "welcome": "Bienvenido",
-  "menu": {
-    "home": "Inicio",
-    "about": "Acerca de",
-    "contact": "Contacto"
+  "header": {
+    "inicio": "Inicio",
+    "quemSomos": "Quiénes Somos",
+    "campanhas": "Campañas",
+    "galeria": "Galería",
+    "contato": "Contacto",
+    "doarAgora": "Donar Ahora",
+    "queroDoar": "Quiero Donar",
+    "titulo": "Trabajadores de la Última Hora",
+    "lema": "Dios, Cristo y Caridad"
   },
-  "button": {
-    "submit": "Enviar",
-    "cancel": "Cancelar"
+
+  "home": {
+    "hero": {
+      "titulo": "Trabajadores de la Última Hora",
+      "subtitulo": "Acogiendo corazones, distribuyendo esperanza y practicando la caridad a la luz del Evangelio.",
+      "btnAjudar": "Quiero Ayudar",
+      "btnAcoes": "Conozca Nuestras Acciones"
+    },
+    "citacao": {
+      "texto": "(...) \"Mis hijos, en la máxima: Fuera de la caridad no hay salvación, están encerrados los destinos de los hombres, en la Tierra y en el cielo; en la Tierra, porque a la sombra de ese estandarte vivirán en paz; en el cielo, porque los que la hayan practicado encontrarán gracias ante el Señor. Esta divisa es la antorcha celeste, la luminosa columna que guía al hombre en el desierto de la vida, encaminándolo hacia la Tierra de la Promesa.\" (...)",
+      "fonte": "CAP 15, Ítem 10 - El Evangelio Según el Espiritismo -",
+      "autor": "- Allan Kardec",
+      "assistaVideo": "Ver el Vídeo"
+    },
+    "atividades": {
+      "titulo": "Nuestros Frentes de Trabajo",
+      "subtitulo": "Actuamos en diversos frentes para llevar auxilio material y espiritual a quienes más lo necesitan.",
+      "distribuicao": {
+        "titulo": "Distribución de Alimentos",
+        "descricao": "Entrega de comidas, cestas básicas y desayuno para personas en situación de calle.",
+        "saibaMais": "Saber más"
+      },
+      "apoio": {
+        "titulo": "Apoyo Hospitalario",
+        "descricao": "Visitas fraternas, donación de kits de higiene y ajuares para recién nacidos necesitados.",
+        "saibaMais": "Saber más"
+      },
+      "bazar": {
+        "titulo": "Bazar Benéfico",
+        "descricao": "Venta de ropa y utensilios a precios accesibles para mantener las obras de la institución.",
+        "saibaMais": "Saber más"
+      }
+    }
+  },
+
+  "quemSomos": {
+    "titulo": "Quiénes Somos",
+    "subtitulo": "Trabajadores de la Última Hora",
+    "missao": {
+      "titulo": "Nuestra Misión",
+      "texto": "En el Viaje Final, Trabajadores de la Luz: Sembrando Amor y Esperanza, Siguiendo los Pasos de Jesús."
+    },
+    "historia": {
+      "titulo": "Nuestra Historia",
+      "paragrafo1": "En Montes Claros, MG, donde las luces de la esperanza brillaban en cada esquina, un grupo extraordinario llamado \"Trabajadores de la Última Hora\" dedicaba sus horas a la noble misión de servir amor y alimento a los más necesitados.",
+      "paragrafo2": "En noches frías de invierno o calurosas de verano, decidieron llevar consuelo no solo a los estómagos vacíos, sino también a los corazones afligidos. Equipados con cestas repletas de meriendas nutritivas y comidas caseras, los voluntarios partieron por las calles de la ciudad en una humilde furgoneta.",
+      "paragrafo3": "A lo largo del camino, encontraron personas sin hogar que, a pesar de las adversidades, mantenían sonrisas de gratitud. Los Trabajadores de la Última Hora les ofrecieron alimentos calientes, mantas y, lo más importante, una conexión humana que trascendió las barreras de la indiferencia.",
+      "paragrafo4": "El grupo extendió su generosidad hasta los hospitales, donde las personas esperaban ansiosas por atención médica. En salas de espera concurridas, los voluntarios distribuyeron comidas reconfortantes, proporcionando un alivio momentáneo para aquellos que enfrentaban tiempos difíciles.",
+      "paragrafo5": "Entre los voluntarios, había colaboradores con formación profesional de las más diversas áreas, unidos por un propósito común: ser la luz en la oscuridad de la necesidad. Sus historias conmovedoras, oraciones y palabras alentadoras confortaban los corazones de quienes esperaban por un alimento.",
+      "paragrafo6": "En esas noches memorables, siempre encontraron mujeres y hombres solos y desamparados. Además de alimentarlos, los Trabajadores de la Última Hora les ofrecieron compañía y escucharon sus historias. El intercambio de experiencias trajo consuelo tanto para los voluntarios como para los asistidos, demostrando que el acto de servir va más allá de la simple alimentación.",
+      "paragrafo7": "Al final de la noche, los Trabajadores de la Última Hora no solo alimentaron cuerpos hambrientos, sino que también alimentaron almas sedientas de compasión. Su compromiso era un testimonio vivo de que, incluso en las últimas horas del día, es posible iluminar vidas y esparcir esperanza, una merienda de amor servida con un toque de humanidad."
+    },
+    "fundadora": {
+      "titulo": "Fundadora",
+      "nome": "Maria Luísa Lourenço",
+      "paragrafo1": "Maria Luísa Lourenço es una dedicada trabajadora espiritista, actuando como médium desde hace muchos años. Su compromiso con la mediumnidad la condujo a la creación del inspirador proyecto \"Trabajadores de la Última Hora\".",
+      "paragrafo2": "Su objetivo es servir a Jesús acogiendo a aquellos hermanos que se encuentran en situaciones de extrema necesidad, como personas sin hogar, pacientes hospitalizados y familias en condiciones precarias. No limitándose a ofrecer solo ayuda material, Maria Luísa proporciona esclarecimiento y consuelo moral, lanzando una luz de esperanza sobre aquellos que se encuentran vulnerables y en desesperación.",
+      "paragrafo3": "En el ámbito del Centro Espiritista Solar de Jesús, ella desempeña un papel fundamental al amparar y coordinar diversas tareas espirituales, tales como pases, conferencias y atención fraterna. Su compromiso no se restringe solo a la provisión de recursos materiales, sino que se extiende al cuidado espiritual y emocional, proporcionando un enfoque holístico y compasivo.",
+      "paragrafo4": "Maria Luísa Lourenço se destaca como una verdadera guía espiritual, ofreciendo luz y consuelo a aquellos que más lo necesitan, construyendo un legado de compasión y servicio a la comunidad."
+    },
+    "valores": {
+      "titulo": "Nuestros Valores",
+      "amor": {
+        "titulo": "Amor",
+        "descricao": "Servir con amor incondicional"
+      },
+      "compaixao": {
+        "titulo": "Compasión",
+        "descricao": "Acoger sin juicios"
+      },
+      "esperanca": {
+        "titulo": "Esperanza",
+        "descricao": "Iluminar vidas con esperanza"
+      }
+    }
   }
 }

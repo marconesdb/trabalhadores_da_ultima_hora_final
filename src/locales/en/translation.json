@@ -1,12 +1,90 @@
 {
-  "welcome": "Welcome",
-  "menu": {
-    "home": "Home",
-    "about": "About",
-    "contact": "Contact"
+  "header": {
+    "inicio": "Home",
+    "quemSomos": "About Us",
+    "campanhas": "Campaigns",
+    "galeria": "Gallery",
+    "contato": "Contact",
+    "doarAgora": "Donate Now",
+    "queroDoar": "I Want to Donate",
+    "titulo": "Workers of the Last Hour",
+    "lema": "God, Christ and Charity"
+
   },
-  "button": {
-    "submit": "Submit",
-    "cancel": "Cancel"
+
+  "home": {
+    "hero": {
+      "titulo": "Workers of the Last Hour",
+      "subtitulo": "Welcoming hearts, distributing hope and practicing charity in the light of the Gospel.",
+      "btnAjudar": "I Want to Help",
+      "btnAcoes": "Learn About Our Actions"
+    },
+    "citacao": {
+      "texto": "(...) \"My children, in the maxim: Outside of charity there is no salvation, the destinies of men are enclosed, on Earth and in Heaven; on Earth, because under the shadow of this banner they will live in peace; in Heaven, because those who have practiced it will find grace before the Lord. This motto is the celestial torch, the luminous column that guides man in the desert of life, leading him to the Promised Land.\" (...)",
+      "fonte": "CHAP 15, Item 10 - The Gospel According to Spiritism -",
+      "autor": "- Allan Kardec",
+      "assistaVideo": "Watch the Video"
+    },
+    "atividades": {
+      "titulo": "Our Work Fronts",
+      "subtitulo": "We work on various fronts to bring material and spiritual aid to those who need it most.",
+      "distribuicao": {
+        "titulo": "Food Distribution",
+        "descricao": "Delivery of meals, basic food baskets and breakfast for homeless people.",
+        "saibaMais": "Learn more"
+      },
+      "apoio": {
+        "titulo": "Hospital Support",
+        "descricao": "Fraternal visits, donation of hygiene kits and layettes for needy newborns.",
+        "saibaMais": "Learn more"
+      },
+      "bazar": {
+        "titulo": "Charity Bazaar",
+        "descricao": "Sale of clothes and utensils at affordable prices to maintain the institution's works.",
+        "saibaMais": "Learn more"
+      }
+    }
+  },
+
+  "quemSomos": {
+    "titulo": "About Us",
+    "subtitulo": "Workers of the Last Hour",
+    "missao": {
+      "titulo": "Our Mission",
+      "texto": "In the Final Journey, Workers of Light: Sowing Love and Hope, Following in the Footsteps of Jesus."
+    },
+    "historia": {
+      "titulo": "Our Story",
+      "paragrafo1": "In Montes Claros, MG, where the lights of hope shone on every corner, an extraordinary group called \"Workers of the Last Hour\" dedicated their hours to the noble mission of serving love and food to those most in need.",
+      "paragrafo2": "On cold winter nights or hot summer evenings, they decided to bring comfort not only to empty stomachs, but also to afflicted hearts. Equipped with baskets full of nutritious snacks and homemade meals, the volunteers set out through the city streets in a humble van.",
+      "paragrafo3": "Along the way, they met homeless people who, despite adversity, maintained grateful smiles. The Workers of the Last Hour offered them hot food, blankets and, most importantly, a human connection that transcended the barriers of indifference.",
+      "paragrafo4": "The group extended their generosity to hospitals, where people anxiously awaited medical care. In busy waiting rooms, volunteers distributed comforting meals, providing momentary relief for those facing difficult times.",
+      "paragrafo5": "Among the volunteers, there were collaborators with professional training from the most diverse areas, united by a common purpose: to be the light in the darkness of need. Their touching stories, prayers and encouraging words warmed the hearts of those waiting for food.",
+      "paragrafo6": "On these memorable nights, they always found lonely and helpless women and men. In addition to feeding them, the Workers of the Last Hour offered them company and listened to their stories. The exchange of experiences brought comfort to both volunteers and those assisted, proving that the act of serving goes beyond simple feeding.",
+      "paragrafo7": "At the end of the night, the Workers of the Last Hour not only fed hungry bodies, but also fed souls thirsty for compassion. Their commitment was a living testimony that, even in the last hours of the day, it is possible to illuminate lives and spread hope, a snack of love served with a touch of humanity."
+    },
+    "fundadora": {
+      "titulo": "Founder",
+      "nome": "Maria Luísa Lourenço",
+      "paragrafo1": "Maria Luísa Lourenço is a dedicated spiritist worker, acting as a medium for many years. Her commitment to mediumship led her to create the inspiring project \"Workers of the Last Hour\".",
+      "paragrafo2": "Her goal is to serve Jesus by welcoming those brothers who find themselves in situations of extreme need, such as homeless people, hospitalized patients and families in precarious conditions. Not limiting herself to offering only material aid, Maria Luísa provides clarification and moral comfort, casting a light of hope on those who find themselves vulnerable and in despair.",
+      "paragrafo3": "Within the Spiritist Center Solar de Jesus, she plays a fundamental role in supporting and coordinating various spiritual tasks, such as spiritual healing passes, lectures and fraternal assistance. Her commitment is not restricted only to the provision of material resources, but extends to spiritual and emotional care, providing a holistic and compassionate approach.",
+      "paragrafo4": "Maria Luísa Lourenço stands out as a true spiritual guide, offering light and comfort to those most in need, building a legacy of compassion and service to the community."
+    },
+    "valores": {
+      "titulo": "Our Values",
+      "amor": {
+        "titulo": "Love",
+        "descricao": "Serve with unconditional love"
+      },
+      "compaixao": {
+        "titulo": "Compassion",
+        "descricao": "Welcome without judgment"
+      },
+      "esperanca": {
+        "titulo": "Hope",
+        "descricao": "Illuminate lives with hope"
+      }
+    }
   }
 }

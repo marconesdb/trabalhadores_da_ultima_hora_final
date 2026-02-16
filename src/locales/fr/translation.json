@@ -1,12 +1,89 @@
 {
-  "welcome": "Bienvenue",
-  "menu": {
-    "home": "Accueil",
-    "about": "À propos",
-    "contact": "Contact"
+  "header": {
+    "inicio": "Accueil",
+    "quemSomos": "Qui Sommes-Nous",
+    "campanhas": "Campagnes",
+    "galeria": "Galerie",
+    "contato": "Contact",
+    "doarAgora": "Faire un Don",
+    "queroDoar": "Je Veux Faire un Don",
+    "titulo": "Travailleurs de la Dernière Heure",
+    "lema": "Dieu, Christ et Charité"
   },
-  "button": {
-    "submit": "Soumettre",
-    "cancel": "Annuler"
+
+  "home": {
+    "hero": {
+      "titulo": "Travailleurs de la Dernière Heure",
+      "subtitulo": "Accueillant les cœurs, distribuant l'espoir et pratiquant la charité à la lumière de l'Évangile.",
+      "btnAjudar": "Je Veux Aider",
+      "btnAcoes": "Découvrez Nos Actions"
+    },
+    "citacao": {
+      "texto": "(...) \"Mes enfants, dans la maxime : Hors de la charité il n'y a pas de salut, sont enfermés les destins des hommes, sur la Terre et dans le ciel ; sur la Terre, car à l'ombre de cette bannière ils vivront en paix ; dans le ciel, car ceux qui l'auront pratiquée trouveront grâce devant le Seigneur. Cette devise est le flambeau céleste, la colonne lumineuse qui guide l'homme dans le désert de la vie, le conduisant vers la Terre Promise.\" (...)",
+      "fonte": "CHAP 15, Point 10 - L'Évangile Selon le Spiritisme -",
+      "autor": "- Allan Kardec",
+      "assistaVideo": "Regarder la Vidéo"
+    },
+    "atividades": {
+      "titulo": "Nos Fronts de Travail",
+      "subtitulo": "Nous agissons sur divers fronts pour apporter une aide matérielle et spirituelle à ceux qui en ont le plus besoin.",
+      "distribuicao": {
+        "titulo": "Distribution Alimentaire",
+        "descricao": "Livraison de repas, paniers de base et petit-déjeuner pour les sans-abri.",
+        "saibaMais": "En savoir plus"
+      },
+      "apoio": {
+        "titulo": "Soutien Hospitalier",
+        "descricao": "Visites fraternelles, don de kits d'hygiène et layettes pour nouveau-nés dans le besoin.",
+        "saibaMais": "En savoir plus"
+      },
+      "bazar": {
+        "titulo": "Bazar Caritatif",
+        "descricao": "Vente de vêtements et d'ustensiles à prix abordables pour maintenir les œuvres de l'institution.",
+        "saibaMais": "En savoir plus"
+      }
+    }
+  },
+
+  "quemSomos": {
+    "titulo": "Qui Sommes-Nous",
+    "subtitulo": "Travailleurs de la Dernière Heure",
+    "missao": {
+      "titulo": "Notre Mission",
+      "texto": "Dans le Voyage Final, Travailleurs de la Lumière : Semant l'Amour et l'Espoir, Suivant les Pas de Jésus."
+    },
+    "historia": {
+      "titulo": "Notre Histoire",
+      "paragrafo1": "À Montes Claros, MG, où les lumières de l'espoir brillaient à chaque coin de rue, un groupe extraordinaire appelé \"Travailleurs de la Dernière Heure\" consacrait ses heures à la noble mission de servir amour et nourriture aux plus démunis.",
+      "paragrafo2": "Par les nuits froides d'hiver ou chaudes d'été, ils ont décidé d'apporter du réconfort non seulement aux estomacs vides, mais aussi aux cœurs affligés. Équipés de paniers remplis de collations nutritives et de repas faits maison, les bénévoles sont partis dans les rues de la ville dans une humble camionnette.",
+      "paragrafo3": "En chemin, ils ont rencontré des sans-abri qui, malgré l'adversité, gardaient des sourires de gratitude. Les Travailleurs de la Dernière Heure leur ont offert de la nourriture chaude, des couvertures et, surtout, une connexion humaine qui a transcendé les barrières de l'indifférence.",
+      "paragrafo4": "Le groupe a étendu sa générosité aux hôpitaux, où les gens attendaient anxieusement des soins médicaux. Dans les salles d'attente bondées, les bénévoles ont distribué des repas réconfortants, apportant un soulagement momentané à ceux qui traversaient des moments difficiles.",
+      "paragrafo5": "Parmi les bénévoles, il y avait des collaborateurs avec une formation professionnelle des domaines les plus divers, unis par un objectif commun : être la lumière dans l'obscurité du besoin. Leurs histoires touchantes, leurs prières et leurs paroles encourageantes réchauffaient les cœurs de ceux qui attendaient de la nourriture.",
+      "paragrafo6": "Au cours de ces nuits mémorables, ils ont toujours trouvé des femmes et des hommes seuls et sans aide. En plus de les nourrir, les Travailleurs de la Dernière Heure leur ont offert de la compagnie et ont écouté leurs histoires. L'échange d'expériences a apporté du réconfort tant aux bénévoles qu'aux personnes assistées, prouvant que l'acte de servir va au-delà de la simple alimentation.",
+      "paragrafo7": "À la fin de la nuit, les Travailleurs de la Dernière Heure n'ont pas seulement nourri des corps affamés, mais ont également nourri des âmes assoiffées de compassion. Leur engagement était un témoignage vivant que, même dans les dernières heures de la journée, il est possible d'illuminer des vies et de répandre l'espoir, une collation d'amour servie avec une touche d'humanité."
+    },
+    "fundadora": {
+      "titulo": "Fondatrice",
+      "nome": "Maria Luísa Lourenço",
+      "paragrafo1": "Maria Luísa Lourenço est une travailleuse spirite dévouée, agissant comme médium depuis de nombreuses années. Son engagement envers la médiumnité l'a conduite à créer le projet inspirant \"Travailleurs de la Dernière Heure\".",
+      "paragrafo2": "Son objectif est de servir Jésus en accueillant ces frères qui se trouvent dans des situations d'extrême nécessité, comme les sans-abri, les patients hospitalisés et les familles dans des conditions précaires. Ne se limitant pas à offrir seulement une aide matérielle, Maria Luísa apporte éclaircissement et réconfort moral, jetant une lumière d'espoir sur ceux qui se trouvent vulnérables et désespérés.",
+      "paragrafo3": "Dans le cadre du Centre Spirite Solar de Jesus, elle joue un rôle fondamental en soutenant et en coordonnant diverses tâches spirituelles, telles que les passes magnétiques, les conférences et l'assistance fraternelle. Son engagement ne se limite pas seulement à la fourniture de ressources matérielles, mais s'étend aux soins spirituels et émotionnels, offrant une approche holistique et compatissante.",
+      "paragrafo4": "Maria Luísa Lourenço se distingue comme un véritable guide spirituel, offrant lumière et réconfort à ceux qui en ont le plus besoin, construisant un héritage de compassion et de service à la communauté."
+    },
+    "valores": {
+      "titulo": "Nos Valeurs",
+      "amor": {
+        "titulo": "Amour",
+        "descricao": "Servir avec un amour inconditionnel"
+      },
+      "compaixao": {
+        "titulo": "Compassion",
+        "descricao": "Accueillir sans jugement"
+      },
+      "esperanca": {
+        "titulo": "Espoir",
+        "descricao": "Illuminer les vies avec espoir"
+      }
+    }
   }
 }

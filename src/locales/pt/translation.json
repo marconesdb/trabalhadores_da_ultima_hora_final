@@ -1,12 +1,89 @@
 {
-  "welcome": "Bem-vindo",
-  "menu": {
-    "home": "Início",
-    "about": "Sobre",
-    "contact": "Contato"
+  "header": {
+    "inicio": "Início",
+    "quemSomos": "Quem Somos",
+    "campanhas": "Campanhas",
+    "galeria": "Galeria",
+    "contato": "Contato",
+    "doarAgora": "Doar Agora",
+    "queroDoar": "Quero Doar",
+    "titulo": "Trabalhadores da Última Hora",
+    "lema": "Deus, Cristo e Caridade"
   },
-  "button": {
-    "submit": "Enviar",
-    "cancel": "Cancelar"
+
+  "home": {
+    "hero": {
+      "titulo": "Trabalhadores da Última Hora",
+      "subtitulo": "Acolhendo corações, distribuindo esperança e praticando a caridade à luz do Evangelho.",
+      "btnAjudar": "Quero Ajudar",
+      "btnAcoes": "Conheça Nossas Ações"
+    },
+    "citacao": {
+      "texto": "(...) \"Meus filhos, na máxima: Fora da caridade não há salvação, estão encerrados os destinos dos homens, na Terra e no céu; na Terra, porque à sombra desse estandarte eles viverão em paz; no céu, porque os que a houverem praticado acharão graças diante do Senhor. Essa divisa é o facho celeste, a luminosa coluna que guia o homem no deserto da vida, encaminhando-o para a Terra da Promissão.\" (...)",
+      "fonte": "CAP 15, Item 10 - Evangelho Segundo o Espiritismo -",
+      "autor": "- Allan Kardec",
+      "assistaVideo": "Assista ao Vídeo"
+    },
+    "atividades": {
+      "titulo": "Nossas Frentes de Trabalho",
+      "subtitulo": "Atuamos em diversas frentes para levar auxílio material e espiritual a quem mais precisa.",
+      "distribuicao": {
+        "titulo": "Distribuição de Alimentos",
+        "descricao": "Entrega de marmitas, cestas básicas e café da manhã para pessoas em situação de rua.",
+        "saibaMais": "Saiba mais"
+      },
+      "apoio": {
+        "titulo": "Apoio Hospitalar",
+        "descricao": "Visitas fraternas, doação de kits de higiene e enxovais para recém-nascidos carentes.",
+        "saibaMais": "Saiba mais"
+      },
+      "bazar": {
+        "titulo": "Bazar Beneficente",
+        "descricao": "Venda de roupas e utensílios a preços acessíveis para manter as obras da instituição.",
+        "saibaMais": "Saiba mais"
+      }
+    }
+  },
+
+  "quemSomos": {
+    "titulo": "Quem Somos",
+    "subtitulo": "Trabalhadores da Última Hora",
+    "missao": {
+      "titulo": "Nossa Missão",
+      "texto": "Na Jornada Final, Trabalhadores da Luz: Semeando Amor e Esperança, Seguindo os Passos de Jesus."
+    },
+    "historia": {
+      "titulo": "Nossa História",
+      "paragrafo1": "Em Montes Claros, MG, onde as luzes da esperança brilhavam em cada esquina, um grupo extraordinário chamado \"Trabalhadores da Última Hora\" dedicava suas horas à nobre missão de servir amor e alimento aos mais necessitados.",
+      "paragrafo2": "Em noites frias de inverno ou calorosas no verão, eles decidiram levar conforto não apenas aos estômagos vazios, mas também aos corações aflitos. Equipados com cestas repletas de lanches nutritivos e refeições caseiras, os voluntários partiram pelas ruas da cidade em uma humilde Combi.",
+      "paragrafo3": "Ao longo do caminho, encontraram moradores de rua que, apesar das adversidades, mantinham sorrisos de gratidão. Os Trabalhadores da Última Hora ofereceram-lhes alimentos quentes, cobertores e, o mais importante, uma conexão humana que transcendeu as barreiras da indiferença.",
+      "paragrafo4": "O grupo estendeu sua generosidade até os hospitais, onde pessoas aguardavam ansiosas por atendimento médico. Em salas de espera movimentadas, os voluntários distribuíram refeições reconfortantes, proporcionando um alívio momentâneo para aqueles que enfrentavam tempos difíceis.",
+      "paragrafo5": "Entre os voluntários, havia colaboradores com formação profissional das mais diversas áreas, unidos por um propósito comum: ser a luz na escuridão da necessidade. Suas histórias tocantes, orações e palavras encorajadoras acalentavam os corações dos que aguardavam por um alimento.",
+      "paragrafo6": "Nessas noites memoráveis, sempre encontraram senhoras e homens sozinhos e desamparados. Além de alimentá-los, os Trabalhadores da Última Hora ofereceram-lhes companhia e escutaram suas histórias. A troca de experiências trouxe conforto tanto para os voluntários quanto para os assistidos, provando que o ato de servir vai além da simples alimentação.",
+      "paragrafo7": "Ao final da noite, os Trabalhadores da Última Hora não apenas alimentaram corpos famintos, mas também alimentaram almas sedentas de compaixão. Seu comprometimento era um testemunho vivo de que, mesmo nas últimas horas do dia, é possível iluminar vidas e espalhar esperança, um lanche de amor servido com um toque de humanidade."
+    },
+    "fundadora": {
+      "titulo": "Fundadora",
+      "nome": "Maria Luísa Lourenço",
+      "paragrafo1": "Maria Luísa Lourenço é uma dedicada trabalhadora espírita, atuando como médium há muitos anos. Seu comprometimento com a mediunidade a conduziu à criação do inspirador projeto \"Trabalhadores da Última Hora\".",
+      "paragrafo2": "Seu objetivo é servir a Jesus ao acolher aqueles irmãos que se encontram em situações de extrema necessidade, como moradores de rua, pacientes hospitalizados e famílias em condições precárias. Não se limitando a oferecer apenas auxílio material, Maria Luísa proporciona esclarecimento e consolo moral, lançando uma luz de esperança sobre aqueles que se encontram vulneráveis e em desespero.",
+      "paragrafo3": "No âmbito do Centro Espírita Solar de Jesus, ela desempenha um papel fundamental ao amparar e coordenar diversas tarefas espirituais, tais como passes, palestras e atendimento fraterno. Seu compromisso não se restringe apenas à provisão de recursos materiais, mas estende-se ao cuidado espiritual e emocional, proporcionando uma abordagem holística e compassiva.",
+      "paragrafo4": "Maria Luísa Lourenço destaca-se como uma verdadeira guia espiritual, oferecendo luz e conforto àqueles que mais necessitam, construindo um legado de compaixão e serviço à comunidade."
+    },
+    "valores": {
+      "titulo": "Nossos Valores",
+      "amor": {
+        "titulo": "Amor",
+        "descricao": "Servir com amor incondicional"
+      },
+      "compaixao": {
+        "titulo": "Compaixão",
+        "descricao": "Acolher sem julgamentos"
+      },
+      "esperanca": {
+        "titulo": "Esperança",
+        "descricao": "Iluminar vidas com esperança"
+      }
+    }
   }
 }
