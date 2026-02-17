@@ -485,6 +485,26 @@
 
 
 
+  "donation": {
+    "title": "Faça sua Doação",
+    "description": "Sua contribuição ajuda a manter nossas atividades de assistência social, manutenção do do carro de apoio e compra de alimentos.",
+    "pix": {
+      "title": "PIX",
+      "description": "A maneira mais rápida e sem taxas de ajudar. Utilize a chave abaixo ou escaneie o QR Code.",
+      "copy": "Copiar",
+      "copied": "Chave PIX copiada!",
+      "qrCodeAlt": "QR Code da Instituição"
+    },
+    "transfer": {
+      "title": "Transferência",
+      "description": "Para DOC ou TED, utilize os dados da nossa conta bancária institucional.",
+      "bank": "Banco",
+      "branch": "Agência",
+      "account": "Conta Corrente",
+      "cnpj": "CNPJ"
+    }
+  },
+
 
 
 

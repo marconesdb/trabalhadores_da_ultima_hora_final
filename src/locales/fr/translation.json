@@ -456,6 +456,31 @@
 
 
 
+
+
+  "donation": {
+    "title": "Faites Votre Don",
+    "description": "Votre contribution aide à maintenir nos activités d'assistance sociale, l'entretien du véhicule de soutien et l'achat de nourriture.",
+    "pix": {
+      "title": "PIX",
+      "description": "Le moyen le plus rapide et sans frais d'aider. Utilisez la clé ci-dessous ou scannez le code QR.",
+      "copy": "Copier",
+      "copied": "Clé PIX copiée !",
+      "qrCodeAlt": "Code QR de l'Institution"
+    },
+    "transfer": {
+      "title": "Virement",
+      "description": "Pour DOC ou TED, utilisez les coordonnées de notre compte bancaire institutionnel.",
+      "bank": "Banque",
+      "branch": "Agence",
+      "account": "Compte Courant",
+      "cnpj": "N° SIRET"
+    }
+  },
+
+
+
+
   "footer": {
     "institutionalTitle": "Travailleurs de la Dernière Heure",
     "institutionalQuote": "Hors de la charité, il n'y a pas de salut.",

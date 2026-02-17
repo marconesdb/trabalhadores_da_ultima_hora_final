@@ -498,9 +498,28 @@
     }
   },
 
-  
 
 
+
+  "donation": {
+    "title": "Make Your Donation",
+    "description": "Your contribution helps maintain our social assistance activities, support vehicle maintenance and purchase of food.",
+    "pix": {
+      "title": "PIX",
+      "description": "The fastest and fee-free way to help. Use the key below or scan the QR Code.",
+      "copy": "Copy",
+      "copied": "PIX key copied!",
+      "qrCodeAlt": "Institution QR Code"
+    },
+    "transfer": {
+      "title": "Bank Transfer",
+      "description": "For DOC or TED, use our institutional bank account details.",
+      "bank": "Bank",
+      "branch": "Branch",
+      "account": "Checking Account",
+      "cnpj": "Tax ID"
+    }
+  },
 
 
 

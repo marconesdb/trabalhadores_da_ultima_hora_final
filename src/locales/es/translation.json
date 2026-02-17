@@ -463,6 +463,27 @@
 
 
 
+  "donation": {
+    "title": "Haz tu Donación",
+    "description": "Tu contribución ayuda a mantener nuestras actividades de asistencia social, mantenimiento del vehículo de apoyo y compra de alimentos.",
+    "pix": {
+      "title": "PIX",
+      "description": "La forma más rápida y sin comisiones de ayudar. Utiliza la clave a continuación o escanea el código QR.",
+      "copy": "Copiar",
+      "copied": "¡Clave PIX copiada!",
+      "qrCodeAlt": "Código QR de la Institución"
+    },
+    "transfer": {
+      "title": "Transferencia",
+      "description": "Para DOC o TED, utiliza los datos de nuestra cuenta bancaria institucional.",
+      "bank": "Banco",
+      "branch": "Agencia",
+      "account": "Cuenta Corriente",
+      "cnpj": "CUIT"
+    }
+  },
+
+
 
 
   "footer": {

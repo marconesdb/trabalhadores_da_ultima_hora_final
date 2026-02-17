@@ -324,6 +324,29 @@
 
 
 
+  "donation": {
+    "title": "Fai la Tua Donazione",
+    "description": "Il tuo contributo aiuta a mantenere le nostre attività di assistenza sociale, la manutenzione del veicolo di supporto e l'acquisto di cibo.",
+    "pix": {
+      "title": "PIX",
+      "description": "Il modo più veloce e senza commissioni per aiutare. Usa la chiave qui sotto o scansiona il codice QR.",
+      "copy": "Copia",
+      "copied": "Chiave PIX copiata!",
+      "qrCodeAlt": "Codice QR dell'Istituzione"
+    },
+    "transfer": {
+      "title": "Bonifico",
+      "description": "Per DOC o TED, utilizza i dati del nostro conto bancario istituzionale.",
+      "bank": "Banca",
+      "branch": "Filiale",
+      "account": "Conto Corrente",
+      "cnpj": "Partita IVA"
+    }
+  },
+
+
+
+
   "bazarHeader": {
     "title": "Bazar Benefico",
     "subtitle": "Lavoratori dell'Ultima Ora",
