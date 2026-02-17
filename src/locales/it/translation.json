@@ -276,6 +276,189 @@
 
 
 
+  "pageHeader": {
+    "title": "Supporto Ospedaliero",
+    "subtitle": "Lavoratori dell'Ultima Ora"
+  },
+  "whatWeDo": {
+    "title": "Cosa facciamo",
+    "description1": "Serviamo",
+    "descriptionBold": "cibo e snack gratuiti",
+    "description2": "davanti agli ospedali per pazienti, accompagnatori e familiari.",
+    "mission": "La nostra missione è garantire che nessuno soffra la fame durante i momenti difficili di attesa e assistenza ospedaliera."
+  },
+  "whatWeOffer": {
+    "title": "Cosa offriamo",
+    "meals": "Pasti",
+    "coffee": "Caffè",
+    "snacks": "Spuntini",
+    "drinks": "Succhi e acqua"
+  },
+  "schedule": {
+    "title": "Orari",
+    "days": "Mercoledì e Domenica",
+    "time": "Sera: 18:00 alle 23:00"
+  },
+  "location": {
+    "title": "Dove siamo",
+    "description": "Di fronte ai principali ospedali della regione"
+  },
+  "contact": {
+    "title": "Contatto",
+    "phone": "Tel",
+    "email": "Email"
+  },
+  "cta": {
+    "volunteer": {
+      "description": "Aiutaci a servire chi ha bisogno",
+      "button": "Voglio Aiutare!"
+    },
+    "donate": {
+      "title": "Fai una Donazione",
+      "description": "Cibo, provviste o denaro",
+      "button": "Dona Ora"
+    }
+  },
+
+
+
+
+
+  "bazarHeader": {
+    "title": "Bazar Benefico",
+    "subtitle": "Lavoratori dell'Ultima Ora",
+    "tagline": "Trasformare vite attraverso la solidarietà e il lavoro volontario"
+  },
+  "callBanner": {
+    "title": "Diventa un Volontario!",
+    "description": "Dona il tuo tempo, moltiplica l'amore e fai la differenza nella comunità",
+    "button": "Voglio Essere Volontario"
+  },
+  "mission": {
+    "title": "La Nostra Missione",
+    "paragraph1": {
+      "part1": "Il",
+      "bold1": "Bazar Benefico",
+      "part2": "dell'istituzione",
+      "bold2": "Lavoratori dell'Ultima Ora",
+      "part3": "è più di un punto vendita di articoli donati. Siamo una rete di solidarietà dove i volontari dedicano il loro tempo e talento per raccogliere fondi e servire famiglie in situazione di vulnerabilità sociale."
+    },
+    "paragraph2": "Attraverso il lavoro volontario, promuoviamo dignità, accoglienza e speranza, creando un ciclo virtuoso dove ogni gesto d'amore si moltiplica in trasformazione sociale."
+  },
+  "impactSection": {
+    "title": "Il Nostro Impatto"
+  },
+  "impact": {
+    "families": "Famiglie Servite",
+    "items": "Articoli Donati/Mese",
+    "volunteers": "Volontari Attivi",
+    "raised": "Raccolto/Mese"
+  },
+  "volunteerSection": {
+    "title": "Come Puoi Aiutare",
+    "description": "Abbiamo diverse opportunità di volontariato. Scegli quella che fa per te!"
+  },
+  "volunteerAreas": {
+    "organization": {
+      "title": "Organizzazione e Smistamento",
+      "description": "Aiuta a organizzare, separare e catalogare le donazioni ricevute",
+      "schedule": "Lunedì e Mercoledì, 14h-17h"
+    },
+    "marketing": {
+      "title": "Divulgazione e Marketing",
+      "description": "Crea contenuti per i social media e aiuta nella comunicazione",
+      "schedule": "Flessibile - lavoro remoto"
+    },
+    "customerService": {
+      "title": "Servizio al Pubblico",
+      "description": "Accogli i visitatori e aiuta nella scelta dei prodotti durante i bazar",
+      "schedule": "Giorni di bazar - 9h alle 17h"
+    },
+    "logistics": {
+      "title": "Logistica e Trasporto",
+      "description": "Aiuta nella raccolta di donazioni e trasporto di materiali",
+      "schedule": "Sabati, 8h-12h"
+    },
+    "financial": {
+      "title": "Supporto Finanziario",
+      "description": "Aiuta nel controllo vendite e cassa durante gli eventi",
+      "schedule": "Giorni di bazar - turni vari"
+    },
+    "maintenance": {
+      "title": "Manutenzione e Riparazioni",
+      "description": "Ripara e restaura articoli donati da vendere",
+      "schedule": "Flessibile"
+    }
+  },
+  "testimonialsSection": {
+    "title": "Voci dei Volontari"
+  },
+  "testimonials": {
+    "maria": {
+      "role": "Volontaria da 2 anni",
+      "text": "Partecipare al bazar benefico ha cambiato la mia vita. Vedere il sorriso delle famiglie servite non ha prezzo!"
+    },
+    "joao": {
+      "role": "Coordinatore Logistica",
+      "text": "Ho trovato qui una famiglia di persone che vogliono fare del bene. Il lavoro è gratificante e trasformativo."
+    },
+    "ana": {
+      "role": "Volontaria di Smistamento",
+      "text": "Ogni articolo organizzato rappresenta speranza per qualcuno. Sapere di farne parte mi riempie di gioia!"
+    }
+  },
+  "contactSection": {
+    "title": "Contattaci",
+    "location": {
+      "title": "Posizione",
+      "address": "Via: João Figueiredo, N. 318 - Quartiere: Vila Exposição; Città: Montes Claros - MG, CEP: 39400-286",
+      "reference": "Punto di Riferimento: Accesso al Cancello 9 del Parco Espositivo João Alencar Athaide"
+    },
+    "hours": {
+      "title": "Orari",
+      "days": "Lunedì a Venerdì",
+      "time": "9h alle 17h"
+    },
+    "phone": {
+      "title": "Telefono"
+    },
+    "email": {
+      "title": "Email"
+    }
+  },
+  "finalCta": {
+    "title": "Unisciti a Questa Famiglia!",
+    "description": "Non importa quanto tempo hai disponibile. Ogni aiuto è prezioso e fa la differenza. Unisciti a noi e scopri il potere trasformativo del volontariato!",
+    "button": "Contattaci e diventa un Volontario"
+  },
+  "form": {
+    "title": "Registrazione Volontario",
+    "description": "Compila i tuoi dati e ti contatteremo presto!",
+    "fields": {
+      "name": "Nome completo",
+      "email": "Email",
+      "phone": "Telefono",
+      "area": {
+        "placeholder": "Area di interesse",
+        "options": {
+          "organization": "Organizzazione e Smistamento",
+          "marketing": "Divulgazione e Marketing",
+          "customerService": "Servizio al Pubblico",
+          "logistics": "Logistica e Trasporto",
+          "financial": "Supporto Finanziario",
+          "maintenance": "Manutenzione e Riparazioni"
+        }
+      }
+    },
+    "buttons": {
+      "cancel": "Annulla",
+      "submit": "Invia"
+    }
+  },
+
+
+
+
   "footer": {
     "institutionalTitle": "Lavoratori dell'Ultima Ora",
     "institutionalQuote": "Fuori dalla carità non c'è salvezza.",

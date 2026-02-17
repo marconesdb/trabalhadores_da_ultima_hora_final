@@ -318,6 +318,192 @@
 
 
 
+
+  "pageHeader": {
+    "title": "Hospital Support",
+    "subtitle": "Last Hour Workers"
+  },
+  "whatWeDo": {
+    "title": "What we do",
+    "description1": "We serve",
+    "descriptionBold": "free food and snacks",
+    "description2": "in front of hospitals for patients, companions and families.",
+    "mission": "Our mission is to ensure that no one goes hungry during difficult times of waiting and hospital care."
+  },
+  "whatWeOffer": {
+    "title": "What we offer",
+    "meals": "Meals",
+    "coffee": "Coffee",
+    "snacks": "Snacks",
+    "drinks": "Juices and water"
+  },
+  "schedule": {
+    "title": "Schedule",
+    "days": "Wednesday and Sunday",
+    "time": "Evening: 6 PM to 11 PM"
+  },
+  "location": {
+    "title": "Where we are",
+    "description": "In front of the main hospitals in the region"
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "cta": {
+    "volunteer": {
+      "description": "Help us serve those in need",
+      "button": "I Want to Help!"
+    },
+    "donate": {
+      "title": "Make a Donation",
+      "description": "Food, supplies or money",
+      "button": "Donate Now"
+    }
+  },
+
+
+
+
+  "bazarHeader": {
+    "title": "Charity Bazaar",
+    "subtitle": "Last Hour Workers",
+    "tagline": "Transforming lives through solidarity and volunteer work"
+  },
+  "callBanner": {
+    "title": "Become a Volunteer!",
+    "description": "Donate your time, multiply love and make a difference in the community",
+    "button": "I Want to Volunteer"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "paragraph1": {
+      "part1": "The",
+      "bold1": "Charity Bazaar",
+      "part2": "of the",
+      "bold2": "Last Hour Workers",
+      "part3": "institution is more than a sales point for donated items. We are a solidarity network where volunteers dedicate their time and talent to raise funds and serve families in situations of social vulnerability."
+    },
+    "paragraph2": "Through volunteer work, we promote dignity, welcome and hope, creating a virtuous cycle where each gesture of love multiplies into social transformation."
+  },
+  "impactSection": {
+    "title": "Our Impact"
+  },
+  "impact": {
+    "families": "Families Served",
+    "items": "Items Donated/Month",
+    "volunteers": "Active Volunteers",
+    "raised": "Raised/Month"
+  },
+  "volunteerSection": {
+    "title": "How You Can Help",
+    "description": "We have various volunteer opportunities. Choose the one that suits you best!"
+  },
+  "volunteerAreas": {
+    "organization": {
+      "title": "Organization and Sorting",
+      "description": "Help organize, separate and catalog received donations",
+      "schedule": "Mondays and Wednesdays, 2 PM-5 PM"
+    },
+    "marketing": {
+      "title": "Outreach and Marketing",
+      "description": "Create content for social media and help with communication",
+      "schedule": "Flexible - remote work"
+    },
+    "customerService": {
+      "title": "Customer Service",
+      "description": "Welcome visitors and assist in product selection during bazaars",
+      "schedule": "Bazaar days - 9 AM to 5 PM"
+    },
+    "logistics": {
+      "title": "Logistics and Transportation",
+      "description": "Assist in collecting donations and transporting materials",
+      "schedule": "Saturdays, 8 AM-12 PM"
+    },
+    "financial": {
+      "title": "Financial Support",
+      "description": "Help with sales control and cashier during events",
+      "schedule": "Bazaar days - various shifts"
+    },
+    "maintenance": {
+      "title": "Maintenance and Repairs",
+      "description": "Fix and restore donated items to be sold",
+      "schedule": "Flexible"
+    }
+  },
+  "testimonialsSection": {
+    "title": "Volunteer Voices"
+  },
+  "testimonials": {
+    "maria": {
+      "role": "Volunteer for 2 years",
+      "text": "Participating in the charity bazaar changed my life. Seeing the smiles of the families served is priceless!"
+    },
+    "joao": {
+      "role": "Logistics Coordinator",
+      "text": "I found here a family of people who want to do good. The work is rewarding and transformative."
+    },
+    "ana": {
+      "role": "Sorting Volunteer",
+      "text": "Each organized item represents hope for someone. Knowing I'm part of this fills me with joy!"
+    }
+  },
+  "contactSection": {
+    "title": "Get in Touch",
+    "location": {
+      "title": "Location",
+      "address": "Street: João Figueiredo, No. 318 - Neighborhood: Vila Exposição; City: Montes Claros - MG, ZIP: 39400-286",
+      "reference": "Reference Point: Access to Gate 9 of João Alencar Athaide Exhibition Park"
+    },
+    "hours": {
+      "title": "Hours",
+      "days": "Monday to Friday",
+      "time": "9 AM to 5 PM"
+    },
+    "phone": {
+      "title": "Phone"
+    },
+    "email": {
+      "title": "Email"
+    }
+  },
+  "finalCta": {
+    "title": "Join This Family!",
+    "description": "No matter how much time you have available. All help is valuable and makes a difference. Join us and discover the transformative power of volunteering!",
+    "button": "Get in touch and become a Volunteer"
+  },
+  "form": {
+    "title": "Volunteer Registration",
+    "description": "Fill in your details and we'll contact you soon!",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "area": {
+        "placeholder": "Area of interest",
+        "options": {
+          "organization": "Organization and Sorting",
+          "marketing": "Outreach and Marketing",
+          "customerService": "Customer Service",
+          "logistics": "Logistics and Transportation",
+          "financial": "Financial Support",
+          "maintenance": "Maintenance and Repairs"
+        }
+      }
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "submit": "Submit"
+    }
+  },
+
+  
+
+
+
+
+
   "footer": {
     "institutionalTitle": "Workers of the Last Hour",
     "institutionalQuote": "Outside of charity there is no salvation.",

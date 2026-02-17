@@ -17,7 +17,7 @@
 
 
 
-  
+
   "home": {
     "hero": {
       "titulo": "Trabalhadores da Última Hora",
@@ -303,11 +303,185 @@
 
 
 
+  "pageHeader": {
+    "title": "Apoio Hospitalar",
+    "subtitle": "Trabalhadores da Última Hora"
+  },
+  "whatWeDo": {
+    "title": "O que fazemos",
+    "description1": "Servimos",
+    "descriptionBold": "comida e lanches gratuitos",
+    "description2": "em frente aos hospitais para pacientes, acompanhantes e familiares.",
+    "mission": "Nossa missão é garantir que ninguém passe fome durante momentos difíceis de espera e atendimento hospitalar."
+  },
+  "whatWeOffer": {
+    "title": "O que oferecemos",
+    "meals": "Refeições",
+    "coffee": "Café",
+    "snacks": "Lanches",
+    "drinks": "Sucos e água"
+  },
+  "schedule": {
+    "title": "Horários",
+    "days": "Quarta e Domingo",
+    "time": "Noite: 18h às 23h"
+  },
+  "location": {
+    "title": "Onde estamos",
+    "description": "Em frente aos principais hospitais da região"
+  },
+  "contact": {
+    "title": "Contato",
+    "phone": "Tel",
+    "email": "Email"
+  },
+  "cta": {
+    "volunteer": {
+      "description": "Ajude-nos a servir quem precisa",
+      "button": "Quero Ajudar !"
+    },
+    "donate": {
+      "title": "Faça uma Doação",
+      "description": "Alimentos, mantimentos ou dinheiro",
+      "button": "Doar Agora"
+    }
+  },
 
 
 
 
 
+  "bazarHeader": {
+    "title": "Bazar Beneficente",
+    "subtitle": "Trabalhadores da Última Hora",
+    "tagline": "Transformando vidas através da solidariedade e do trabalho voluntário"
+  },
+  "callBanner": {
+    "title": "Seja um Voluntário!",
+    "description": "Doe seu tempo, multiplique amor e faça a diferença na comunidade",
+    "button": "Quero Ser Voluntário"
+  },
+  "mission": {
+    "title": "Nossa Missão",
+    "paragraph1": {
+      "part1": "O",
+      "bold1": "Bazar Beneficente",
+      "part2": "da instituição",
+      "bold2": "Trabalhadores da Última Hora",
+      "part3": "é mais do que um ponto de venda de itens doados. Somos uma rede de solidariedade onde voluntários dedicam seu tempo e talento para arrecadar fundos e atender famílias em situação de vulnerabilidade social."
+    },
+    "paragraph2": "Através do trabalho voluntário, promovemos dignidade, acolhimento e esperança, criando um ciclo virtuoso onde cada gesto de amor se multiplica em transformação social."
+  },
+  "impactSection": {
+    "title": "Nosso Impacto"
+  },
+  "impact": {
+    "families": "Famílias Atendidas",
+    "items": "Itens Doados/Mês",
+    "volunteers": "Voluntários Ativos",
+    "raised": "Arrecadado/Mês"
+  },
+  "volunteerSection": {
+    "title": "Como Você Pode Ajudar",
+    "description": "Temos diversas oportunidades de voluntariado. Escolha a que mais combina com você!"
+  },
+  "volunteerAreas": {
+    "organization": {
+      "title": "Organização e Triagem",
+      "description": "Ajude a organizar, separar e catalogar as doações recebidas",
+      "schedule": "Segundas e Quartas, 14h-17h"
+    },
+    "marketing": {
+      "title": "Divulgação e Marketing",
+      "description": "Crie conteúdo para redes sociais e ajude na comunicação",
+      "schedule": "Flexível - trabalho remoto"
+    },
+    "customerService": {
+      "title": "Atendimento ao Público",
+      "description": "Receba visitantes e auxilie na escolha de produtos durante os bazares",
+      "schedule": "Dias de bazar - 9h às 17h"
+    },
+    "logistics": {
+      "title": "Logística e Transporte",
+      "description": "Auxilie na coleta de doações e transporte de materiais",
+      "schedule": "Sábados, 8h-12h"
+    },
+    "financial": {
+      "title": "Apoio Financeiro",
+      "description": "Ajude no controle de vendas e caixa durante os eventos",
+      "schedule": "Dias de bazar - turnos variados"
+    },
+    "maintenance": {
+      "title": "Manutenção e Reparos",
+      "description": "Conserte e restaure itens doados para serem vendidos",
+      "schedule": "Flexível"
+    }
+  },
+  "testimonialsSection": {
+    "title": "Vozes dos Voluntários"
+  },
+  "testimonials": {
+    "maria": {
+      "role": "Voluntária há 2 anos",
+      "text": "Participar do bazar beneficente mudou minha vida. Ver o sorriso das famílias atendidas não tem preço!"
+    },
+    "joao": {
+      "role": "Coordenador de Logística",
+      "text": "Encontrei aqui uma família de pessoas que querem fazer o bem. O trabalho é gratificante e transformador."
+    },
+    "ana": {
+      "role": "Voluntária de Triagem",
+      "text": "Cada item organizado representa esperança para alguém. Saber que faço parte disso me enche de alegria!"
+    }
+  },
+  "contactSection": {
+    "title": "Entre em Contato",
+    "location": {
+      "title": "Local",
+      "address": "Rua: João Figueiredo, Nº. 318 - Bairro: Vila Exposição; Cidade: Montes Claros - MG, CEP: 39400-286",
+      "reference": "Ponto de Referência: Acesso ao Portão 9 do Parque de Exposições João Alencar Athaide"
+    },
+    "hours": {
+      "title": "Horário",
+      "days": "Segunda a Sexta",
+      "time": "9h às 17h"
+    },
+    "phone": {
+      "title": "Telefone"
+    },
+    "email": {
+      "title": "E-mail"
+    }
+  },
+  "finalCta": {
+    "title": "Faça Parte Desta Família!",
+    "description": "Não importa quanto tempo você tem disponível. Toda ajuda é valiosa e faz a diferença. Junte-se a nós e descubra o poder transformador do voluntariado!",
+    "button": "Entre em contato e seja um Voluntário"
+  },
+  "form": {
+    "title": "Cadastro de Voluntário",
+    "description": "Preencha seus dados e entraremos em contato em breve!",
+    "fields": {
+      "name": "Nome completo",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "area": {
+        "placeholder": "Área de interesse",
+        "options": {
+          "organization": "Organização e Triagem",
+          "marketing": "Divulgação e Marketing",
+          "customerService": "Atendimento ao Público",
+          "logistics": "Logística e Transporte",
+          "financial": "Apoio Financeiro",
+          "maintenance": "Manutenção e Reparos"
+        }
+      }
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "submit": "Enviar"
+    }
+  },
 
 
 

@@ -275,6 +275,187 @@
 
 
 
+
+  "pageHeader": {
+    "title": "Soutien Hospitalier",
+    "subtitle": "Travailleurs de la Dernière Heure"
+  },
+  "whatWeDo": {
+    "title": "Ce que nous faisons",
+    "description1": "Nous servons",
+    "descriptionBold": "de la nourriture et des collations gratuites",
+    "description2": "devant les hôpitaux pour les patients, accompagnateurs et familles.",
+    "mission": "Notre mission est de garantir que personne n'ait faim pendant les moments difficiles d'attente et de soins hospitaliers."
+  },
+  "whatWeOffer": {
+    "title": "Ce que nous offrons",
+    "meals": "Repas",
+    "coffee": "Café",
+    "snacks": "Collations",
+    "drinks": "Jus et eau"
+  },
+  "schedule": {
+    "title": "Horaires",
+    "days": "Mercredi et Dimanche",
+    "time": "Soirée: 18h à 23h"
+  },
+  "location": {
+    "title": "Où nous sommes",
+    "description": "Devant les principaux hôpitaux de la région"
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Tél",
+    "email": "Email"
+  },
+  "cta": {
+    "volunteer": {
+      "description": "Aidez-nous à servir ceux qui en ont besoin",
+      "button": "Je Veux Aider !"
+    },
+    "donate": {
+      "title": "Faire un Don",
+      "description": "Nourriture, provisions ou argent",
+      "button": "Donner Maintenant"
+    }
+  },
+
+
+
+  "bazarHeader": {
+    "title": "Bazar Caritatif",
+    "subtitle": "Travailleurs de la Dernière Heure",
+    "tagline": "Transformer des vies par la solidarité et le travail bénévole"
+  },
+  "callBanner": {
+    "title": "Devenez Bénévole !",
+    "description": "Donnez de votre temps, multipliez l'amour et faites la différence dans la communauté",
+    "button": "Je Veux Être Bénévole"
+  },
+  "mission": {
+    "title": "Notre Mission",
+    "paragraph1": {
+      "part1": "Le",
+      "bold1": "Bazar Caritatif",
+      "part2": "de l'institution",
+      "bold2": "Travailleurs de la Dernière Heure",
+      "part3": "est plus qu'un point de vente d'articles donnés. Nous sommes un réseau de solidarité où les bénévoles consacrent leur temps et leur talent pour collecter des fonds et servir les familles en situation de vulnérabilité sociale."
+    },
+    "paragraph2": "Grâce au travail bénévole, nous promouvons la dignité, l'accueil et l'espoir, créant un cercle vertueux où chaque geste d'amour se multiplie en transformation sociale."
+  },
+  "impactSection": {
+    "title": "Notre Impact"
+  },
+  "impact": {
+    "families": "Familles Servies",
+    "items": "Articles Donnés/Mois",
+    "volunteers": "Bénévoles Actifs",
+    "raised": "Collecté/Mois"
+  },
+  "volunteerSection": {
+    "title": "Comment Vous Pouvez Aider",
+    "description": "Nous avons diverses opportunités de bénévolat. Choisissez celle qui vous convient le mieux !"
+  },
+  "volunteerAreas": {
+    "organization": {
+      "title": "Organisation et Tri",
+      "description": "Aidez à organiser, séparer et cataloguer les dons reçus",
+      "schedule": "Lundis et Mercredis, 14h-17h"
+    },
+    "marketing": {
+      "title": "Diffusion et Marketing",
+      "description": "Créez du contenu pour les réseaux sociaux et aidez à la communication",
+      "schedule": "Flexible - travail à distance"
+    },
+    "customerService": {
+      "title": "Service Client",
+      "description": "Accueillez les visiteurs et aidez au choix des produits pendant les bazars",
+      "schedule": "Jours de bazar - 9h à 17h"
+    },
+    "logistics": {
+      "title": "Logistique et Transport",
+      "description": "Aidez à la collecte de dons et au transport de matériaux",
+      "schedule": "Samedis, 8h-12h"
+    },
+    "financial": {
+      "title": "Support Financier",
+      "description": "Aidez au contrôle des ventes et à la caisse pendant les événements",
+      "schedule": "Jours de bazar - horaires variés"
+    },
+    "maintenance": {
+      "title": "Maintenance et Réparations",
+      "description": "Réparez et restaurez les articles donnés pour être vendus",
+      "schedule": "Flexible"
+    }
+  },
+  "testimonialsSection": {
+    "title": "Voix des Bénévoles"
+  },
+  "testimonials": {
+    "maria": {
+      "role": "Bénévole depuis 2 ans",
+      "text": "Participer au bazar caritatif a changé ma vie. Voir le sourire des familles servies n'a pas de prix !"
+    },
+    "joao": {
+      "role": "Coordinateur Logistique",
+      "text": "J'ai trouvé ici une famille de personnes qui veulent faire le bien. Le travail est gratifiant et transformateur."
+    },
+    "ana": {
+      "role": "Bénévole de Tri",
+      "text": "Chaque article organisé représente l'espoir pour quelqu'un. Savoir que j'en fais partie me remplit de joie !"
+    }
+  },
+  "contactSection": {
+    "title": "Contactez-nous",
+    "location": {
+      "title": "Lieu",
+      "address": "Rue : João Figueiredo, N° 318 - Quartier : Vila Exposição ; Ville : Montes Claros - MG, CEP : 39400-286",
+      "reference": "Point de Référence : Accès à la Porte 9 du Parc d'Expositions João Alencar Athaide"
+    },
+    "hours": {
+      "title": "Horaires",
+      "days": "Lundi à Vendredi",
+      "time": "9h à 17h"
+    },
+    "phone": {
+      "title": "Téléphone"
+    },
+    "email": {
+      "title": "Email"
+    }
+  },
+  "finalCta": {
+    "title": "Rejoignez Cette Famille !",
+    "description": "Peu importe le temps dont vous disposez. Toute aide est précieuse et fait la différence. Rejoignez-nous et découvrez le pouvoir transformateur du bénévolat !",
+    "button": "Contactez-nous et devenez Bénévole"
+  },
+  "form": {
+    "title": "Inscription Bénévole",
+    "description": "Remplissez vos coordonnées et nous vous contactons bientôt !",
+    "fields": {
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "area": {
+        "placeholder": "Domaine d'intérêt",
+        "options": {
+          "organization": "Organisation et Tri",
+          "marketing": "Diffusion et Marketing",
+          "customerService": "Service Client",
+          "logistics": "Logistique et Transport",
+          "financial": "Support Financier",
+          "maintenance": "Maintenance et Réparations"
+        }
+      }
+    },
+    "buttons": {
+      "cancel": "Annuler",
+      "submit": "Envoyer"
+    }
+  },
+
+
+
   "footer": {
     "institutionalTitle": "Travailleurs de la Dernière Heure",
     "institutionalQuote": "Hors de la charité, il n'y a pas de salut.",
