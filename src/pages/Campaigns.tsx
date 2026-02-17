@@ -1,4 +1,5 @@
-import { useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Play, X, Heart, MessageCircle, Share2, ExternalLink, Pause, Volume2, VolumeX } from 'lucide-react';
 
 interface Video {
@@ -78,7 +79,6 @@ const videos: Video[] = [
     likes: "18",
     comments: "95"
   },
-
   {
     id: 8,
     title: "Terceiro Setor em Destaque",
@@ -88,9 +88,8 @@ const videos: Video[] = [
     likes: "18",
     comments: "95"
   },
-
-   {
-    id: 8,
+  {
+    id: 9,
     title: "Trabalhadoras em Destaque",
     thumbnail: "/assets/img/Trabalhadora.jpg",
     type: "mp4",
@@ -100,7 +99,8 @@ const videos: Video[] = [
   }
 ];
 
-const VideoGallery = () => {
+const VideoGallery: React.FC = () => {
+  const { t } = useTranslation();
   const [selectedVideo, setSelectedVideo] = useState<Video | null>(null);
 
   return (
@@ -108,10 +108,10 @@ const VideoGallery = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8 md:mb-12">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent px-4">
-            Acompanhe nossas campanhas e ações sociais
+            {t('galeria.header.title')}
           </h1>
           <p className="text-slate-600 text-base md:text-lg">
-            Galeria de Vídeos e Fotos
+            {t('galeria.header.subtitle')}
           </p>
         </div>
 
@@ -142,7 +142,7 @@ const VideoGallery = () => {
                     ? 'bg-gradient-to-r from-emerald-500 to-teal-500' 
                     : 'bg-gradient-to-r from-blue-500 to-cyan-500'
                 } text-white px-2.5 py-1 md:px-3 md:py-1 rounded-full text-xs font-bold shadow-lg`}>
-                  {video.type === 'instagram' ? 'Instagram' : video.type === 'image' ? 'Foto' : 'Vídeo'}
+                  {video.type === 'instagram' ? 'Instagram' : video.type === 'image' ? t('galeria.badge.photo') : t('galeria.badge.video')}
                 </div>
               </div>
 
@@ -170,7 +170,7 @@ const VideoGallery = () => {
                       }}
                       className="flex items-center gap-1 text-pink-500 hover:text-pink-600 font-semibold"
                     >
-                      Ver no IG
+                      {t('galeria.viewOnIG')}
                       <ExternalLink className="w-3.5 h-3.5 md:w-4 md:h-4" />
                     </button>
                   )}
@@ -190,10 +190,10 @@ const VideoGallery = () => {
 
       <div className="max-w-4xl mx-auto mt-12 md:mt-16 text-center bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl md:rounded-3xl p-8 md:p-12 text-white shadow-2xl">
         <h2 className="text-2xl md:text-3xl font-bold mb-3 md:mb-4">
-          Siga-nos no Instagram
+          {t('galeria.cta.title')}
         </h2>
         <p className="text-base md:text-lg mb-5 md:mb-6 text-white text-opacity-90">
-          Acompanhe todas as nossas campanhas e ações em tempo real
+          {t('galeria.cta.subtitle')}
         </p>
         <a
           href="https://www.instagram.com/trabalhadores.daultimahora/"
@@ -214,6 +214,7 @@ const VideoGallery = () => {
 };
 
 const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) => {
+  const { t } = useTranslation();
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -238,19 +239,21 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
 
   return (
     <div
-      className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-2 sm:p-4 backdrop-blur-sm"
+      className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4"
       onClick={onClose}
     >
+      {/* Botão Close - FORA do container do modal */}
+      <button
+        onClick={onClose}
+        className="fixed top-4 right-4 z-[100] w-14 h-14 rounded-full bg-red-600 hover:bg-red-700 flex items-center justify-center transition-all shadow-2xl border-4 border-white"
+      >
+        <X className="w-8 h-8 text-white" strokeWidth={3} />
+      </button>
+
       <div
-        className="relative w-full max-w-[95vw] sm:max-w-2xl bg-white rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl"
+        className="relative w-full max-w-2xl bg-white rounded-3xl shadow-2xl overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
-        <button
-          onClick={onClose}
-          className="absolute top-3 right-3 z-50 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-slate-800 bg-opacity-90 hover:bg-opacity-100 flex items-center justify-center transition-all shadow-xl"
-        >
-          <X className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
-        </button>
 
         {video.type === 'image' ? (
           <div className="relative w-full aspect-square bg-black">
@@ -280,24 +283,16 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
                           <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
                         </svg>
                       </div>
-                      <h3 class="text-lg sm:text-xl font-bold text-white mb-2">Erro ao carregar vídeo</h3>
-                      <p class="text-xs sm:text-sm text-slate-300 mb-2 break-all px-2">Caminho: ${video.videoUrl}</p>
-                      <p class="text-slate-400 text-xs sm:text-sm mb-4">Verifique se o arquivo existe e está acessível</p>
-                      <div class="bg-slate-800 text-slate-300 px-3 py-2 sm:px-4 sm:py-3 rounded-lg text-xs sm:text-sm text-left max-w-full">
-                        <p class="font-bold mb-2">Soluções possíveis:</p>
-                        <ul class="list-disc list-inside space-y-1 text-xs">
-                          <li>Verifique se o arquivo está em: <strong>public/assets/video/</strong></li>
-                          <li class="break-all">Teste acessar: <a href="${video.videoUrl}" target="_blank" class="text-blue-400 underline">${video.videoUrl}</a></li>
-                          <li>Verifique se o nome do arquivo está correto</li>
-                        </ul>
-                      </div>
+                      <h3 class="text-lg sm:text-xl font-bold text-white mb-2">${t('galeria.modal.error.title')}</h3>
+                      <p class="text-xs sm:text-sm text-slate-300 mb-2 break-all px-2">${t('galeria.modal.error.path')}: ${video.videoUrl}</p>
+                      <p class="text-slate-400 text-xs sm:text-sm mb-4">${t('galeria.modal.error.message')}</p>
                     </div>
                   `;
                 }
               }}
             >
               <source src={video.videoUrl} type="video/mp4" />
-              Seu navegador não suporta vídeos.
+              {t('galeria.modal.browserNotSupported')}
             </video>
 
             <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4 flex items-center justify-between gap-2">
@@ -356,12 +351,12 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
             <div className="flex items-center gap-4 sm:gap-6 text-slate-600 text-sm sm:text-base">
               <span className="flex items-center gap-1.5 sm:gap-2">
                 <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-pink-500" />
-                <span className="hidden xs:inline">{video.likes} curtidas</span>
+                <span className="hidden xs:inline">{video.likes} {t('galeria.modal.likes')}</span>
                 <span className="xs:hidden">{video.likes}</span>
               </span>
               <span className="flex items-center gap-1.5 sm:gap-2">
                 <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 text-purple-500" />
-                <span className="hidden xs:inline">{video.comments} comentários</span>
+                <span className="hidden xs:inline">{video.comments} {t('galeria.modal.comments')}</span>
                 <span className="xs:hidden">{video.comments}</span>
               </span>
             </div>
@@ -372,7 +367,7 @@ const VideoModal = ({ video, onClose }: { video: Video; onClose: () => void }) =
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 sm:gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 sm:px-6 sm:py-2 rounded-full text-sm sm:text-base font-semibold hover:shadow-lg transition-all whitespace-nowrap"
               >
-                <span className="hidden xs:inline">Ver no Instagram</span>
+                <span className="hidden xs:inline">{t('galeria.modal.viewOnInstagram')}</span>
                 <span className="xs:hidden">Instagram</span>
                 <Share2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
               </a>

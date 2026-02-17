@@ -11,6 +11,13 @@
     "lema": "Deus, Cristo e Caridade"
   },
 
+
+
+
+
+
+
+  
   "home": {
     "hero": {
       "titulo": "Trabalhadores da Última Hora",
@@ -44,6 +51,11 @@
       }
     }
   },
+
+
+
+
+
 
   "quemSomos": {
     "titulo": "Quem Somos",
@@ -87,6 +99,221 @@
     }
   },
 
+
+
+
+
+
+
+
+  "contato": {
+    "header": {
+      "title": "Trabalhadores da Última Hora",
+      "subtitle": "Transformando vidas através do amor e do serviço ao próximo"
+    },
+    "activities": {
+      "title": "Nossas Atividades",
+      "description": "A instituição Trabalhadores da Última Hora é uma organização dedicada ao serviço comunitário, levando esperança, apoio e transformação social para quem mais precisa. Nosso trabalho é fundamentado na fé, no amor ao próximo e no compromisso de fazer a diferença na vida das pessoas.",
+      "social": {
+        "title": "Assistência Social",
+        "description": "Distribuição de alimentos, roupas e apoio às famílias vulneráveis"
+      },
+      "spiritual": {
+        "title": "Apoio Espiritual",
+        "description": "Encontros, cultos e momentos de oração e fortalecimento"
+      }
+    },
+    "contact": {
+      "title": "Informações de Contato",
+      "address": "Endereço",
+      "phones": "Telefones",
+      "email": "E-mail",
+      "socialMedia": "Redes Sociais",
+      "hours": "Horário de Atendimento",
+      "hoursText": "Segunda a Sexta: 8h às 18h | Sábados: 9h às 13h"
+    },
+    "location": {
+      "title": "Nossa Localização"
+    },
+    "cta": {
+      "title": "Participe Conosco",
+      "subtitle": "Seja um voluntário ou faça uma doação. Sua ajuda transforma vidas!",
+      "button": "Quero Ajudar!"
+    }
+  },
+
+
+
+
+
+
+
+
+
+  "galeria": {
+    "header": {
+      "title": "Acompanhe nossas campanhas e ações sociais",
+      "subtitle": "Galeria de Vídeos e Fotos"
+    },
+    "badge": {
+      "video": "Vídeo",
+      "photo": "Foto"
+    },
+    "viewOnIG": "Ver no IG",
+    "cta": {
+      "title": "Siga-nos no Instagram",
+      "subtitle": "Acompanhe todas as nossas campanhas e ações em tempo real"
+    },
+    "modal": {
+      "likes": "curtidas",
+      "comments": "comentários",
+      "viewOnInstagram": "Ver no Instagram",
+      "browserNotSupported": "Seu navegador não suporta vídeos.",
+      "error": {
+        "title": "Erro ao carregar vídeo",
+        "path": "Caminho",
+        "message": "Verifique se o arquivo existe e está acessível"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+  "galeriaFotos": {
+    "controls": {
+      "previous": "Imagem anterior",
+      "next": "Próxima imagem",
+      "pause": "Pausar",
+      "play": "Reproduzir",
+      "goToImage": "Ir para imagem {{number}}"
+    },
+    "images": {
+      "blankets": {
+        "title": "Doação de Cobertores",
+        "description": "Distribuição de cobertores para pessoas em situação de vulnerabilidade social."
+      },
+      "prayer1": {
+        "title": "Momento de Oração",
+        "description": "Oração e Reflexão antes de sair para os trabalhos."
+      },
+      "departure": {
+        "title": "Saindo para o trabalho",
+        "description": "Kombi preparando para sair com alimentos, roupas e trabalhadores."
+      },
+      "foodDistribution1": {
+        "title": "Distribuição de Alimentos",
+        "description": "Distribuição de alimentos para pessoas em situação de vulnerabilidade social."
+      },
+      "animalCare": {
+        "title": "Cuidado com os animais",
+        "description": "Os Trabalhadores da Última Hora também alimenta os animais nas ruas."
+      },
+      "foodDistribution2": {
+        "title": "Distribuição de Alimentos",
+        "description": "Distribuição de alimentos para pessoas em situação de vulnerabilidade social."
+      },
+      "supportVan": {
+        "title": "Carro de Apoio",
+        "description": "Kombi dos Trabalhadores da Última Hora."
+      },
+      "prayer2": {
+        "title": "Momento de Oração",
+        "description": "Oração antes da distribuição de alimentos."
+      },
+      "preparation1": {
+        "title": "Distribuição de Alimentos",
+        "description": "Preparando a Kombi para distribuição de alimentos."
+      },
+      "hotdogDonation": {
+        "title": "Distribuição de Alimentos",
+        "description": "Doação de cachorro-quente."
+      },
+      "kitchen": {
+        "title": "Distribuição de Alimentos",
+        "description": "Cozinha que prepara os alimentos."
+      },
+      "receiving": {
+        "title": "Assistido recebendo alimentos",
+        "description": "No dia do Trabalhado."
+      },
+      "preparation2": {
+        "title": "Preparando os alimentos",
+        "description": "No dia do Trabalhado."
+      },
+      "fraternalMoments": {
+        "title": "Momentos Fraternos",
+        "description": "No dia do Trabalhado."
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+  "distribuicaoAlimentos": {
+    "header": {
+      "title": "Trabalhadores da Última Hora",
+      "subtitle": "Servindo com amor e dignidade"
+    },
+    "hero": {
+      "title": "Distribuição de Alimentos",
+      "description": "Nosso projeto de distribuição de alimentos alcança pessoas em situação de vulnerabilidade social, oferecendo refeições nutritivas e acolhimento para quem mais precisa."
+    },
+    "cards": {
+      "humanized": {
+        "title": "Atendimento Humanizado",
+        "description": "Tratamos cada pessoa com respeito e dignidade, oferecendo não apenas alimento, mas acolhimento."
+      },
+      "regularity": {
+        "title": "Regularidade",
+        "description": "Distribuição semanal de alimentos e refeições, garantindo suporte constante às famílias."
+      },
+      "community": {
+        "title": "Presença na Comunidade",
+        "description": "Atuamos diretamente nas comunidades, levando esperança onde é mais necessário."
+      }
+    },
+    "gallery": {
+      "title": "Nosso Trabalho em Ação"
+    },
+    "photos": {
+      "photo1": "Foto 1 - Kombi na Distribuição",
+      "photo2": "Foto 2 - Preparação da Comida",
+      "photo3": "Foto 3 - Maria Luiza",
+      "photo4": "Foto 4 - Notícias sobre o Trabalho"
+    },
+    "impact": {
+      "title": "Faça Parte Dessa Missão",
+      "description": "Sua doação ou voluntariado pode transformar vidas. Juntos, podemos fazer a diferença na vida de quem mais precisa.",
+      "donateButton": "Quero Doar",
+      "volunteerButton": "Seja Voluntário"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "footer": {
     "institutionalTitle": "Trabalhadores da Última Hora",
     "institutionalQuote": "Fora da caridade não há salvação.",
@@ -97,5 +324,3 @@
     "copyright": "Instituição de Caridade Trabalhadores da Última Hora. Todos os direitos reservados."
   }
 }
-
-

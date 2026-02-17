@@ -1,4 +1,5 @@
-import { useState, useEffect, type SetStateAction } from 'react';
+import React, { useState, useEffect, type SetStateAction } from 'react';
+import { useTranslation } from 'react-i18next';
 import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 import img01 from '../assets/img/img-01.png';
 import img02 from '../assets/img/img-02.png';
@@ -15,73 +16,26 @@ import img012 from '../assets/img/img-012.png';
 import img013 from '../assets/img/img-013.png';
 import img014 from '../assets/img/img-014.png';
 
-
-const Galeria = () => {
+const Galeria: React.FC = () => {
+  const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
 
   const images = [
-    { url: img01, title: 'Doação de Cobertores', description: 'Distribuição de cobertores para pessoas em situação de vulnerabilidade social.' },
-    { url: img02, title: 'Momento de Oração', description: 'Oração e Reflexão antes de sair para os trabalhos.' },
-    { url: img03, title: 'Saindo para o trabalho', description: 'Kombi preparando para sair com alimentos, roupas e trabalhadores.' },
-    { url: img04, title: 'Distribuição de Alimentos', description: 'Distribuição de alimentos para pessoas em situação de vulnerabilidade social.' },
-    { url: img05, title: 'Cuidado com os animais', description: 'Os Trabalhadores da Última Hora também alimenta os animais nas ruas.' },
-    { url: img06, title: 'Distribuição de Alimentos', description: 'Distribuição de alimentos para pessoas em situação de vulnerabilidade social.' },
-    { url: img07, title: 'Carro de Apoio', description: 'Kombi dos Trabalhadores da Última Hora.'},
-    { url: img08, title: 'Momento de Oração', description: 'Oração antes da distribuição de alimentos.'},
-    { url: img09, title: 'Distribuição de Alimentos', description: 'Preparando a Kombi para distribuição de alimentos.'},
-    { url: img010, title: 'Distribuição de Alimentos', description: 'Doação de cachorro-quente.'},
-    { url: img011, title: 'Distribuição de Alimentos', description: 'Cozinha que prepara os alimentos.'},
-    { url: img012, title: 'Assistido recebendo alimentos', description: 'No dia do Trabalhado.'},
-    { url: img013, title: 'Preparando os alimentos', description: 'No dia do Trabalhado.'},
-    { url: img014, title: 'Momentos Fraternos', description: 'No dia do Trabalhado.'}
-    /*
-    {
-    url: img10,
-    title: 'Cuidado com os animais',
-    description: 'Os Trabalhadores da Última Hora também alimenta os animais nas ruas.'
-    }
-    */
-
-    /*
-    {
-    url: img11,
-    title: 'Cuidado com os animais',
-    description: 'Os Trabalhadores da Última Hora também alimenta os animais nas ruas.'
-    }
-    */
-
-    /*
-    {
-    url: img12,
-    title: 'Cuidado com os animais',
-    description: 'Os Trabalhadores da Última Hora também alimenta os animais nas ruas.'
-    }
-    */
-
-    /*
-    {
-    url: img13,
-    title: 'Cuidado com os animais',
-    description: 'Os Trabalhadores da Última Hora também alimenta os animais nas ruas.'
-    }
-    */
-
-    /*
-    {
-    url: img14,
-    title: 'Cuidado com os animais',
-    description: 'Os Trabalhadores da Última Hora também alimenta os animais nas ruas.'
-    }
-    */
-
-    /*
-    {
-    url: img15,
-    title: 'Cuidado com os animais',
-    description: 'Os Trabalhadores da Última Hora também alimenta os animais nas ruas.'
-    }
-    */
+    { url: img01, titleKey: 'galeriaFotos.images.blankets.title', descriptionKey: 'galeriaFotos.images.blankets.description' },
+    { url: img02, titleKey: 'galeriaFotos.images.prayer1.title', descriptionKey: 'galeriaFotos.images.prayer1.description' },
+    { url: img03, titleKey: 'galeriaFotos.images.departure.title', descriptionKey: 'galeriaFotos.images.departure.description' },
+    { url: img04, titleKey: 'galeriaFotos.images.foodDistribution1.title', descriptionKey: 'galeriaFotos.images.foodDistribution1.description' },
+    { url: img05, titleKey: 'galeriaFotos.images.animalCare.title', descriptionKey: 'galeriaFotos.images.animalCare.description' },
+    { url: img06, titleKey: 'galeriaFotos.images.foodDistribution2.title', descriptionKey: 'galeriaFotos.images.foodDistribution2.description' },
+    { url: img07, titleKey: 'galeriaFotos.images.supportVan.title', descriptionKey: 'galeriaFotos.images.supportVan.description' },
+    { url: img08, titleKey: 'galeriaFotos.images.prayer2.title', descriptionKey: 'galeriaFotos.images.prayer2.description' },
+    { url: img09, titleKey: 'galeriaFotos.images.preparation1.title', descriptionKey: 'galeriaFotos.images.preparation1.description' },
+    { url: img010, titleKey: 'galeriaFotos.images.hotdogDonation.title', descriptionKey: 'galeriaFotos.images.hotdogDonation.description' },
+    { url: img011, titleKey: 'galeriaFotos.images.kitchen.title', descriptionKey: 'galeriaFotos.images.kitchen.description' },
+    { url: img012, titleKey: 'galeriaFotos.images.receiving.title', descriptionKey: 'galeriaFotos.images.receiving.description' },
+    { url: img013, titleKey: 'galeriaFotos.images.preparation2.title', descriptionKey: 'galeriaFotos.images.preparation2.description' },
+    { url: img014, titleKey: 'galeriaFotos.images.fraternalMoments.title', descriptionKey: 'galeriaFotos.images.fraternalMoments.description' }
   ];
 
   // Auto-play effect
@@ -90,7 +44,7 @@ const Galeria = () => {
 
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length);
-    }, 4000); // Muda a cada 4 segundos
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [isPlaying, images.length]);
@@ -150,13 +104,13 @@ const Galeria = () => {
               >
                 <img
                   src={image.url}
-                  alt={image.title}
+                  alt={t(image.titleKey)}
                   className="w-full h-full object-cover"
                 />
                 {/* Overlay com Informações */}
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-8">
-                  <h3 className="text-3xl font-bold text-white mb-2">{image.title}</h3>
-                  <p className="text-gray-200">{image.description}</p>
+                  <h3 className="text-3xl font-bold text-white mb-2">{t(image.titleKey)}</h3>
+                  <p className="text-gray-200">{t(image.descriptionKey)}</p>
                 </div>
               </div>
             ))}
@@ -166,14 +120,14 @@ const Galeria = () => {
           <button
             onClick={prevSlide}
             className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm p-3 rounded-full transition-all duration-300"
-            aria-label="Imagem anterior"
+            aria-label={t('galeriaFotos.controls.previous')}
           >
             <ChevronLeft className="w-6 h-6 text-white" />
           </button>
           <button
             onClick={nextSlide}
             className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm p-3 rounded-full transition-all duration-300"
-            aria-label="Próxima imagem"
+            aria-label={t('galeriaFotos.controls.next')}
           >
             <ChevronRight className="w-6 h-6 text-white" />
           </button>
@@ -182,7 +136,7 @@ const Galeria = () => {
           <button
             onClick={togglePlayPause}
             className="absolute top-4 right-4 bg-white/20 hover:bg-white/30 backdrop-blur-sm p-3 rounded-full transition-all duration-300"
-            aria-label={isPlaying ? 'Pausar' : 'Reproduzir'}
+            aria-label={isPlaying ? t('galeriaFotos.controls.pause') : t('galeriaFotos.controls.play')}
           >
             {isPlaying ? (
               <Pause className="w-5 h-5 text-white" />
@@ -200,7 +154,7 @@ const Galeria = () => {
                 className={`h-2 rounded-full transition-all duration-300 ${
                   index === currentIndex ? 'bg-white w-8' : 'bg-white/50 w-2 hover:bg-white/75'
                 }`}
-                aria-label={`Ir para imagem ${index + 1}`}
+                aria-label={t('galeriaFotos.controls.goToImage', { number: index + 1 })}
               />
             ))}
           </div>
@@ -218,7 +172,7 @@ const Galeria = () => {
             >
               <img
                 src={images[imageIndex].url}
-                alt={images[imageIndex].title}
+                alt={t(images[imageIndex].titleKey)}
                 className="w-full h-full object-cover"
               />
             </button>

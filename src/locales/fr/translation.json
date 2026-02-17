@@ -89,6 +89,192 @@
 
 
 
+
+
+
+  "contato": {
+    "header": {
+      "title": "Travailleurs de la Dernière Heure",
+      "subtitle": "Transformer des vies par l'amour et le service aux autres"
+    },
+    "activities": {
+      "title": "Nos Activités",
+      "description": "L'institution Travailleurs de la Dernière Heure est une organisation dédiée au service communautaire, apportant espoir, soutien et transformation sociale à ceux qui en ont le plus besoin. Notre travail est fondé sur la foi, l'amour du prochain et l'engagement à faire une différence dans la vie des gens.",
+      "social": {
+        "title": "Assistance Sociale",
+        "description": "Distribution de nourriture, vêtements et soutien aux familles vulnérables"
+      },
+      "spiritual": {
+        "title": "Soutien Spirituel",
+        "description": "Rencontres, cultes et moments de prière et de renforcement"
+      }
+    },
+    "contact": {
+      "title": "Informations de Contact",
+      "address": "Adresse",
+      "phones": "Téléphones",
+      "email": "Email",
+      "socialMedia": "Réseaux Sociaux",
+      "hours": "Heures d'Ouverture",
+      "hoursText": "Lundi à Vendredi: 8h à 18h | Samedis: 9h à 13h"
+    },
+    "location": {
+      "title": "Notre Localisation"
+    },
+    "cta": {
+      "title": "Rejoignez-Nous",
+      "subtitle": "Soyez bénévole ou faites un don. Votre aide transforme des vies!",
+      "button": "Je Veux Aider!"
+    }
+  },
+
+
+
+
+
+
+"galeria": {
+    "header": {
+      "title": "Suivez nos campagnes et actions sociales",
+      "subtitle": "Galerie de Vidéos et Photos"
+    },
+    "badge": {
+      "video": "Vidéo",
+      "photo": "Photo"
+    },
+    "viewOnIG": "Voir sur IG",
+    "cta": {
+      "title": "Suivez-nous sur Instagram",
+      "subtitle": "Suivez toutes nos campagnes et actions en temps réel"
+    },
+    "modal": {
+      "likes": "j'aime",
+      "comments": "commentaires",
+      "viewOnInstagram": "Voir sur Instagram",
+      "browserNotSupported": "Votre navigateur ne prend pas en charge les vidéos.",
+      "error": {
+        "title": "Erreur lors du chargement de la vidéo",
+        "path": "Chemin",
+        "message": "Vérifiez si le fichier existe et est accessible"
+      }
+    }
+  },
+
+
+
+
+  "galeriaFotos": {
+    "controls": {
+      "previous": "Image précédente",
+      "next": "Image suivante",
+      "pause": "Pause",
+      "play": "Lecture",
+      "goToImage": "Aller à l'image {{number}}"
+    },
+    "images": {
+      "blankets": {
+        "title": "Don de Couvertures",
+        "description": "Distribution de couvertures aux personnes en situation de vulnérabilité sociale."
+      },
+      "prayer1": {
+        "title": "Moment de Prière",
+        "description": "Prière et Réflexion avant de partir travailler."
+      },
+      "departure": {
+        "title": "Départ pour le travail",
+        "description": "Camionnette se préparant à partir avec nourriture, vêtements et travailleurs."
+      },
+      "foodDistribution1": {
+        "title": "Distribution de Nourriture",
+        "description": "Distribution de nourriture aux personnes en situation de vulnérabilité sociale."
+      },
+      "animalCare": {
+        "title": "Soins aux Animaux",
+        "description": "Les Travailleurs de la Dernière Heure nourrissent également les animaux dans les rues."
+      },
+      "foodDistribution2": {
+        "title": "Distribution de Nourriture",
+        "description": "Distribution de nourriture aux personnes en situation de vulnérabilité sociale."
+      },
+      "supportVan": {
+        "title": "Véhicule de Soutien",
+        "description": "Camionnette des Travailleurs de la Dernière Heure."
+      },
+      "prayer2": {
+        "title": "Moment de Prière",
+        "description": "Prière avant la distribution de nourriture."
+      },
+      "preparation1": {
+        "title": "Distribution de Nourriture",
+        "description": "Préparation de la camionnette pour la distribution de nourriture."
+      },
+      "hotdogDonation": {
+        "title": "Distribution de Nourriture",
+        "description": "Don de hot-dogs."
+      },
+      "kitchen": {
+        "title": "Distribution de Nourriture",
+        "description": "Cuisine qui prépare la nourriture."
+      },
+      "receiving": {
+        "title": "Bénéficiaire recevant de la nourriture",
+        "description": "Le jour du Travailleur."
+      },
+      "preparation2": {
+        "title": "Préparation de la nourriture",
+        "description": "Le jour du Travailleur."
+      },
+      "fraternalMoments": {
+        "title": "Moments Fraternels",
+        "description": "Le jour du Travailleur."
+      }
+    }
+  },
+
+
+
+"distribuicaoAlimentos": {
+    "header": {
+      "title": "Travailleurs de la Dernière Heure",
+      "subtitle": "Servir avec amour et dignité"
+    },
+    "hero": {
+      "title": "Distribution de Nourriture",
+      "description": "Notre projet de distribution de nourriture atteint les personnes en situation de vulnérabilité sociale, offrant des repas nutritifs et des soins à ceux qui en ont le plus besoin."
+    },
+    "cards": {
+      "humanized": {
+        "title": "Service Humanisé",
+        "description": "Nous traitons chaque personne avec respect et dignité, offrant non seulement de la nourriture, mais aussi des soins."
+      },
+      "regularity": {
+        "title": "Régularité",
+        "description": "Distribution hebdomadaire de nourriture et de repas, garantissant un soutien constant aux familles."
+      },
+      "community": {
+        "title": "Présence dans la Communauté",
+        "description": "Nous travaillons directement dans les communautés, apportant l'espoir là où il est le plus nécessaire."
+      }
+    },
+    "gallery": {
+      "title": "Notre Travail en Action"
+    },
+    "photos": {
+      "photo1": "Photo 1 - Camionnette lors de la Distribution",
+      "photo2": "Photo 2 - Préparation de la Nourriture",
+      "photo3": "Photo 3 - Maria Luiza",
+      "photo4": "Photo 4 - Nouvelles sur le Travail"
+    },
+    "impact": {
+      "title": "Faites Partie de Cette Mission",
+      "description": "Votre don ou votre bénévolat peut transformer des vies. Ensemble, nous pouvons faire la différence dans la vie de ceux qui en ont le plus besoin.",
+      "donateButton": "Je Veux Faire un Don",
+      "volunteerButton": "Devenez Bénévole"
+    }
+  },
+
+
+
   "footer": {
     "institutionalTitle": "Travailleurs de la Dernière Heure",
     "institutionalQuote": "Hors de la charité, il n'y a pas de salut.",

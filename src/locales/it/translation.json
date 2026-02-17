@@ -87,6 +87,195 @@
     }
   },
 
+
+
+
+
+
+  "contato": {
+    "header": {
+      "title": "Lavoratori dell'Ultima Ora",
+      "subtitle": "Trasformare vite attraverso l'amore e il servizio al prossimo"
+    },
+    "activities": {
+      "title": "Le Nostre Attività",
+      "description": "L'istituzione Lavoratori dell'Ultima Ora è un'organizzazione dedicata al servizio comunitario, portando speranza, sostegno e trasformazione sociale a chi ne ha più bisogno. Il nostro lavoro si basa sulla fede, sull'amore per il prossimo e sull'impegno a fare la differenza nella vita delle persone.",
+      "social": {
+        "title": "Assistenza Sociale",
+        "description": "Distribuzione di cibo, vestiti e supporto alle famiglie vulnerabili"
+      },
+      "spiritual": {
+        "title": "Sostegno Spirituale",
+        "description": "Incontri, culti e momenti di preghiera e rafforzamento"
+      }
+    },
+    "contact": {
+      "title": "Informazioni di Contatto",
+      "address": "Indirizzo",
+      "phones": "Telefoni",
+      "email": "Email",
+      "socialMedia": "Social Media",
+      "hours": "Orari di Apertura",
+      "hoursText": "Lunedì a Venerdì: 8h alle 18h | Sabato: 9h alle 13h"
+    },
+    "location": {
+      "title": "La Nostra Posizione"
+    },
+    "cta": {
+      "title": "Unisciti a Noi",
+      "subtitle": "Diventa volontario o fai una donazione. Il tuo aiuto trasforma vite!",
+      "button": "Voglio Aiutare!"
+    }
+  },
+
+
+
+
+
+  "galeria": {
+    "header": {
+      "title": "Segui le nostre campagne e azioni sociali",
+      "subtitle": "Galleria di Video e Foto"
+    },
+    "badge": {
+      "video": "Video",
+      "photo": "Foto"
+    },
+    "viewOnIG": "Vedi su IG",
+    "cta": {
+      "title": "Seguici su Instagram",
+      "subtitle": "Segui tutte le nostre campagne e azioni in tempo reale"
+    },
+    "modal": {
+      "likes": "mi piace",
+      "comments": "commenti",
+      "viewOnInstagram": "Vedi su Instagram",
+      "browserNotSupported": "Il tuo browser non supporta i video.",
+      "error": {
+        "title": "Errore nel caricamento del video",
+        "path": "Percorso",
+        "message": "Verifica se il file esiste ed è accessibile"
+      }
+    }
+  },
+
+
+
+"galeriaFotos": {
+    "controls": {
+      "previous": "Immagine precedente",
+      "next": "Immagine successiva",
+      "pause": "Pausa",
+      "play": "Riproduci",
+      "goToImage": "Vai all'immagine {{number}}"
+    },
+    "images": {
+      "blankets": {
+        "title": "Donazione di Coperte",
+        "description": "Distribuzione di coperte a persone in situazione di vulnerabilità sociale."
+      },
+      "prayer1": {
+        "title": "Momento di Preghiera",
+        "description": "Preghiera e Riflessione prima di uscire per lavorare."
+      },
+      "departure": {
+        "title": "Partenza per il lavoro",
+        "description": "Furgone che si prepara a partire con cibo, vestiti e lavoratori."
+      },
+      "foodDistribution1": {
+        "title": "Distribuzione di Cibo",
+        "description": "Distribuzione di cibo a persone in situazione di vulnerabilità sociale."
+      },
+      "animalCare": {
+        "title": "Cura degli Animali",
+        "description": "I Lavoratori dell'Ultima Ora nutrono anche gli animali per le strade."
+      },
+      "foodDistribution2": {
+        "title": "Distribuzione di Cibo",
+        "description": "Distribuzione di cibo a persone in situazione di vulnerabilità sociale."
+      },
+      "supportVan": {
+        "title": "Veicolo di Supporto",
+        "description": "Furgone dei Lavoratori dell'Ultima Ora."
+      },
+      "prayer2": {
+        "title": "Momento di Preghiera",
+        "description": "Preghiera prima della distribuzione di cibo."
+      },
+      "preparation1": {
+        "title": "Distribuzione di Cibo",
+        "description": "Preparazione del furgone per la distribuzione di cibo."
+      },
+      "hotdogDonation": {
+        "title": "Distribuzione di Cibo",
+        "description": "Donazione di hot dog."
+      },
+      "kitchen": {
+        "title": "Distribuzione di Cibo",
+        "description": "Cucina che prepara il cibo."
+      },
+      "receiving": {
+        "title": "Assistito che riceve cibo",
+        "description": "Nel giorno del Lavoratore."
+      },
+      "preparation2": {
+        "title": "Preparazione del cibo",
+        "description": "Nel giorno del Lavoratore."
+      },
+      "fraternalMoments": {
+        "title": "Momenti Fraterni",
+        "description": "Nel giorno del Lavoratore."
+      }
+    }
+  },
+
+
+
+"distribuicaoAlimentos": {
+  "header": {
+    "title": "Lavoratori dell’Ultima Ora",
+    "subtitle": "Servire con amore e dignità"
+  },
+  "hero": {
+    "title": "Distribuzione di Alimenti",
+    "description": "Il nostro progetto di distribuzione di alimenti raggiunge persone in situazioni di vulnerabilità sociale, offrendo pasti nutrienti e accoglienza a chi ne ha più bisogno."
+  },
+  "cards": {
+    "humanized": {
+      "title": "Assistenza Umanizzata",
+      "description": "Trattiamo ogni persona con rispetto e dignità, offrendo non solo cibo ma anche accoglienza."
+    },
+    "regularity": {
+      "title": "Regolarità",
+      "description": "Distribuzione settimanale di alimenti e pasti, garantendo supporto costante alle famiglie."
+    },
+    "community": {
+      "title": "Presenza nella Comunità",
+      "description": "Operiamo direttamente nelle comunità, portando speranza dove è più necessaria."
+    }
+  },
+  "gallery": {
+    "title": "Il Nostro Lavoro in Azione"
+  },
+  "photos": {
+    "photo1": "Foto 1 - Furgone nella Distribuzione",
+    "photo2": "Foto 2 - Preparazione del Cibo",
+    "photo3": "Foto 3 - Maria Luiza",
+    "photo4": "Foto 4 - Notizie sul Lavoro"
+  },
+  "impact": {
+    "title": "Fai Parte di Questa Missione",
+    "description": "La tua donazione o il tuo volontariato possono trasformare vite. Insieme, possiamo fare la differenza nella vita di chi ne ha più bisogno.",
+    "donateButton": "Voglio Donare",
+    "volunteerButton": "Diventa Volontario"
+  }
+},
+
+
+
+
+
+
   "footer": {
     "institutionalTitle": "Lavoratori dell'Ultima Ora",
     "institutionalQuote": "Fuori dalla carità non c'è salvezza.",

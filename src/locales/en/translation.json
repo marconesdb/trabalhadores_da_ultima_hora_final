@@ -88,6 +88,236 @@
     }
   },
 
+
+
+
+
+  "contato": {
+    "header": {
+      "title": "Last Hour Workers",
+      "subtitle": "Transforming lives through love and service to others"
+    },
+    "activities": {
+      "title": "Our Activities",
+      "description": "The Last Hour Workers institution is an organization dedicated to community service, bringing hope, support and social transformation to those who need it most. Our work is based on faith, love for others and the commitment to make a difference in people's lives.",
+      "social": {
+        "title": "Social Assistance",
+        "description": "Distribution of food, clothing and support to vulnerable families"
+      },
+      "spiritual": {
+        "title": "Spiritual Support",
+        "description": "Meetings, services and moments of prayer and strengthening"
+      }
+    },
+    "contact": {
+      "title": "Contact Information",
+      "address": "Address",
+      "phones": "Phones",
+      "email": "Email",
+      "socialMedia": "Social Media",
+      "hours": "Business Hours",
+      "hoursText": "Monday to Friday: 8am to 6pm | Saturdays: 9am to 1pm"
+    },
+    "location": {
+      "title": "Our Location"
+    },
+    "cta": {
+      "title": "Join Us",
+      "subtitle": "Be a volunteer or make a donation. Your help transforms lives!",
+      "button": "I Want to Help!"
+    }
+  },
+
+
+
+
+
+
+  "galeria": {
+    "header": {
+      "title": "Follow our campaigns and social actions",
+      "subtitle": "Video and Photo Gallery"
+    },
+    "badge": {
+      "video": "Video",
+      "photo": "Photo"
+    },
+    "viewOnIG": "View on IG",
+    "cta": {
+      "title": "Follow us on Instagram",
+      "subtitle": "Follow all our campaigns and actions in real time"
+    },
+    "modal": {
+      "likes": "likes",
+      "comments": "comments",
+      "viewOnInstagram": "View on Instagram",
+      "browserNotSupported": "Your browser does not support videos.",
+      "error": {
+        "title": "Error loading video",
+        "path": "Path",
+        "message": "Check if the file exists and is accessible"
+      }
+    }
+  },
+
+
+
+
+  "galeriaFotos": {
+    "controls": {
+      "previous": "Previous image",
+      "next": "Next image",
+      "pause": "Pause",
+      "play": "Play",
+      "goToImage": "Go to image {{number}}"
+    },
+    "images": {
+      "blankets": {
+        "title": "Blanket Donation",
+        "description": "Distribution of blankets to people in social vulnerability."
+      },
+      "prayer1": {
+        "title": "Prayer Moment",
+        "description": "Prayer and Reflection before going out to work."
+      },
+      "departure": {
+        "title": "Leaving for work",
+        "description": "Van preparing to leave with food, clothes and workers."
+      },
+      "foodDistribution1": {
+        "title": "Food Distribution",
+        "description": "Distribution of food to people in social vulnerability."
+      },
+      "animalCare": {
+        "title": "Animal Care",
+        "description": "The Last Hour Workers also feed animals on the streets."
+      },
+      "foodDistribution2": {
+        "title": "Food Distribution",
+        "description": "Distribution of food to people in social vulnerability."
+      },
+      "supportVan": {
+        "title": "Support Vehicle",
+        "description": "Last Hour Workers' Van."
+      },
+      "prayer2": {
+        "title": "Prayer Moment",
+        "description": "Prayer before food distribution."
+      },
+      "preparation1": {
+        "title": "Food Distribution",
+        "description": "Preparing the Van for food distribution."
+      },
+      "hotdogDonation": {
+        "title": "Food Distribution",
+        "description": "Hot dog donation."
+      },
+      "kitchen": {
+        "title": "Food Distribution",
+        "description": "Kitchen that prepares the food."
+      },
+      "receiving": {
+        "title": "Recipient receiving food",
+        "description": "On Worker's Day."
+      },
+      "preparation2": {
+        "title": "Preparing the food",
+        "description": "On Worker's Day."
+      },
+      "fraternalMoments": {
+        "title": "Fraternal Moments",
+        "description": "On Worker's Day."
+      }
+    }
+  },
+
+
+
+ "foodDistribution": {
+  "header": {
+    "title": "Last Hour Workers",
+    "subtitle": "Serving with love and dignity"
+  },
+  "hero": {
+    "title": "Food Distribution",
+    "description": "Our food distribution project reaches people in situations of social vulnerability, offering nutritious meals and care to those who need it most."
+  },
+  "cards": {
+    "humanized": {
+      "title": "Humanized Service",
+      "description": "We treat each person with respect and dignity, offering not only food but also care."
+    },
+    "regularity": {
+      "title": "Regularity",
+      "description": "Weekly distribution of food and meals, ensuring constant support for families."
+    },
+    "community": {
+      "title": "Community Presence",
+      "description": "We work directly in communities, bringing hope where it is most needed."
+    }
+  },
+  "gallery": {
+    "title": "Our Work in Action"
+  },
+  "photos": {
+    "photo1": "Photo 1 - Van during Distribution",
+    "photo2": "Photo 2 - Food Preparation",
+    "photo3": "Photo 3 - Maria Luiza",
+    "photo4": "Photo 4 - News about the Work"
+  },
+  "impact": {
+    "title": "Be Part of This Mission",
+    "description": "Your donation or volunteering can transform lives. Together, we can make a difference in the lives of those who need it most.",
+    "donateButton": "I Want to Donate",
+    "volunteerButton": "Become a Volunteer"
+  }
+},
+
+
+
+"distribuicaoAlimentos": {
+  "header": {
+    "title": "Last Hour Workers",
+    "subtitle": "Serving with love and dignity"
+  },
+  "hero": {
+    "title": "Food Distribution",
+    "description": "Our food distribution project reaches people in situations of social vulnerability, offering nutritious meals and care to those who need it most."
+  },
+  "cards": {
+    "humanized": {
+      "title": "Humanized Service",
+      "description": "We treat each person with respect and dignity, offering not only food but also care."
+    },
+    "regularity": {
+      "title": "Regularity",
+      "description": "Weekly distribution of food and meals, ensuring constant support for families."
+    },
+    "community": {
+      "title": "Community Presence",
+      "description": "We work directly in communities, bringing hope where it is most needed."
+    }
+  },
+  "gallery": {
+    "title": "Our Work in Action"
+  },
+  "photos": {
+    "photo1": "Photo 1 - Van in Distribution",
+    "photo2": "Photo 2 - Food Preparation",
+    "photo3": "Photo 3 - Maria Luiza",
+    "photo4": "Photo 4 - News about the Work"
+  },
+  "impact": {
+    "title": "Be Part of This Mission",
+    "description": "Your donation or volunteering can transform lives. Together, we can make a difference in the lives of those who need it most.",
+    "donateButton": "I Want to Donate",
+    "volunteerButton": "Become a Volunteer"
+  }
+},
+
+
+
+
   "footer": {
     "institutionalTitle": "Workers of the Last Hour",
     "institutionalQuote": "Outside of charity there is no salvation.",

@@ -11,11 +11,12 @@ i18n
   .use(initReactI18next) // Passando o i18next para o React
   .init({
     resources: {
+      pt: { translation: pt },
       en: { translation: en },
       es: { translation: es },
       fr: { translation: fr },
       it: { translation: it },
-      pt: { translation: pt },
+     
     },
     lng: 'pt', // Idioma padrão
     fallbackLng: 'pt', // Idioma de fallback

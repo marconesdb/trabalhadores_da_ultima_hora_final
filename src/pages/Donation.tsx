@@ -66,11 +66,11 @@ const Donation = () => {
               </div>
               <div className="pb-4 border-b border-slate-100">
                 <span className="block text-sm text-slate-500">Conta Corrente</span>
-                <strong className="text-slate-800">12345-6</strong>
+                <strong className="text-slate-800">0000-0</strong>
               </div>
               <div>
                 <span className="block text-sm text-slate-500">CNPJ</span>
-                <strong className="text-slate-800">00.000.000/0001-00</strong>
+                <strong className="text-slate-800">00.000.000/0000-00</strong>
               </div>
             </div>
           </div>
