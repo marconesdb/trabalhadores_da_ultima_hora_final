@@ -10,7 +10,7 @@ import NossasAções from './pages/NossasAções';
 import DistribuicaoAlimentos from './pages/DistribuiçãoAlimentos';
 import ApoioHospitalar from './pages/ApoioHospitalar';
 import BazarBeneficiente from './pages/BazarBeneficiente';
-
+import Oracao from './pages/Oracoes'
 // Importe as outras páginas aqui conforme for criando
 // import About from './pages/About';
 
@@ -24,7 +24,8 @@ function App() {
           <Route path="doacoes" element={<Donation />} />
           <Route path="quem-somos" element={<QuemSomos />} />
           <Route path="campanhas" element={<Campaigns />} />
-          <Route path="Galeria" element={<Galeria />} />
+          <Route path="galeria" element={<Galeria />} />
+          <Route path="oracoes" element={<Oracao />} />
           <Route path="contato" element={<Contato />} /> 
           <Route path="nossas-acoes" element={<NossasAções />} />
           <Route path="distribuicao-alimentos" element={<DistribuicaoAlimentos />} />

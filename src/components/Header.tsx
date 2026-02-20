@@ -13,6 +13,7 @@ const Header = () => {
     { nameKey: 'header.quemSomos', path: '/quem-somos' },
     { nameKey: 'header.campanhas', path: '/campanhas' },
     { nameKey: 'header.galeria', path: '/galeria' },
+    { nameKey: 'header.oracao', path: '/oracoes' },
     { nameKey: 'header.contato', path: '/contato' },
   ];
 
