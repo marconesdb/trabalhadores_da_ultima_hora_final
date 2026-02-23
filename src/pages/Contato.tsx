@@ -1,4 +1,12 @@
 // Contato.jsx - Componente usando i18next (sem barra de idiomas separada)
+import { Helmet } from 'react-helmet-async';
+
+// dentro do componente:
+<Helmet>
+  <title>Contato | Trabalhadores da Última Hora</title>
+  <meta name="description" content="Espaço dedicado a exibir o contato." />
+</Helmet>
+
 
 import React from 'react';
 import { useTranslation } from 'react-i18next';

@@ -1,3 +1,12 @@
+import { Helmet } from 'react-helmet-async';
+
+// dentro do componente:
+<Helmet>
+  <title>Galeria | Trabalhadores da Última Hora</title>
+  <meta name="description" content="Página de fotos." />
+</Helmet>
+
+
 import React, { useState, useEffect, type SetStateAction } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';

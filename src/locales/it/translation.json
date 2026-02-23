@@ -483,14 +483,38 @@
 
 
 
-  "footer": {
-    "institutionalTitle": "Lavoratori dell'Ultima Ora",
-    "institutionalQuote": "Fuori dalla carità non c'è salvezza.",
-    "institutionalDescription": "Portando amore, cibo e speranza attraverso il gruppo Lavoratori dell'Ultima Ora.",
-    "contactTitle": "Contattaci",
-    "addressLabel": "Via: João Figueiredo, N. 318 - Quartiere: Vila Exposição, CAP: 39-400-286, Città: Montes Claros - Minas Gerais",
-    "followTitle": "Seguici",
-    "copyright": "Istituzione di Carità Lavoratori dell'Ultima Ora. Tutti i diritti riservati."
-  }
+  
+  "oracoes": {
+    "titulo": "Orações",
+    "enfermo": {
+      "title": "Preghiera per gli Infermi",
+      "text": "Signore della Vita,\nFonte inesauribile di amore e saggezza,\nnel Tuo infinito sostegno affidiamo, in questo istante,\ntutti coloro che sperimentano i dolori del corpo\ne le afflizioni dell’anima.\n\nTu, che conosci i meccanismi sottili dell’esistenza,\ninsegnaci a comprendere che la malattia non è un castigo,\nma un invito al rinnovamento,\nun richiamo silenzioso all’introspezione,\nun’opportunità benedetta per rivalutare percorsi, sentimenti e atteggiamenti.\n\nSostieni, Padre di misericordia,\ncoloro che giacciono sui letti del dolore,\noffrendo loro serenità per attraversare le ore difficili,\nfiducia per sostenere la speranza\ne rassegnazione attiva per trasformare la sofferenza in apprendimento.\n\nFa’ che la Tua luce avvolga gli infermi,\nricomponendo le forze del corpo,\narmonizzando i campi mentali\ne pacificando i cuori afflitti,\naffinché trovino, anche nella prova,\nragioni per ringraziare e proseguire.\n\nIspira i professionisti della salute,\nperché siano strumenti consapevoli del Tuo amore,\nagendo con competenza, tenerezza e rispetto,\nriconoscendo, al di là della materia,\nla sacralità dello spirito che soffre e lotta.\n\nFortifica i familiari e gli amici,\nconcedendo loro equilibrio emotivo, pazienza e fede,\nperché possano servire senza scoraggiarsi,\namare senza esigere\ne sostenere senza lasciarsi abbattere.\n\nFa’ che ogni lacrima versata sia raccolta come preghiera silenziosa,\nogni dolore trasformato in gradino verso l’elevazione morale,\ne ogni istante di prova\ndiventi seme di rinnovamento interiore.\n\nAiutaci, Signore, a comprendere\nche la vera guarigione inizia nell’anima,\nquando impariamo a perdonare, a confidare, ad amare e a sperare,\nsostituendo la ribellione con l’accettazione consapevole,\nla paura con la fede\ne lo scoraggiamento con la certezza dell’immortalità.\n\nAccogli, dunque, questa umile supplica\ne riversa su tutti gli infermi\nil balsamo della Tua pace,\nla speranza della Tua presenza\ne la forza rinnovatrice del Tuo amore infinito.\n\nCosì sia."
+    },
+    "desafios": {
+      "title": "Preghiera – Sfide, Dolore ed Evoluzione",
+      "text": "Signore della Vita,\nFonte eterna di saggezza e amore,\nci poniamo, in questo istante, sotto la luce della Tua presenza,\nper imparare a comprendere i sentieri del dolore,\nsenza rivolta, senza disperazione, senza negazione.\n\nInsegnaci a percepire che le sfide che ci visitano\nnon sorgono per caso,\nma si iscrivono nel disegno profondo dell’evoluzione,\ncome lezioni indispensabili alla maturazione dell’anima.\nFa’ che sappiamo leggerle con lucidità,\naccoglierle con umiltà\ne attraversarle con sereno coraggio.\n\nQuando il dolore raggiunge i nostri sensi e ferisce l’intimo,\nsostienici, Signore,\naffinché non ci perdiamo nelle ombre dell’autocommiserazione,\nné ci fermiamo sui sentieri dello scoraggiamento.\nAiutaci a riconoscere, nella lacrima che sgorga,\nla rugiada divina che irrora il suolo indurito del cuore,\npreparandolo al seme del rinnovamento interiore.\n\nConcedici discernimento per comprendere\nche soffrire non è castigo,\nma benedetta opportunità di liberazione,\nnella quale si dissolvono antichi errori,\nsi riscattano impegni dimenticati\ne si restaurano valori essenziali all’armonia dello spirito.\n\nFa’ che sappiamo trasformare il dolore in maestra silenziosa,\ntraendone la lezione del perdono,\nla forza della rassegnazione attiva,\nil coraggio del cambiamento\ne la tenerezza verso le sofferenze altrui.\n\nSostienici, Padre di infinita bontà,\nquando le sfide si accumulano\ne la speranza sembra lontana,\naffinché non veniamo meno nel lavoro del bene,\nné abbandoniamo l’ideale di crescere,\nanche sotto il peso delle nostre imperfezioni.\n\nAiutaci a comprendere\nche ogni passo avanti, per quanto incerto,\nrappresenta una vittoria su noi stessi,\ne che ogni superamento interiore\nè un gradino luminoso nell’ascesa dell’evoluzione.\n\nRivestici di pazienza,\nper accettare il tempo come alleato;\ndi fede lucida, per confidare senza fanatismo;\ne di amore operante,\nper servire senza attendere ricompense.\n\nE così fortificati, Signore,\npossiamo attraversare le prove\ncon serenità e speranza,\ntrasformando i dolori in strumenti di elevazione,\nle sfide in gradini di progresso\ne la vita stessa in un perenne canto di gratitudine\nper la sublime opportunità di evolvere.\n\nCosì sia."
+    },
+  
+    "paz": {
+      "title": "Preghiera – Pace in te, pace nel Mondo",
+      "text": "Signore della Vita,\nFonte inesauribile di armonia e amore, ci fermiamo, in questo istante, sotto la luce della Tua presenza, per ascoltare il silenzio interiore in cui nasce la pace e comprendere che la serenità del mondo comincia, invariabilmente, nel santuario intimo di ogni coscienza.\n\nInsegnaci che la pace non è assenza di lotte, ma equilibrio di fronte ai conflitti; non è fuga dalle responsabilità, ma maturità per affrontarle con lucidità e tenerezza; non è negazione del dolore, ma profonda comprensione del suo valore educativo nei cammini dell’evoluzione spirituale.\n\nAiutaci a edificare, in noi, la pace che nasce dall’accettazione consapevole, dal perdono liberatore, dall’umiltà che riconosce i propri limiti e dalla fiducia serena nelle Tue leggi perfette. Fa’ che sappiamo far tacere le voci della rivolta, domare gli impulsi dell’intolleranza e trasformare l’inquietudine in preghiera, il lamento in apprendimento, la paura in fede operante.\n\nConcedici, Signore, il discernimento per percepire che la violenza che affligge il mondo è riflesso delle tempeste morali non ancora pacificate nell’intimo delle creature. Fa’ che comprendiamo che ogni gesto di bontà, ogni pensiero elevato, ogni parola di conforto costituisce un seme luminoso gettato nel suolo fertile di un’umanità in trasformazione.\n\nFa’ che la pace in noi sia fondata sulla vigilanza costante, sulla disciplina del sentimento e sulla pratica quotidiana del bene. Fa’ che impariamo a sostituire la critica con la comprensione, l’indifferenza con la solidarietà, l’orgoglio con la mansuetudine, trasformandoci in strumenti consapevoli della Tua misericordia.\n\nSostienici, Padre, nei momenti in cui lo scoraggiamento ci visita, ricordandoci che ogni ombra è transitoria e che la luce, sebbene velata, non si estingue mai. Fa’ che la speranza guidi i nostri passi e che l’amore ispiri le nostre decisioni, affinché siamo costruttori di pace ovunque ci troviamo.\n\nE così, irradiando la pace che da Te riceviamo, possiamo collaborare all’edificazione di un mondo più giusto, fraterno e solidale, dove i cuori, riconciliati con se stessi, imparino a vivere in armonia gli uni con gli altri.\n\nPermetti, Signore, che la pace in noi sia l’aurora della pace nel mondo.\n\nCosì sia."
+    },
 
-}
+
+
+
+
+
+
+
+    "footer": {
+      "institutionalTitle": "Lavoratori dell'Ultima Ora",
+      "institutionalQuote": "Fuori dalla carità non c'è salvezza.",
+      "institutionalDescription": "Portando amore, cibo e speranza attraverso il gruppo Lavoratori dell'Ultima Ora.",
+      "contactTitle": "Contattaci",
+      "addressLabel": "Via: João Figueiredo, N. 318 - Quartiere: Vila Exposição, CAP: 39-400-286, Città: Montes Claros - Minas Gerais",
+      "followTitle": "Seguici",
+      "copyright": "Istituzione di Carità Lavoratori dell'Ultima Ora. Tutti i diritti riservati."
+    }
+  }
+  }

@@ -1,3 +1,13 @@
+import { Helmet } from 'react-helmet-async';
+
+// dentro do componente:
+<Helmet>
+  <title>Distribuição de Alimentos | Trabalhadores da Última Hora</title>
+  <meta name="description" content="Espaço dedicado retratar a distribuição de alimentos;" />
+</Helmet>
+
+
+
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Heart, Users, Calendar, MapPin, X } from 'lucide-react';

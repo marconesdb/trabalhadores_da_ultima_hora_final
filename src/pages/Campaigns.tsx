@@ -1,3 +1,11 @@
+import { Helmet } from 'react-helmet-async';
+
+// dentro do componente:
+<Helmet>
+  <title>Campanhas | Trabalhadores da Última Hora</title>
+  <meta name="description" content="Espaço dedicado a mostrar as campanhas" />
+</Helmet>
+
 import React, { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Play, X, Heart, MessageCircle, Share2, ExternalLink, Pause, Volume2, VolumeX } from 'lucide-react';

@@ -1,3 +1,11 @@
+import { Helmet } from 'react-helmet-async';
+
+// dentro do componente:
+<Helmet>
+  <title>Apoio Hospitalar | Trabalhadores da Última Hora</title>
+  <meta name="description" content="Espaço dedicado a mostrar a colaboração em frente aos Hospitais." />
+</Helmet>
+
 import { Heart, Coffee, Clock, MapPin, Phone } from 'lucide-react';
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';

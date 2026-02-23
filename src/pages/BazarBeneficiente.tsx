@@ -1,3 +1,11 @@
+import { Helmet } from 'react-helmet-async';
+
+// dentro do componente:
+<Helmet>
+  <title>Bazar Beneficiente | Trabalhadores da Última Hora</title>
+  <meta name="description" content="Espaço dedicado a retratar o trabalho do Bazar." />
+</Helmet>
+
 import { useState } from 'react';
 import { Heart, Users, HandHeart, Calendar, Clock, MapPin, Phone, Mail, Award, Target, TrendingUp } from 'lucide-react';
 import { useTranslation } from 'react-i18next';

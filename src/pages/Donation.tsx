@@ -1,3 +1,11 @@
+import { Helmet } from 'react-helmet-async';
+
+// dentro do componente:
+<Helmet>
+  <title>Doações | Trabalhadores da Última Hora</title>
+  <meta name="description" content="Espaço dedicado a doações." />
+</Helmet>
+
 import { Copy } from 'lucide-react';
 import QrCode from "../assets/img/QrCode.png";
 import { useTranslation } from 'react-i18next';

@@ -1,3 +1,12 @@
+import { Helmet } from 'react-helmet-async';
+
+// dentro do componente:
+<Helmet>
+  <title>Início | Trabalhadores da Última Hora</title>
+  <meta name="description" content="Página inicial do site" />
+</Helmet>
+
+
 import { ArrowRight, Heart, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';

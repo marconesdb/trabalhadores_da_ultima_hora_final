@@ -1,3 +1,12 @@
+import { Helmet } from 'react-helmet-async';
+
+// dentro do componente:
+<Helmet>
+  <title>Quem Somos | Trabalhadores da Última Hora</title>
+  <meta name="description" content="Espaço dedicado a conhecer quem somos." />
+</Helmet>
+
+
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import imgFundadora from "../assets/img/img-ml.png";
