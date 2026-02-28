@@ -11,6 +11,8 @@ import { useTranslation } from "react-i18next";
 import Enfermo from "../assets/img/Enfermo.jpeg";
 import Desafios from "../assets/img/Jesus.jpg";
 import Paz from "../assets/img/Paz.jpg";
+import Trabalho from "../assets/img/Trabalho.jpg";
+import Aflitos from "../assets/img/Aflitos.jpg";
 
 // Dados fixos dos áudios — não dependem de tradução
 const audiosEnfermos = [
@@ -31,11 +33,28 @@ const audiosDesafios = [
 
 // Novo array para Paz
 const audiosPaz = [
-  { label: "Português", src: "/audios/Oracao_Paz/Paz_Portugues.aac", duration: "2:15" },
-  { label: "Español",   src: "/audios/Oracao_Paz/Paz_Spain.aac",     duration: "2:25" },
-  { label: "English",   src: "/audios/Oracao_Paz/Paz_English.aac",   duration: "2:10" },
-  { label: "Français",  src: "/audios/Oracao_Paz/Paz_French.aac",    duration: "2:20" },
-  { label: "Italiano",  src: "/audios/Oracao_Paz/Paz_Italiano.aac",  duration: "2:40" },
+  { label: "Português", src: "/audios/Oracao_Paz/Paz_Portugues.aac", duration: "2:26" },
+  { label: "Español",   src: "/audios/Oracao_Paz/Paz_Spain.aac",     duration: "2:27" },
+  { label: "English",   src: "/audios/Oracao_Paz/Paz_English.aac",   duration: "2:09" },
+  { label: "Français",  src: "/audios/Oracao_Paz/Paz_French.aac",    duration: "2:27" },
+  { label: "Italiano",  src: "/audios/Oracao_Paz/Paz_Italiano.aac",  duration: "2:43" },
+];
+
+// Novo array para Trabalho
+const audiosTrabalho = [
+  { label: "Português", src: "/audios/Oracao_Trabalho/Trabalho_Portugues.aac", duration: "1:57" },
+  { label: "Español",   src: "/audios/Oracao_Trabalho/Trabalho_Spain.aac",     duration: "2:02" },
+  { label: "English",   src: "/audios/Oracao_Trabalho/Trabalho_English.aac",   duration: "1:35" },
+  { label: "Français",  src: "/audios/Oracao_Trabalho/Trabalho_French.aac",    duration: "2:27" },
+  { label: "Italiano",  src: "/audios/Oracao_Trabalho/Trabalho_Italiano.aac",  duration: "2:02" },
+];
+
+const audiosAflitos = [
+  { label: "Português", src: "/audios/Oracao_Aflitos/Aflitos_Portugues.aac", duration: "2:26" },
+  { label: "Español",   src: "/audios/Oracao_Aflitos/Aflitos_Spain.aac",     duration: "2:27" },
+  { label: "English",   src: "/audios/Oracao_Aflitos/Aflitos_English.aac",   duration: "2:09" },
+  { label: "Français",  src: "/audios/Oracao_Aflitos/Aflitos_French.aac",    duration: "2:27" },
+  { label: "Italiano",  src: "/audios/Oracao_Aflitos/Aflitos_Italiano.aac",  duration: "2:43" },
 ];
 
 const Oracoes: React.FC = () => {
@@ -59,6 +78,20 @@ const Oracoes: React.FC = () => {
       text:  t("oracoes.paz.text"),
       image: Paz,
       audios: audiosPaz,
+    },
+
+     {
+      title: t("oracoes.trabalho.title"),
+      text:  t("oracoes.trabalho.text"),
+      image: Trabalho,
+      audios: audiosTrabalho,
+    },
+
+     {
+      title: t("oracoes.aflitos.title"),
+      text:  t("oracoes.aflitos.text"),
+      image: Aflitos,
+      audios: audiosAflitos,
     },
   ];
 

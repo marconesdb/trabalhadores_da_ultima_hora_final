@@ -1,31 +1,45 @@
 import { Helmet } from 'react-helmet-async';
-
-// dentro do componente:
-<Helmet>
-  <title>Início | Trabalhadores da Última Hora</title>
-  <meta name="description" content="Página inicial do site" />
-</Helmet>
-
-
 import { ArrowRight, Heart, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import Trabalhadores from '/assets/video/Trabalhadores.mp4'
+
+// Vídeos por idioma
+import VideosPT from '/assets/video/Trabalhadores_pt.mp4';
+import VideosEN from '/assets/video/Trabalhadores_en.mp4';
+import VideosES from '/assets/video/Trabalhadores_es.mp4';
+import VideosFR from '/assets/video/Trabalhadores_fr.mp4';
+import VideosIT from '/assets/video/Trabalhadores_it.mp4';
+
+const videoMap: Record<string, string> = {
+  pt: VideosPT,
+  en: VideosEN,
+  es: VideosES,
+  fr: VideosFR,
+  it: VideosIT,
+};
 
 const Home = () => {
   const [showVideo, setShowVideo] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const lang = i18n.language.split('-')[0];
+  const videoSrc = videoMap[lang] || VideosPT; // fallback para português
 
   return (
     <div>
+      <Helmet>
+        <title>Início | Trabalhadores da Última Hora</title>
+        <meta name="description" content="Página inicial do site" />
+      </Helmet>
+
       {/* Hero Section */}
       <section className="relative bg-primary-900 py-20 md:py-32">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-primary-900 to-primary-800 opacity-90"></div>
-          <img 
-            src="https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
-            alt="Mãos ajudando" 
+          <img
+            src="https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+            alt="Mãos ajudando"
             className="w-full h-full object-cover absolute inset-0 mix-blend-overlay opacity-35"
           />
         </div>
@@ -37,10 +51,16 @@ const Home = () => {
             {t('home.hero.subtitulo')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/doacoes" className="bg-secondary hover:bg-yellow-500 text-primary-900 px-8 py-3 rounded-full font-bold transition text-lg">
+            <Link
+              to="/doacoes"
+              className="bg-secondary hover:bg-yellow-500 text-primary-900 px-8 py-3 rounded-full font-bold transition text-lg"
+            >
               {t('home.hero.btnAjudar')}
             </Link>
-            <Link to="/campanhas" className="border-2 border-white hover:bg-white hover:text-primary-900 text-white px-8 py-3 rounded-full font-bold transition text-lg">
+            <Link
+              to="/campanhas"
+              className="border-2 border-white hover:bg-white hover:text-primary-900 text-white px-8 py-3 rounded-full font-bold transition text-lg"
+            >
               {t('home.hero.btnAcoes')}
             </Link>
           </div>
@@ -58,9 +78,9 @@ const Home = () => {
             {t('home.citacao.autor')}
           </cite>
 
-          {/* Botão para abrir vídeo */}   
+          {/* Botão para abrir vídeo */}
           <div className="mt-8 flex flex-col items-center gap-3">
-            <button 
+            <button
               onClick={() => setShowVideo(true)}
               className="group relative w-32 h-32 transition-all duration-300 transform hover:scale-110"
             >
@@ -83,16 +103,23 @@ const Home = () => {
       {showVideo && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80 p-4">
           <div className="relative w-full max-w-5xl">
-            <button 
+            <button
               onClick={() => setShowVideo(false)}
               className="absolute -top-12 right-0 text-white hover:text-secondary transition-colors"
             >
               <X size={40} />
             </button>
-            <div className="bg-black rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '16/9' }}>
-              {/* Vídeo */}
-              <video className="w-full h-full" controls preload="metadata">
-                <source src={Trabalhadores} type="video/mp4" />
+            <div
+              className="bg-black rounded-lg overflow-hidden shadow-2xl"
+              style={{ aspectRatio: '16/9' }}
+            >
+              {/*
+                A key={videoSrc} força o React a recriar o elemento <video>
+                sempre que o idioma mudar, evitando que o navegador
+                mantenha o arquivo anterior em cache.
+              */}
+              <video key={videoSrc} className="w-full h-full" controls preload="metadata">
+                <source src={videoSrc} type="video/mp4" />
               </video>
             </div>
           </div>
@@ -122,7 +149,10 @@ const Home = () => {
               <p className="text-slate-600 mb-4">
                 {t('home.atividades.distribuicao.descricao')}
               </p>
-              <Link to="/distribuicao-alimentos" className="text-primary-600 font-bold flex items-center hover:text-primary-800">
+              <Link
+                to="/distribuicao-alimentos"
+                className="text-primary-600 font-bold flex items-center hover:text-primary-800"
+              >
                 {t('home.atividades.distribuicao.saibaMais')} <ArrowRight size={16} className="ml-1" />
               </Link>
             </div>
@@ -137,7 +167,10 @@ const Home = () => {
               <p className="text-slate-600 mb-4">
                 {t('home.atividades.apoio.descricao')}
               </p>
-              <Link to="/apoio-hospitalar" className="text-primary-600 font-bold flex items-center hover:text-primary-800">
+              <Link
+                to="/apoio-hospitalar"
+                className="text-primary-600 font-bold flex items-center hover:text-primary-800"
+              >
                 {t('home.atividades.apoio.saibaMais')} <ArrowRight size={16} className="ml-1" />
               </Link>
             </div>
@@ -152,7 +185,10 @@ const Home = () => {
               <p className="text-slate-600 mb-4">
                 {t('home.atividades.bazar.descricao')}
               </p>
-              <Link to="/bazar-beneficiente" className="text-primary-600 font-bold flex items-center hover:text-primary-800">
+              <Link
+                to="/bazar-beneficiente"
+                className="text-primary-600 font-bold flex items-center hover:text-primary-800"
+              >
                 {t('home.atividades.bazar.saibaMais')} <ArrowRight size={16} className="ml-1" />
               </Link>
             </div>
