@@ -13,6 +13,9 @@ import Desafios from "../assets/img/Jesus.jpg";
 import Paz from "../assets/img/Paz.jpg";
 import Trabalho from "../assets/img/Trabalho.jpg";
 import Aflitos from "../assets/img/Aflitos.jpg";
+import Fome from "../assets/img/Fome.jpg";
+
+
 
 // Dados fixos dos áudios — não dependem de tradução
 const audiosEnfermos = [
@@ -57,6 +60,14 @@ const audiosAflitos = [
   { label: "Italiano",  src: "/audios/Oracao_Aflitos/Aflitos_Italiano.aac",  duration: "2:43" },
 ];
 
+
+const audiosFome = [
+  { label: "Português", src: "/audios/Oracao_Fome/Fome_Portugues.aac", duration: "2:26" },
+  { label: "Español",   src: "/audios/Oracao_Fome/Fome_Spain.aac",     duration: "2:27" },
+  { label: "English",   src: "/audios/Oracao_Fome/Fome_English.aac",   duration: "2:09" },
+  { label: "Français",  src: "/audios/Oracao_Fome/Fome_French.aac",    duration: "2:27" },
+  { label: "Italiano",  src: "/audios/Oracao_Fome/Fome_Italiano.aac",  duration: "2:43" },
+];
 const Oracoes: React.FC = () => {
   const { t } = useTranslation();
 
@@ -92,6 +103,14 @@ const Oracoes: React.FC = () => {
       text:  t("oracoes.aflitos.text"),
       image: Aflitos,
       audios: audiosAflitos,
+    },
+
+
+     {
+      title: t("oracoes.fome.title"),
+      text:  t("oracoes.fome.text"),
+      image: Fome,
+      audios: audiosFome,
     },
   ];
 

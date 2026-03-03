@@ -549,10 +549,14 @@
      "aflitos": {
         "title": "Prayer for the Afflicted",
         "text": "Lord of Life, eternal Source of light, consolation, and redemption, incline Your compassionate gaze upon the wounded hearts of humanity and envelop them in the gentle mantle of Your mercy. Blessed are the afflicted, for in pain faith matures, in tears the spirit is purified, and in the silence of suffering they learn to listen to the subtle voice of Your love. Teach us, Father, to understand the hidden meaning of trials, to decipher, in the shadow of the cross, the clarity of new beginnings, and to perceive, in the weight of struggle, the blessed seed of liberation. May the sublime Word of Your Christ descend like serene dew upon weary souls, soothing rebellions, calming fears, and healing the invisible wounds that bleed in the intimacy of being. Console those who weep, Lord, and transform tears into prayer, anguish into hope, pain into a path of elevation, causing the lilies of trust and peace to blossom in the desert of trial. May every affliction become a school, every fall a lesson, every thorn a step in the blessed ascent toward the light, where love reigns supreme and justice becomes tenderness. Sustain us, loving Father, in the moments when faith falters, and let us feel, in the deepest recesses of the soul, Your paternal embrace, silent, steadfast, and restoring. May we learn to welcome pain without revolt, endure trial without despair, and cross the dark night trusting in the dawn of Your love. For You, Lord of Life, are the promise that never fails, the hope that never fades, and the light that shines beyond every tear. Thus, amid struggles and consolations, we learn to bless affliction, knowing that within it lies hidden the sacred seed of redemption. Blessed are the afflicted, for theirs is the Kingdom of consolation, today, tomorrow, and for all eternity. Amen!"
-    }
-  },
+    },
+  
 
 
+     "fome": {
+      "title": "Prayer – Hunger",
+      "text": "Lord of Life, Father of infinite tenderness and inexhaustible source of love, incline Your compassionate gaze upon the children of the Earth who suffer under the weight of hunger of body and soul. Where bread is lacking, let solidarity sprout. Where scarcity reigns, pour out the abundance of sharing. Where despair settles, ignite the flame of hope and teach us to be living instruments of Your providence. Give us, Lord, the simple heart of Francis, able to recognize in every hungry being Your hidden and sacred presence. May our hands become extensions of Your hands, and our steps, paths of aid and fraternity. Nourish us with the bread of justice, sustain us with the water of mercy, strengthen us with the wine of compassion, so that we may never lack the courage to share. May no table remain empty, may no gaze plead in silence, may no child fall asleep in the pain of deprivation, without our hearts awakening to serve. Free us, Father, from the hunger of selfishness, the thirst of indifference, the misery of omission, and satisfy us with the living food of love. Make us sowers of peace, artisans of sharing, faithful guardians of human dignity, so that material bread and spiritual bread may reach everyone, without distinction. And thus, in the light of Your paternal care, may we learn that to serve is to love, to love is to share, and to share is to live in fullness. Amen!"
+    },
 
   "footer": {
     "institutionalTitle": "Workers of the Last Hour",
@@ -564,4 +568,4 @@
     "copyright": "Charity Institution Workers of the Last Hour. All rights reserved."
   }
 }
-
+}

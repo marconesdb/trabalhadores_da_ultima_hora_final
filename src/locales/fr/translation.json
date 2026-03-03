@@ -508,8 +508,12 @@
     "aflitos": {
       "title": "Prière pour les Affligés",
       "text": "Seigneur de la Vie, Source éternelle de lumière, de consolation et de rédemption, incline Ton regard compatissant sur les cœurs blessés de l’humanité et enveloppe-les du manteau doux de Ta miséricorde. Bienheureux les affligés, car dans la douleur mûrit la foi, dans la larme l’esprit se purifie, et dans le silence de la souffrance ils apprennent à écouter la voix subtile de Ton amour. Enseigne-nous, Père, à comprendre le sens caché des épreuves, à déchiffrer, dans l’ombre de la croix, la clarté du recommencement, et à percevoir, dans le poids du combat, la semence bénie de la libération. Que le Verbe sublime de Ton Christ descende comme une rosée sereine sur les âmes fatiguées, apaisant les révoltes, calmant les peurs, guérissant les blessures invisibles qui saignent dans l’intimité de l’être. Console ceux qui pleurent, Seigneur, et transforme les larmes en prière, l’angoisse en espérance, la douleur en chemin d’élévation, faisant fleurir, dans le désert de l’épreuve, les lys de la confiance et de la paix. Que chaque affliction devienne école, chaque chute leçon, chaque épine un degré dans l’ascension bénie vers la lumière, où l’amour règne en souverain et où la justice se fait tendresse. Soutiens-nous, Père aimant, dans les instants où la foi vacille, et fais-nous sentir, au plus intime de l’âme, Ton étreinte paternelle, silencieuse, ferme et restauratrice. Que nous sachions accueillir la douleur sans révolte, supporter l’épreuve sans désespoir, et traverser la nuit obscure confiants dans l’aurore de Ton amour. Car Tu, Seigneur de la Vie, es la promesse qui ne faillit pas, l’espérance qui ne s’éteint pas, et la lumière qui resplendit au-delà de toute larme. Ainsi, entre luttes et consolations, nous apprenons à bénir l’affliction, sachant qu’en elle se cache le germe sacré de la rédemption. Bienheureux les affligés, car à eux appartient le Royaume de la consolation, aujourd’hui, demain et pour toute l’éternité. Amen !"
-    }
-  },
+    },
+  
+     "fome": {
+      "title": "Prière – Faim  ",
+      "text": "Seigneur de la Vie, Père de tendresse infinie et source inépuisable d’amour, incline Ton regard compatissant sur les enfants de la Terre qui souffrent sous le poids de la faim du corps et de l’âme. Là où le pain manque, fais germer la solidarité. Là où règne la pénurie, répands l’abondance du partage. Là où le désespoir s’installe, allume la flamme de l’espérance et apprends-nous à être des instruments vivants de Ta providence. Donne-nous, Seigneur, le cœur simple de François, capable de reconnaître en chaque être affamé Ta présence cachée et sacrée. Que nos mains deviennent l’extension de Tes mains, et nos pas, des chemins de secours et de fraternité. Nourris-nous du pain de la justice, soutiens-nous de l’eau de la miséricorde, fortifie-nous du vin de la compassion, afin qu’il ne nous manque jamais le courage de partager. Que nulle table ne demeure vide, que nul regard ne supplie en silence, que nul enfant ne s’endorme dans la douleur de la privation, sans que nos cœurs s’éveillent pour servir. Libère-nous, Père, de la faim de l’égoïsme, de la soif de l’indifférence, de la misère de l’omission, et rassasie-nous du vivant aliment de l’amour. Fais de nous des semeurs de paix, des artisans du partage, des gardiens fidèles de la dignité humaine, afin que le pain matériel et le pain spirituel atteignent tous, sans distinction. Et ainsi, à la lumière de Ton soin paternel, apprenons que servir c’est aimer, qu’aimer c’est partager, et que partager c’est vivre en plénitude. Amen!"
+    },
 
 
 
@@ -523,4 +527,5 @@
     "copyright": "Institution de Charité Travailleurs de la Dernière Heure. Tous droits réservés."
   }
 
+}
 }
