@@ -64,19 +64,19 @@ const Donation = () => {
             <div className="space-y-4">
               <div className="pb-4 border-b border-slate-100">
                 <span className="block text-sm text-slate-500">{t('donation.transfer.bank')}</span>
-                <strong className="text-slate-800">000 - Banco Exemplo</strong>
+                <strong className="text-slate-800">756 - Banco Sicoob Credinosso</strong>
               </div>
               <div className="pb-4 border-b border-slate-100">
                 <span className="block text-sm text-slate-500">{t('donation.transfer.branch')}</span>
-                <strong className="text-slate-800">0000-X</strong>
+                <strong className="text-slate-800">3327</strong>
               </div>
               <div className="pb-4 border-b border-slate-100">
                 <span className="block text-sm text-slate-500">{t('donation.transfer.account')}</span>
-                <strong className="text-slate-800">0000-0</strong>
+                <strong className="text-slate-800">000014472-0</strong>
               </div>
               <div>
                 <span className="block text-sm text-slate-500">{t('donation.transfer.cnpj')}</span>
-                <strong className="text-slate-800">00.000.000/0000-00</strong>
+                <strong className="text-slate-800">53.140.991/0001-74</strong>
               </div>
             </div>
           </div>
