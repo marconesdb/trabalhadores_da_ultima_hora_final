@@ -7,6 +7,8 @@ import Paz from "../assets/img/Paz.jpg";
 import Trabalho from "../assets/img/Trabalho.jpg";
 import Aflitos from "../assets/img/Aflitos.jpg";
 import Fome from "../assets/img/Fome.jpg";
+import PaiNosso from "../assets/img/PaiNosso.jpg";
+
 
 // Mapa idioma i18n → índice do array de áudios
 const LANG_INDEX: Record<string, number> = {
@@ -66,6 +68,15 @@ const audiosFome = [
   { label: "Italiano",  src: "/audios/Oracao_Fome/Fome_Italiano.aac",  duration: "2:43" },
 ];
 
+
+const audiosPaiNosso = [
+  { label: "Português", src: "/audios/Oracao_PaiNosso/PaiNosso_Portugues.aac", duration: "1:59" },
+  { label: "Español",   src: "/audios/Oracao_PaiNosso/PaiNosso_Spain.aac",     duration: "2:00" },
+  { label: "English",   src: "/audios/Oracao_PaiNosso/PaiNosso_English.aac",   duration: "1:36" },
+  { label: "Français",  src: "/audios/Oracao_PaiNosso/PaiNosso_French.aac",    duration: "2:04" },
+  { label: "Italiano",  src: "/audios/Oracao_PaiNosso/PaiNosso_Italiano.aac",  duration: "2:43" },
+];
+
 // ─── Componente de player único por oração ───────────────────────────────────
 interface SingleAudioPlayerProps {
   audios: { label: string; src: string; duration: string }[];
@@ -103,16 +114,17 @@ const Oracoes: React.FC = () => {
   const langIndex = LANG_INDEX[currentLang] ?? 0; // fallback: Português
 
   const prayers = [
-    { title: t("oracoes.enfermo.title"),  text: t("oracoes.enfermo.text"),  image: Enfermo,  audios: audiosEnfermos },
-    { title: t("oracoes.desafios.title"), text: t("oracoes.desafios.text"), image: Desafios, audios: audiosDesafios },
-    { title: t("oracoes.paz.title"),      text: t("oracoes.paz.text"),      image: Paz,      audios: audiosPaz     },
-    { title: t("oracoes.trabalho.title"), text: t("oracoes.trabalho.text"), image: Trabalho, audios: audiosTrabalho },
-    { title: t("oracoes.aflitos.title"),  text: t("oracoes.aflitos.text"),  image: Aflitos,  audios: audiosAflitos  },
-    { title: t("oracoes.fome.title"),     text: t("oracoes.fome.text"),     image: Fome,     audios: audiosFome    },
+    { title: t("oracoes.enfermo.title"),  text: t("oracoes.enfermo.text"),  image: Enfermo,  audios: audiosEnfermos    },
+    { title: t("oracoes.desafios.title"), text: t("oracoes.desafios.text"), image: Desafios, audios: audiosDesafios    },
+    { title: t("oracoes.paz.title"),      text: t("oracoes.paz.text"),      image: Paz,      audios: audiosPaz         },
+    { title: t("oracoes.trabalho.title"), text: t("oracoes.trabalho.text"), image: Trabalho, audios: audiosTrabalho    },
+    { title: t("oracoes.aflitos.title"),  text: t("oracoes.aflitos.text"),  image: Aflitos,  audios: audiosAflitos     },
+    { title: t("oracoes.fome.title"),     text: t("oracoes.fome.text"),     image: Fome,     audios: audiosFome        },
+    { title: t("oracoes.painosso.title"), text: t("oracoes.painosso.text"), image: PaiNosso, audios: audiosPaiNosso    },
   ];
 
   return (
-    <>
+    <>z
       <Helmet>
         <title>Orações | Trabalhadores da Última Hora</title>
         <meta name="description" content="Espaço dedicado a orações." />
