@@ -8,7 +8,7 @@ import Trabalho from "../assets/img/Trabalho.jpg";
 import Aflitos from "../assets/img/Aflitos.jpg";
 import Fome from "../assets/img/Fome.jpg";
 import PaiNosso from "../assets/img/PaiNosso.jpg";
-
+import Miseria from "../assets/img/Miseria.jpg";
 
 // Mapa idioma i18n → índice do array de áudios
 const LANG_INDEX: Record<string, number> = {
@@ -77,6 +77,15 @@ const audiosPaiNosso = [
   { label: "Italiano",  src: "/audios/Oracao_PaiNosso/PaiNosso_Italiano.aac",  duration: "2:43" },
 ];
 
+
+const audiosMiseria = [
+  { label: "Português", src: "/audios/Oracao_Miseria/Miseria_Portugues.aac", duration: "1:59" },
+  { label: "Español",   src: "/audios/Oracao_Miseria/Miseria_Spain.aac",     duration: "2:00" },
+  { label: "English",   src: "/audios/Oracao_Miseria/Miseria_English.aac",   duration: "1:36" },
+  { label: "Français",  src: "/audios/Oracao_Miseria/Miseria_French.aac",    duration: "2:04" },
+  { label: "Italiano",  src: "/audios/Oracao_Miseria/Miseria_Italiano.aac",  duration: "2:43" },
+];
+
 // ─── Componente de player único por oração ───────────────────────────────────
 interface SingleAudioPlayerProps {
   audios: { label: string; src: string; duration: string }[];
@@ -121,6 +130,7 @@ const Oracoes: React.FC = () => {
     { title: t("oracoes.aflitos.title"),  text: t("oracoes.aflitos.text"),  image: Aflitos,  audios: audiosAflitos     },
     { title: t("oracoes.fome.title"),     text: t("oracoes.fome.text"),     image: Fome,     audios: audiosFome        },
     { title: t("oracoes.painosso.title"), text: t("oracoes.painosso.text"), image: PaiNosso, audios: audiosPaiNosso    },
+    { title: t("oracoes.miseria.title"),  text: t("oracoes.miseria.text"),  image: Miseria,  audios: audiosMiseria     },
   ];
 
   return (

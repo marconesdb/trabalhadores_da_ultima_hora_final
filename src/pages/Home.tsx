@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Início | Trabalhadores da Última Hora</title>
+        <title>Trabalhadores da Última Hora</title>
         <meta name="description" content="Página inicial do site" />
       </Helmet>
 
