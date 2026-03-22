@@ -101,11 +101,11 @@ const audiosBoaVontade = [
 
 
 const audiosCaridade = [
-  { label: "Português", src: "/audios/Oracao_BoaVontade/BoaVontade_Portugues.aac", duration: "1:59" },
-  { label: "Español",   src: "/audios/Oracao_BoaVontade/BoaVontade_Spain.aac",     duration: "2:00" },
-  { label: "English",   src: "/audios/Oracao_BoaVontade/BoaVontade_English.aac",   duration: "1:36" },
-  { label: "Français",  src: "/audios/Oracao_BoaVontade/BoaVontade_French.aac",    duration: "2:04" },
-  { label: "Italiano",  src: "/audios/Oracao_BoaVontade/BoaVontade_Italiano.aac",  duration: "2:43" },
+  { label: "Português", src: "/audios/Oracao_Caridade/Caridade_Portugues.aac", duration: "1:59" },
+  { label: "Español",   src: "/audios/Oracao_Caridade/Caridade_Spain.aac",     duration: "2:00" },
+  { label: "English",   src: "/audios/Oracao_Caridade/Caridade_English.aac",   duration: "1:36" },
+  { label: "Français",  src: "/audios/Oracao_Caridade/Caridade_French.aac",    duration: "2:04" },
+  { label: "Italiano",  src: "/audios/Oracao_Caridade/Caridade_Italiano.aac",  duration: "2:43" },
 ];
 // ─── Componente de player único por oração ───────────────────────────────────
 interface SingleAudioPlayerProps {
