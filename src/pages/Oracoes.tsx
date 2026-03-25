@@ -91,11 +91,11 @@ const audiosMiseria = [
 
 
 const audiosBoaVontade = [
-  { label: "Português", src: "/audios/Oracao_BoaVontade/BoaVontade_Portugues.aac", duration: "1:59" },
-  { label: "Español",   src: "/audios/Oracao_BoaVontade/BoaVontade_Spain.aac",     duration: "2:00" },
-  { label: "English",   src: "/audios/Oracao_BoaVontade/BoaVontade_English.aac",   duration: "1:36" },
-  { label: "Français",  src: "/audios/Oracao_BoaVontade/BoaVontade_French.aac",    duration: "2:04" },
-  { label: "Italiano",  src: "/audios/Oracao_BoaVontade/BoaVontade_Italiano.aac",  duration: "2:43" },
+  { label: "Português", src: "/audios/Oracao_BoaVontade/BoaVontade_Portugues.aac", duration: "2:58" },
+  { label: "Español",   src: "/audios/Oracao_BoaVontade/BoaVontade_Spain.aac",     duration: "2:42" },
+  { label: "English",   src: "/audios/Oracao_BoaVontade/BoaVontade_English.aac",   duration: "2:21" },
+  { label: "Français",  src: "/audios/Oracao_BoaVontade/BoaVontade_French.aac",    duration: "2:59" },
+  { label: "Italiano",  src: "/audios/Oracao_BoaVontade/BoaVontade_Italiano.aac",  duration: "3:21" },
 ];
 
 
