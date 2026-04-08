@@ -25,7 +25,7 @@ const LANG_INDEX: Record<string, number> = {
 // Cada array mantém a mesma ordem: pt, es, en, fr, it
 const audiosEnfermos = [
   { label: "Português", src: "/audios/Oracao_Enfermos/Enfermos_Portugues.aac", duration: "2:00" },
-  { label: "Español",   src: "/audios/Oracao_Enfermos/Enfermos_Spain.aac",     duration: "2:20" },
+  { label: "Español",   src: "/audios/Oracao_Enfermos/Enfermos_Spain.aac",     duration: "2:27" },
   { label: "English",   src: "/audios/Oracao_Enfermos/Enfermos_English.aac",   duration: "2:03" },
   { label: "Français",  src: "/audios/Oracao_Enfermos/Enfermos_French.aac",    duration: "1:51" },
   { label: "Italiano",  src: "/audios/Oracao_Enfermos/Enfermos_Italy.aac",     duration: "2:31" },
@@ -33,7 +33,7 @@ const audiosEnfermos = [
 
 const audiosDesafios = [
   { label: "Português", src: "/audios/Oracao_Desafios_Dor_Evolucao/Desafios_Portugues.aac", duration: "2:36" },
-  { label: "Español",   src: "/audios/Oracao_Desafios_Dor_Evolucao/Desafios_Spain.aac",     duration: "2:33" },
+  { label: "Español",   src: "/audios/Oracao_Desafios_Dor_Evolucao/Desafios_Spain.aac",     duration: "2:43" },
   { label: "English",   src: "/audios/Oracao_Desafios_Dor_Evolucao/Desafios_English.aac",   duration: "2:19" },
   { label: "Français",  src: "/audios/Oracao_Desafios_Dor_Evolucao/Desafios_Frances.aac",   duration: "2:30" },
   { label: "Italiano",  src: "/audios/Oracao_Desafios_Dor_Evolucao/Desafios_Italiano.aac",  duration: "2:47" },
@@ -41,7 +41,7 @@ const audiosDesafios = [
 
 const audiosPaz = [
   { label: "Português", src: "/audios/Oracao_Paz/Paz_Portugues.aac", duration: "2:26" },
-  { label: "Español",   src: "/audios/Oracao_Paz/Paz_Spain.aac",     duration: "2:27" },
+  { label: "Español",   src: "/audios/Oracao_Paz/Paz_Spain.aac",     duration: "2:48" },
   { label: "English",   src: "/audios/Oracao_Paz/Paz_English.aac",   duration: "2:09" },
   { label: "Français",  src: "/audios/Oracao_Paz/Paz_French.aac",    duration: "2:27" },
   { label: "Italiano",  src: "/audios/Oracao_Paz/Paz_Italiano.aac",  duration: "2:43" },
@@ -49,7 +49,7 @@ const audiosPaz = [
 
 const audiosTrabalho = [
   { label: "Português", src: "/audios/Oracao_Trabalho/Trabalho_Portugues.aac", duration: "1:57" },
-  { label: "Español",   src: "/audios/Oracao_Trabalho/Trabalho_Spain.aac",     duration: "2:02" },
+  { label: "Español",   src: "/audios/Oracao_Trabalho/Trabalho_Spain.aac",     duration: "2:17" },
   { label: "English",   src: "/audios/Oracao_Trabalho/Trabalho_English.aac",   duration: "1:35" },
   { label: "Français",  src: "/audios/Oracao_Trabalho/Trabalho_French.aac",    duration: "2:27" },
   { label: "Italiano",  src: "/audios/Oracao_Trabalho/Trabalho_Italiano.aac",  duration: "2:02" },
@@ -57,15 +57,15 @@ const audiosTrabalho = [
 
 const audiosAflitos = [
   { label: "Português", src: "/audios/Oracao_Aflitos/Aflitos_Portugues.aac", duration: "2:17" },
-  { label: "Español",   src: "/audios/Oracao_Aflitos/Aflitos_Spain.aac",     duration: "2:27" },
+  { label: "Español",   src: "/audios/Oracao_Aflitos/Aflitos_Spain.aac",     duration: "2:23" },
   { label: "English",   src: "/audios/Oracao_Aflitos/Aflitos_English.aac",   duration: "1:38" },
-  { label: "Français",  src: "/audios/Oracao_Aflitos/Aflitos_French.aac",    duration: "2:27" },
+  { label: "Français",  src: "/audios/Oracao_Aflitos/Aflitos_French.aac",    duration: "2:36" },
   { label: "Italiano",  src: "/audios/Oracao_Aflitos/Aflitos_Italiano.aac",  duration: "2:43" },
 ];
 
 const audiosFome = [
   { label: "Português", src: "/audios/Oracao_Fome/Fome_Portugues.aac", duration: "1:42" },
-  { label: "Español",   src: "/audios/Oracao_Fome/Fome_Spain.aac",     duration: "2:27" },
+  { label: "Español",   src: "/audios/Oracao_Fome/Fome_Spain.aac",     duration: "1:49" },
   { label: "English",   src: "/audios/Oracao_Fome/Fome_English.aac",   duration: "2:09" },
   { label: "Français",  src: "/audios/Oracao_Fome/Fome_French.aac",    duration: "2:27" },
   { label: "Italiano",  src: "/audios/Oracao_Fome/Fome_Italiano.aac",  duration: "2:43" },
@@ -74,7 +74,7 @@ const audiosFome = [
 
 const audiosPaiNosso = [
   { label: "Português", src: "/audios/Oracao_PaiNosso/PaiNosso_Portugues.aac", duration: "1:59" },
-  { label: "Español",   src: "/audios/Oracao_PaiNosso/PaiNosso_Spain.aac",     duration: "2:00" },
+  { label: "Español",   src: "/audios/Oracao_PaiNosso/PaiNosso_Spain.aac",     duration: "1:53" },
   { label: "English",   src: "/audios/Oracao_PaiNosso/PaiNosso_English.aac",   duration: "1:36" },
   { label: "Français",  src: "/audios/Oracao_PaiNosso/PaiNosso_French.aac",    duration: "2:04" },
   { label: "Italiano",  src: "/audios/Oracao_PaiNosso/PaiNosso_Italiano.aac",  duration: "2:43" },
@@ -102,7 +102,7 @@ const audiosBoaVontade = [
 
 const audiosCaridade = [
   { label: "Português", src: "/audios/Oracao_Caridade/Caridade_Portugues.aac", duration: "1:59" },
-  { label: "Español",   src: "/audios/Oracao_Caridade/Caridade_Spain.aac",     duration: "2:00" },
+  { label: "Español",   src: "/audios/Oracao_Caridade/Caridade_Spain.aac",     duration: "1:57" },
   { label: "English",   src: "/audios/Oracao_Caridade/Caridade_English.aac",   duration: "1:36" },
   { label: "Français",  src: "/audios/Oracao_Caridade/Caridade_French.aac",    duration: "2:04" },
   { label: "Italiano",  src: "/audios/Oracao_Caridade/Caridade_Italiano.aac",  duration: "2:43" },
