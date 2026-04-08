@@ -60,14 +60,14 @@ const audiosAflitos = [
   { label: "Español",   src: "/audios/Oracao_Aflitos/Aflitos_Spain.aac",     duration: "2:23" },
   { label: "English",   src: "/audios/Oracao_Aflitos/Aflitos_English.aac",   duration: "1:38" },
   { label: "Français",  src: "/audios/Oracao_Aflitos/Aflitos_French.aac",    duration: "2:36" },
-  { label: "Italiano",  src: "/audios/Oracao_Aflitos/Aflitos_Italiano.aac",  duration: "2:43" },
+  { label: "Italiano",  src: "/audios/Oracao_Aflitos/Aflitos_Italiano.aac",  duration: "2:55" },
 ];
 
 const audiosFome = [
   { label: "Português", src: "/audios/Oracao_Fome/Fome_Portugues.aac", duration: "1:42" },
   { label: "Español",   src: "/audios/Oracao_Fome/Fome_Spain.aac",     duration: "1:49" },
   { label: "English",   src: "/audios/Oracao_Fome/Fome_English.aac",   duration: "2:09" },
-  { label: "Français",  src: "/audios/Oracao_Fome/Fome_French.aac",    duration: "2:27" },
+  { label: "Français",  src: "/audios/Oracao_Fome/Fome_French.aac",    duration: "1:56" },
   { label: "Italiano",  src: "/audios/Oracao_Fome/Fome_Italiano.aac",  duration: "2:43" },
 ];
 
@@ -101,11 +101,11 @@ const audiosBoaVontade = [
 
 
 const audiosCaridade = [
-  { label: "Português", src: "/audios/Oracao_Caridade/Caridade_Portugues.aac", duration: "1:59" },
+  { label: "Português", src: "/audios/Oracao_Caridade/Caridade_Portugues.aac", duration: "2:04" },
   { label: "Español",   src: "/audios/Oracao_Caridade/Caridade_Spain.aac",     duration: "1:57" },
-  { label: "English",   src: "/audios/Oracao_Caridade/Caridade_English.aac",   duration: "1:36" },
-  { label: "Français",  src: "/audios/Oracao_Caridade/Caridade_French.aac",    duration: "2:04" },
-  { label: "Italiano",  src: "/audios/Oracao_Caridade/Caridade_Italiano.aac",  duration: "2:43" },
+  { label: "English",   src: "/audios/Oracao_Caridade/Caridade_English.aac",   duration: "1:40" },
+  { label: "Français",  src: "/audios/Oracao_Caridade/Caridade_French.aac",    duration: "2:10" },
+  { label: "Italiano",  src: "/audios/Oracao_Caridade/Caridade_Italiano.aac",  duration: "2:21" },
 ];
 // ─── Componente de player único por oração ───────────────────────────────────
 interface SingleAudioPlayerProps {
